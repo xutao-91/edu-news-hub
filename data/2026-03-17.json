@@ -1,0 +1,106 @@
+{
+  "date": "2026-03-17",
+  "generated_at": "2026-03-17T09:30:00Z",
+  "generated_by": "Open Claw",
+  "total_news": 10,
+  "categories": {
+    "federal": 2,
+    "higher": 3,
+    "ai": 2,
+    "teacher": 1,
+    "international": 1,
+    "stem": 1
+  },
+  "news": [
+    {
+      "category": "federal",
+      "title": "美国教育部计划将118个项目移交其他机构",
+      "source": "EdWeek",
+      "summary": "特朗普政府持续推进教育部dismantle（解散），已通过行政命令指示将118个项目移交其他机构...",
+      "content": "特朗普政府持续推进教育部 dismantle（解散），已通过行政命令指示将118个项目移交其他机构。2025年3月大规模裁员：1400名员工收到裁员通知，另有600人退休或接受自愿离职，总计减少约一半 workforce。",
+      "url": "https://www.edweek.org/policy-politics/the-ed-dept-is-sending-118-programs-to-other-agencies-see-where-theyre-going/2026/03",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "Workforce Pell Grant新规：最短8周职业培训可用Pell Grant",
+      "source": "US Department of Education",
+      "summary": "2026年7月起，学生可使用Pell Grant参加最短8周的职业培训项目...",
+      "content": "2026年7月起，学生可使用Pell Grant参加最短8周的职业培训项目。Workforce Pell不仅帮助学生快速完成教育项目并进入职场，还可作为获得未来高等教育证书的垫脚石。",
+      "url": "http://www.ed.gov/about/news/press-release/us-department-of-education-issues-proposed-rules-implement-working-families-tax-cuts-acts-workforce-pell-grants",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "ai",
+      "title": "俄亥俄州要求所有学区2026年7月前制定AI使用政策",
+      "source": "Strategic Advancement",
+      "summary": "俄亥俄州HB 96法案要求每个学区在2026年7月1日前采纳正式的AI使用政策...",
+      "content": "俄亥俄州HB 96法案要求每个学区在2026年7月1日前采纳正式的AI使用政策。学区被鼓励成立关注伦理使用、数据隐私、学术诚信和员工培训的AI工作组。",
+      "url": "https://www.strategicadvancement.com/blog/ai-policy-in-schools-2026",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "ai",
+      "title": "仅1%美国高校将AI素养列为全校教学优先事项",
+      "source": "Validated Insights",
+      "summary": "Validated Insights报告显示，尽管职场对AI素养需求不断增长，仅约1%美国高校...",
+      "content": "Validated Insights报告显示，尽管职场对AI素养需求不断增长且增长迅速，仅约1%的美国高等教育机构将AI素养作为全校教学优先事项。",
+      "url": "https://www.rutlandherald.com/news/business/validated-insights-report-institutions-must-update-curriculum-in-light-of-demand-for-ai-fluency/article_58af9c5f-1f5e-5d6e-bd2e-6d9ff1eb2794.html",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "多州州立大学系统面临预算削减危机",
+      "source": "Pew Research",
+      "summary": "康涅狄格、堪萨斯、马里兰、明尼苏达、密苏里、内布拉斯加等州大学系统...",
+      "content": "康涅狄格、堪萨斯、马里兰、明尼苏达、密苏里、内布拉斯加、新罕布什尔和怀俄明等州的州立大学系统正在采取削减成本措施应对重大预算短缺。马里兰大学系统董事会将2026财年预算削减7%以抵消州拨款减少1.55亿美元。",
+      "url": "https://www.pew.org/en/research-and-analysis/articles/2025/11/12/higher-educations-uncertain-fiscal-future",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "密歇根五所公立大学联合应对教师短缺",
+      "source": "Bridge Michigan",
+      "summary": "五所密歇根公立大学联手应对该州教师短缺问题...",
+      "content": "五所密歇根公立大学联手应对该州教师短缺问题。2024-25学年近3%全职教学职位空缺，城市学区和高贫困学区空缺率最高。",
+      "url": "https://bridgemi.com/talent-education/five-universities-collaborate-to-address-michigan-teacher-shortage/",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "伊利诺伊州：高等教育可缩小就业差距",
+      "source": "Illinois Workforce and Education Research Collaborative",
+      "summary": "研究显示即使学历相同，种族、收入和性别间仍存在就业机会差距...",
+      "content": "伊利诺伊州 Workforce and Education Research Collaborative 研究发现，即使学历、专业或行业相同，种族、收入和性别间在获得好工作上仍存在差距，但高等教育可以缩小这些差距。",
+      "url": "https://www.illinois.gov/government/executive-orders/executive-order.executive-order-2026-03.2026.html",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "teacher",
+      "title": "密歇根教师短缺报告：空缺率持续高位",
+      "source": "Epic Education Policy",
+      "summary": "密歇根教师短缺第五份年度报告发布，尽管州政府大力投资...",
+      "content": "密歇根教师短缺第五份年度报告发布。尽管州政府大力投资，2024-25学年教师空缺问题依然严重。新认证教师数量与离职教师数量基本持平，但由于教师职位总数增加，报告空缺职位的学区数量创历史新高。",
+      "url": "https://epicedpolicy.org/michigan-teacher-shortage-study-2026-report/",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "international",
+      "title": "F-1签证新规：面试豁免政策收紧",
+      "source": "US Department of State",
+      "summary": "2025年9月18日起，大多数非移民签证申请人需亲自面试，包括14岁以下和79岁以上...",
+      "content": "2025年9月18日国务院更新签证面试豁免政策，大多数非移民签证申请人（包括14岁以下和79岁以上）现在需要与领事官员进行亲自面试。毕业后宽限期从60天缩短至30天。",
+      "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-march-2026.html",
+      "timestamp": "2026-03-17T08:00:00Z"
+    },
+    {
+      "category": "stem",
+      "title": "国家科学院STEM劳动力发展研讨会即将召开",
+      "source": "National Academies",
+      "summary": "2026年3月17日将举办创新STEM劳动力发展模式研讨会...",
+      "content": "国家科学院 NewVoices 项目将于2026年3月17日举办关键技术创新STEM劳动力发展模式研讨会。议题包括：帮助工人在先进制造、人工智能、半导体和清洁能源领域培养需求技能并保持竞争力的敏捷培训策略。",
+      "url": "https://events.nationalacademies.org/45645_01-2026_innovative-models-for-stem-workforce-development-in-critical-technologies",
+      "timestamp": "2026-03-17T08:00:00Z"
+    }
+  ]
+}
