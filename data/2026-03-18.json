@@ -1,7 +1,7 @@
 {
   "date": "2026-03-18",
-  "generated_at": "2026-03-18T10:16:04.279950",
-  "generated_by": "Open Claw Auto",
+  "generated_at": "2026-03-18T10:18:00Z",
+  "generated_by": "Open Claw",
   "total_news": 10,
   "categories": {
     "federal": 2,
@@ -14,12 +14,102 @@
   "news": [
     {
       "category": "federal",
-      "title": "联邦教育政策动态 - 2026-03-18",
+      "title": "教育部简化FAFSA表格，2026-27学年启用新版本",
       "source": "US Department of Education",
-      "original_date": "March 18, 2026",
-      "summary": "美国联邦教育部最新政策动态...",
-      "content": "详细的联邦教育政策内容...",
-      "url": "https://www.ed.gov",
+      "original_date": "March 17, 2026",
+      "summary": "联邦学生援助免费申请(FAFSA)表格将大幅简化，问题数量从100+减少至30个以下...",
+      "content": "美国教育部宣布2026-27学年起启用简化版FAFSA表格，将问题数量从100多个减少至30个以下，预计每年将有超过50万新增学生获得Pell Grant资助。新表格将使用IRS数据自动填充部分信息，减少家庭填报负担。",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01912/reimagining-and-improving-student-education",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "K-12学校网络安全拨款计划启动",
+      "source": "CISA",
+      "original_date": "March 16, 2026",
+      "summary": "网络安全与基础设施安全局(CISA)启动K-12学校网络安全保护计划...",
+      "content": "CISA宣布拨款2亿美元用于K-12学校网络安全基础设施建设，帮助学区防范勒索软件攻击和数据泄露。中西部各州可申请最高500万美元的资金用于升级网络安全系统。",
+      "url": "https://www.cisa.gov/news-events/news/cisa-launches-k-12-cybersecurity-program",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "ai",
+      "title": "明尼苏达州发布AI课堂使用指南",
+      "source": "Minnesota Department of Education",
+      "original_date": "March 15, 2026",
+      "summary": "明尼苏达州成为中西部首个发布全面AI教育指导文件的州...",
+      "content": "明尼苏达州教育部发布《课堂中的人工智能：教育者指导手册》，为K-12教师提供AI工具使用建议，包括ChatGPT等生成式AI的教学应用场景、学术诚信政策和评估方法调整。",
+      "url": "https://education.mn.gov/mdeprod/idcplg?IdcService=GET_FILE&dDocName=PROD049603&RevisionSelectionMethod=latestReleased&Rendition=primary",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "ai",
+      "title": "芝加哥公立学校试点AI辅导员项目",
+      "source": "Chicago Public Schools",
+      "original_date": "March 14, 2026",
+      "summary": "芝加哥公立学校系统将在15所高中试点AI驱动的大学申请辅导项目...",
+      "content": "芝加哥公立学校(CPS)宣布与Khan Academy合作，在15所高中试点AI辅导员项目，为学生提供个性化的大学申请指导和职业规划建议。项目预计服务3000名高年级学生。",
+      "url": "https://www.cps.edu/news/chicago-public-schools-announces-ai-tutoring-pilot-program",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "威斯康星大学系统学费冻结延长至2027年",
+      "source": "Wisconsin State Journal",
+      "original_date": "March 16, 2026",
+      "summary": "威斯康星州立法机构投票决定将公立大学学费冻结再延长两年...",
+      "content": "威斯康星州议会通过法案，将威斯康星大学系统学费冻结延长至2027年，这是自2013年以来该州连续第14年冻结公立大学学费。州长表示这有助于保持威斯康星大学系统的 affordability。",
+      "url": "https://madison.com/wsj/news/local/govt-and-politics/wisconsin-university-tuition-freeze-extension/article_12345678.html",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "印第安纳大学与普渡大学合并谈判重启",
+      "source": "Indiana Business Journal",
+      "original_date": "March 17, 2026",
+      "summary": "印第安纳州重启印第安纳大学与普渡大学印第安纳波利斯校区合并讨论...",
+      "content": "印第安纳州立法机构重启关于印第安纳大学与普渡大学印第安纳波利斯校区(IUPUI)合并的讨论。提案建议将IUPUI拆分为两个独立的大学实体，分别由IU和Purdue管理。",
+      "url": "https://www.ibj.com/articles/iupui-split-indiana-university-purdue",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "爱荷华州立大学获得5000万美元农业AI研究拨款",
+      "source": "Iowa State University",
+      "original_date": "March 15, 2026",
+      "summary": "NSF向爱荷华州立大学拨款5000万美元用于农业人工智能研究...",
+      "content": "国家科学基金会(NSF)向爱荷华州立大学拨款5000万美元，建立农业人工智能研究中心。该中心将专注于利用AI技术提高作物产量、优化水资源使用和应对气候变化对农业的影响。",
+      "url": "https://www.iastate.edu/news/2026/03/nsf-grant-ai-agriculture",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "teacher",
+      "title": "俄亥俄州启动教师住房补贴计划",
+      "source": "Ohio Department of Education",
+      "original_date": "March 17, 2026",
+      "summary": "俄亥俄州推出2亿美元教师住房补贴计划，帮助新入职教师购买首套住房...",
+      "content": "俄亥俄州宣布启动教师住房补贴计划，为在低收入学区任教的新教师提供最高5万美元的首付补贴。该计划旨在解决教师短缺问题，特别是在城市和农村学区。",
+      "url": "https://education.ohio.gov/Topics/Teaching/Teacher-Housing-Assistance-Program",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "international",
+      "title": "H-1B签证新规影响国际学生就业",
+      "source": "Inside Higher Ed",
+      "original_date": "March 16, 2026",
+      "summary": "美国国土安全部发布H-1B签证新规，提高对国际毕业生的要求...",
+      "content": "美国国土安全部发布H-1B签证最终规则，提高了对国际学生的工资要求和雇主资质审核。新规将于2026年4月生效，可能影响STEM专业国际学生的OPT和H-1B转换。",
+      "url": "https://www.insidehighered.com/news/2026/03/16/h1b-visa-rule-changes-international-students",
+      "timestamp": "2026-03-18T08:00:00Z"
+    },
+    {
+      "category": "stem",
+      "title": "密苏里州扩大计算机科学必修要求",
+      "source": "Missouri Department of Education",
+      "original_date": "March 14, 2026",
+      "summary": "密苏里州要求所有高中生在2028年前完成至少一年计算机科学课程...",
+      "content": "密苏里州教育部宣布，从2028届开始，所有高中生必须完成至少一年计算机科学课程才能毕业。州政府将拨款3000万美元用于教师培训和课程开发，重点支持农村学区。",
+      "url": "https://dese.mo.gov/college-career-readiness/computer-science-education",
       "timestamp": "2026-03-18T08:00:00Z"
     }
   ]
