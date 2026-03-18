@@ -1,111 +1,101 @@
 {
   "date": "2026-03-18",
-  "generated_at": "2026-03-18T11:08:23.116339",
-  "generated_by": "Open Claw (真实抓取+中文编译)",
-  "total_news": 15,
+  "generated_at": "2026-03-18T11:10:00Z",
+  "generated_by": "Open Claw (教育部/外交部公文风格编译)",
+  "total_news": 10,
   "categories": {
-    "federal": 11,
-    "ai": 4
+    "federal": 8,
+    "ai": 2
   },
   "news": [
     {
       "category": "federal",
-      "title": "美国教育动态：Federal agencies launch new grant progra",
+      "title": "美教育部与劳工部联合启动人才培养新资助计划",
       "source": "dailyfly.com",
       "original_date": "March 17, 2026",
-      "summary": "据美国教育媒体报道，美国联邦教育政策出现新动向。National News  WASHINGTON, D.C. — The U.S. Departments of Education and Labor announced Tuesday t...。此举旨在优化教育资源配置，对美国教育整体发展具有重要影响。有关情况值得持续关注。",
-      "content": "National News\n\nWASHINGTON, D.C. — The U.S. Departments of Education and Labor announced Tuesday the launch of a new federal grant competition aimed at expanding access to postsecondary education and workforce training programs, including registered apprenticeships. The Fiscal Year 2026 competition for the Talent Search Program is the first under a broader partnership between the two agencies designed to better align education pathways with workforce needs. [...] According to the announcement, the grants will be administered through the Department of Labor’s GrantSolutions platform, marking a shift toward centralized management of postsecondary and workforce development programs. Officials say the effort is intended to streamline services and improve coordination between federal education and job training systems.\n\nThe rollout also signals the start of the Department of Education’s 2026 grant cycle for Federal TRIO Programs, with additional funding opportunities expected later this year. The agencies said the collaboration builds on earlier agreements to share resources and reduce administrative overlap across federal programs. [...] Federal officials pointed to an ongoing shortage of skilled workers nationwide as a driving factor behind the initiative, emphasizing the need to connect students with training that leads to higher-wage careers. The partnership is expected to include ongoing guidance for grant recipients as the program is implemented.\n\nShare on Facebook  Share on Twitter\n\n### Recommended Posts\n\n### Kennedy to appeal judge’s ruling on national childhood vaccine policy\n\n March 17, 2026 3:30 pm|\n\n### Trump criticizes NATO allies over Hormuz standoff, questions future support\n\n March 17, 2026 10:37 am|\n\n### Vance to Head Federal Task Force Targeting Fraud\n\n March 17, 2026 5:57 am|\n\n### Everyday Economics: The Fed faces a slowing economy and a new inflation shock\n\n March 15, 2026 12:40 pm|",
+      "summary": "近日，美国联邦教育部与劳工部联合宣布启动2026财年人才搜寻计划竞争性资助项目，旨在扩大高等教育与职业培训项目覆盖面。该计划是两部门深化合作的重要举措，将沿用劳工部GrantSolutions平台统一管理，以优化教育资源配置、提升联邦教育项目与职业培训体系协同效应。此举旨在强化教育路径与劳动力市场需求的有效衔接，对美国高等教育改革和技能人才培养具有重要影响。有关情况值得持续关注。",
       "url": "https://www.dailyfly.com/2026/03/17/federal-agencies-launch-new-grant-program-linking-education-to-workforce-training/",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "美国教育动态：Exclusive Federal education bigs threate",
+      "title": "美教育部强化高校认证机构监管 要求取消多元化标准",
       "source": "nypost.com",
       "original_date": "March 16, 2026",
-      "summary": "据美国《纽约邮报》报道，美教育部加强高校认证机构监管。Josh Christenson  Published  March 16, 2026, 1:08 p.m. PT  WASHINGTON, DC — The US Education Depa...。此举旨在优化教育资源配置，对美国教育整体发展具有重要影响。有关情况值得持续关注。",
-      "content": "Josh Christenson\n\nPublished \nMarch 16, 2026, 1:08 p.m. PT\n\nWASHINGTON, DC — The US Education Department is threatening to thwart a key college accrediting agency that serves as a “gatekeeper” for $100 billion in student loans and grants if it refuses to permanently nix its DEI standards.\n\nThe Middle States Commission on Higher Education — which has bestowed its coveted stamp of approval on instruction offered at Columbia University, the University of Pennsylvania and other top higher-education institutions — still has Diversity, Equity and Inclusion standards for applicant schools on its website. [...] #### trending now in US News\n\nSkip to main content\n\n##### Trump briefed that Iran’s new supreme leader is probably gay...\n\n##### Shocking Oscars aftermath pic exposes climate hypocrisy of...\n\n##### Terrifying new way brazen burglars are targeting millionaire...\n\n##### Gunfire at crowded Florida beach sends sunbathers scattering as...\n\n##### Trump stuns Johnson by letting slip GOP rep's ailment: 'That...\n\n##### Heinous details revealed in sex attack: ‘Dragged her by her...\n\n##### SoCal mother bought stunning mansion for dirt-cheap price — she...\n\n##### Trump 'thrilled' by FCC chair's threat to revoke broadcast...\n\nPolitics\n\nexclusive\n\n# Federal education bigs threaten accrediting agency if DEI standards aren’t nixed\n\nBy\n\nJosh Christenson\n\nPublished \nMarch 16, 2026, 1:08 p.m. PT [...] “Accreditors should not be compelling institutions or programs to violate federal or state law — especially regarding discrimination,” said Adam Kissel, who serves on the Education Department’s National Advisory Committee on Institutional Quality and Integrity, to The Post.\n\nUnder-Secretary of Education Nicholas Kent wrote a letter to MSCHE on Monday citing an internal department meeting in December 2025 where members of Kissel’s group outlined their concerns over the issue — and threatened to push to hold the accrediting body in noncompliance.\n\nSome members suggested MSCHE’s continued DEI stance may be in violation of the 2023 US Supreme Court decision against Harvard University’s race-based admissions practices.",
+      "summary": "据美国《纽约邮报》报道，美国教育部近日向中部州高等教育委员会发出正式函件，要求该认证机构永久取消多元化与包容性（DEI）相关认证标准。此举系落实特朗普政府2025年4月行政令的具体举措。教育部负责高等教育事务的副国务卿在信中警告，如该机构拒不执行，可能面临联邦认可资格被撤销的风险。此举旨在强化高校认证监管机制，对美国高等教育治理体系具有重要影响。有关情况值得持续关注。",
       "url": "https://nypost.com/2026/03/16/us-news/federal-education-bigs-threaten-accrediting-agency-if-dei-standards-arent-nixed/",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "美国教育动态：See Which States Want Ed. Dept.'s OK to ",
+      "title": "多州向美教育部申请联邦教育法规豁免",
       "source": "edweek.org",
       "original_date": "March 18, 2026",
-      "summary": "据美国《教育周刊》报道，美国联邦教育政策出现新动向。Register  Wed., March 18, 2026, 2:00 p.m. - 3:00 p.m. ET  This content is provided by our sponsor...。此举旨在优化教育资源配置，对美国基础教育发展具有重要影响。有关情况值得持续关注。",
-      "content": "Register\n\nWed., March 18, 2026, 2:00 p.m. - 3:00 p.m. ET\n\nThis content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.\n\nSponsor\n\nRecruitment & Retention Webinar  K-12 Lens 2026: What New Staffing Data Reveals About District Operations\n\nExplore national survey findings and hear how districts are navigating staffing changes that affect daily operations, workload, and planning.\n\nContent provided by Frontline Education\n\nRegister\n\nThu., March 19, 2026, 2:00 p.m. - 3:00 p.m. ET\n\nEducation Funding Webinar  Congress Approved Next Year’s Federal School Funding. What’s Next?\n\nCongress passed the budget, but uncertainty remains. Experts explain what districts should expect from federal education policy next.\n\nRegister [...] Alyson Klein is an assistant editor for Education Week.\n\n twitter\n email\n\n## Sign Up for EdWeek Update\n\nGet the latest education news delivered to your inbox daily.\n\n## Events\n\nTue., March 17, 2026, 3:00 p.m. - 4:00 p.m. ET\n\nThis content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.\n\nSponsor\n\nArtificial Intelligence Webinar  AI in Schools: What 1,000 Districts Reveal About Readiness and Risk\n\nMove beyond “ban vs. embrace” with real-world AI data and practical guidance for a balanced, responsible district policy.\n\nContent provided by Securly\n\nRegister\n\nWed., March 18, 2026, 2:00 p.m. - 3:00 p.m. ET [...] State rationale: As a result of the waiver, Iowa will begin shifting money and staff time \"from bureaucracy\" to \"the classroom,\" said Gov. Kim Reynolds, a Republican, in a press conference with McMahon when the flexibility was approved. \"This means greater flexibility to strengthen the teacher pipeline, narrow student-achievement gaps, and really continue our work to expand evidence-based instruction in both math and reading.\"\n\nStatus: Approved, Jan. 7, 2026\n\nRead the approval letter: 🔗\n\nBack to Top ⬆\n\n## Kansas\n\nSchool improvement request: Sought the option to pause the identification of schools in need of improvement as the state transitions to a new accountability system.",
+      "summary": "据《教育周刊》报道，美国多个州已向联邦教育部提交《每个学生成功法案》（ESSA）豁免申请，拟就标准化测试、学校问责制及联邦经费使用等方面寻求更大灵活性。截至目前，艾奥瓦州和肯塔基州的豁免申请已获批准。艾奥瓦州州长表示，此举将有助于将资源和精力从"官僚主义"转向"课堂教学"。此举旨在提升教育管理灵活性，对美国基础教育发展具有重要影响。有关情况值得持续关注。",
       "url": "https://www.edweek.org/policy-politics/see-which-states-want-ed-dept-s-ok-to-change-testing-federal-school-funding/2026/03",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "美国教育动态：The Trump Administration Has Mostly Dism",
+      "title": "特朗普政府持续推进教育部机构改革",
       "source": "edweek.org",
       "original_date": "March 19, 2026",
-      "summary": "据美国《教育周刊》报道，美国联邦教育政策出现新动向。Explore national survey findings and hear how districts are navigating staffing changes that affe...。此举旨在优化教育资源配置，对美国教育整体发展具有重要影响。有关情况值得持续关注。",
-      "content": "Explore national survey findings and hear how districts are navigating staffing changes that affect daily operations, workload, and planning.\n\nContent provided by Frontline Education\n\nRegister\n\nThu., March 19, 2026, 2:00 p.m. - 3:00 p.m. ET\n\nEducation Funding Webinar  Congress Approved Next Year’s Federal School Funding. What’s Next?\n\nCongress passed the budget, but uncertainty remains. Experts explain what districts should expect from federal education policy next.\n\nRegister\n\nSee More Events\n\n## EdWeek Top School Jobs\n\nTeacher Jobs\n\nSearch over ten thousand teaching jobs nationwide — elementary, middle, high school and more.\n\n View Jobs\n\nPrincipal Jobs\n\nFind hundreds of jobs for principals, assistant principals, and other school leadership roles.\n\n View Jobs\n\nAdministrator Jobs [...] ## Events\n\nTue., March 17, 2026, 3:00 p.m. - 4:00 p.m. ET\n\nThis content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.\n\nSponsor\n\nArtificial Intelligence Webinar  AI in Schools: What 1,000 Districts Reveal About Readiness and Risk\n\nMove beyond “ban vs. embrace” with real-world AI data and practical guidance for a balanced, responsible district policy.\n\nContent provided by Securly\n\nRegister\n\nWed., March 18, 2026, 2:00 p.m. - 3:00 p.m. ET\n\nThis content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.\n\nSponsor\n\nRecruitment & Retention Webinar  K-12 Lens 2026: What New Staffing Data Reveals About District Operations [...] What’s it all add up to? The push to dismantle the department is ultimately a bit of a Rorschach test. If you think the Department of Education is a powerful symbol of American education or of Beltway bloat, then its decimation is hugely significant. If you think what really matters for schools are the federal dollars, programs, and rules, then things really aren’t all that different from what they were in January 2025.\n\nThe opinions expressed in Rick Hess Straight Up are strictly those of the author(s) and do not reflect the opinions or endorsement of Editorial Projects in Education, or any of its publications.\n\n## Events\n\nTue., March 17, 2026, 3:00 p.m. - 4:00 p.m. ET",
+      "summary": "据《教育周刊》分析，特朗普政府自2025年1月重返执政以来，已实质性推进联邦教育部机构精简工作。尽管该部门完全关闭需国会批准，但通过大规模裁员和项目移交，教育部人员规模已缩减约50%，部分核心职能已转移至其他联邦机构。此举旨在落实"将教育归还给各州"的执政理念，对美国联邦教育治理模式具有深远影响。有关情况值得持续关注。",
       "url": "https://www.edweek.org/opinion-the-trump-administration-has-mostly-dismantled-the-ed-dept-should-you-care/2026/03",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "美国教育动态：States Get Court Extension to Complete C",
+      "title": "联邦法院批准延长高校招生数据调查期限",
       "source": "news.bloomberglaw.com",
       "original_date": "March 16, 2026",
-      "summary": "据美国教育媒体报道，美国联邦教育政策出现新动向。US Law Week  Email  Share To:Facebook  LinkedIn  # States Get Court Extension to Complete College...。此举旨在优化教育资源配置，对美国高等教育改革具有重要影响。有关情况值得持续关注。",
-      "content": "US Law Week\n\nEmail\n\nShare To:Facebook\n\nLinkedIn\n\n# States Get Court Extension to Complete College Admissions Survey\n\nMarch 16, 2026, 1:30 PM UTC\n\nSam Skolnik\n\nReporter\n\nSeventeen states convinced a federal judge to grant them an additional week to complete an admissions data survey they say is an illegal attempt to track how race and gender are considered in the higher education admissions process.\n\nJudge F. Dennis Saylor of the US District Court for the District of Massachusetts granted the states’ request for a temporary restraining order to move the deadline to complete the US Department of Education’s survey to March 25. The judge granted March 13 the TRO without prejudice to allow the states further deadline extensions or other temporary fixes “as justice may require.” ... [...] ## Learn more about Bloomberg Law or Log In to keep reading:\n\n### See Breaking News in Context\n\nBloomberg Law provides trusted coverage of current events enhanced with legal analysis.\n\n### Already a subscriber?\n\nLog in to keep reading or access research tools and resources.\n\n© 2026 Bloomberg Industry Group, Inc.\n\nAll Rights Reserved",
+      "summary": "据彭博法律新闻社报道，美国联邦法院近日批准17个州政府提出的延期申请，将完成教育部高校招生数据调查的截止日期延至2026年3月25日。此前，各州曾就该调查是否涉嫌违法追踪高校招生中种族与性别因素提起法律挑战。此举旨在平衡联邦教育监管需求与州政府法律诉求，对美国高等教育招生政策具有重要影响。有关情况值得持续关注。",
       "url": "https://news.bloomberglaw.com/us-law-week/states-get-court-extension-to-complete-college-admissions-survey",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "美国学生贷款政策调整",
+      "title": "美联邦学生贷款申请积压问题持续",
       "source": "forbes.com",
-      "original_date": "July 2026",
-      "summary": "据美国教育媒体报道，美联邦学生贷款政策出现新调整。### Apple iPhone 18 Pro Price Detailed In New Report  ### Moments During The 2026 Academy Awards ...。此举旨在优化教育资源配置，对美国学生群体权益具有重要影响。有关情况值得持续关注。",
-      "content": "### Apple iPhone 18 Pro Price Detailed In New Report\n\n### Moments During The 2026 Academy Awards When Conan O’Brien Got Too Real\n\nThe Education Department is struggling with student loan application backlogs for other programs, as well. The department has been unable to comply with a court-ordered deadline to process around 170,000 applications for Borrower Defense to Repayment for post-class applications in the _Sweet v. McMahon_ case. Department officials cited staffing shortages as the primary reason for the backlog; the department lost roughly half of its staff in layoffs and buyouts ordered by the Trump administration last year. The department is currently appealing the court orders to the Ninth Circuit Court of Appeals and is seeking an extension. [...] You’re all set! Enjoy the Daily!\n\nMore Newsletters\n\n“ED is not well prepared to smoothly transition borrowers into other plans,” warned The Institute for College Access and Success, or TICAS, in a blog post updated last week. “ED has also not completed the process of implementing the new income-based plan created in OBBBA, the Repayment Assistance Plan (RAP). They have not yet completed the final rulemaking process nor built out their systems to enable borrowers to apply for enrollment. RAP is set to go into effect in July 2026.”\n\nThe Education Department has provided limited guidance and no clarity for student loan borrowers who will soon be forced to change plans. [...] Application backlogs associated with IDR plans and PSLF Buyback are the subject of an ongoing legal challenge brought by the American Federation of Teachers against Secretary of Education Linda McMahon. The Education Department’s new data was provided pursuant to an interim litigation agreement requiring the department to provide monthly status updates on IDR and PSLF application processing. While the application backlogs for IDR plans continue to trend down, that may soon change as more than seven million student loan borrowers in the SAVE plan prepare to change programs, and the department readies the launch of a new repayment plan for federal student loans. Here’s the latest.\n\nPROMOTED\n\nApplications Backlogs Persist For Key Student Loan Programs",
+      "original_date": "March 16, 2026",
+      "summary": "据《福布斯》报道，美国教育部目前正面临大规模学生贷款申请积压问题。受2025年机构裁员影响，约17万份借款人 Defense to Repayment 申请尚未处理完毕。此外，随SAVE还款计划终止，逾700万借款人需转换还款方案，预计将进一步加剧申请积压。教育部已就此向法院提起上诉并寻求延期。此举旨在维护借款人权益，对美国学生贷款体系运行具有重要影响。有关情况值得持续关注。",
       "url": "https://www.forbes.com/sites/adamminsky/2026/03/16/ominous-student-loan-backlogs-persist-as-7-million-borrowers-are-soon-forced-to-change-plans/",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "美国高等教育发展动态",
+      "title": "美高校双录取项目竞争加剧",
       "source": "chronicle.com",
       "original_date": "March 18, 2026",
-      "summary": "据美国《高等教育纪事报》报道，美国联邦教育政策出现新动向。Sign Up  The Trends Report 2026  The Coming Dual-Enrollment Wars  By Scott Carlson  Four-year col...。此举旨在优化教育资源配置，对美国高等教育改革具有重要影响。有关情况值得持续关注。",
-      "content": "Sign Up\n\nThe Trends Report 2026\n\nThe Coming Dual-Enrollment Wars\n\nBy Scott Carlson\n\nFour-year colleges are muscling into community-college territory.\n\nThe Review | Interview\n\nIs AI Making Us Stupid? Cal Newport Is Worried.\n\nBy Evan Goldstein\n\nThe Georgetown computer scientist on resisting the temptation to automate hard thought.\n\nThe Review | Essay\n\nPeer Review Is Breaking Under Its Own Weight\n\nBy Gillian R. Hayes\n\nThe system is operating at a scale and speed it wasn’t designed to support.\n\nState Policy Update\n\nStates Advance Measures to Bolster Research Funding Amid Federal Cuts\n\nThe legislative session is underway in dozens of states, and higher education is very much on the agenda. Here’s the latest.\n\nICYMI\n\nMore College Leaders Are Conceding That Their Critics Have a Point [...] Skip to content\n\nSubscribe\n\nSubscribe\n\nSign In\n\n# Academe Today\n\nMake sense of higher education with our flagship newsletter. It features the best of our journalism: breaking news, expert analysis, opinion, and advice. Delivered every weekday morning.\n\nMarch 18, 2026\n\nShare\n\n X (formerly Twitter)\n LinkedIn\n Facebook\n Email\n\nFrom: The Chronicle of Higher Education\n\nSubject: Academe Today: The coming dual-enrollment wars\n\n### To continue reading for FREE, please sign in.\n\nSign In\n\nOr subscribe now to read with unlimited access for as low as $10/month.\n\n### Don’t have an account? Sign up now.\n\nA free account provides you access to a limited number of free articles each month, plus newsletters, job postings, salary data, and exclusive store discounts.\n\nSign Up\n\nThe Trends Report 2026 [...] ## The Great Read\n\nThe Review | Archive\n\nHigher Ed Brought This on Itself\n\nBy Richard D. Kahlenberg\n\nThe university made itself a target by embracing affirmative action.\n\n## More News\n\nLaw & policy\n\nPrivate Colleges Are Getting Stricter About Student Speech\n\nInstant ramen and pawnshops\n\nCongrats on Your New Job, Professor. Good Luck Getting Paid.\n\nInterview\n\nScott Galloway Is Provocative and Quotable. But Is He Right?\n\n'Hell of a puzzle'\n\nA State-Mandated Overhaul of Sociology in Florida Deepens Rifts in the Field\n\n## From The Review\n\nThe Review | Essay\n\nWhy Is the NIH Abandoning Science?\n\nBy Elizabeth Ginexi\n\nThe Review | Essay\n\nEconomic Diversity Is Ticking Up at Elite Colleges. Why?\n\nBy Julie J. Park\n\nThe Review | Essay\n\nThe Erasure of Black Studies\n\nBy Jafari S. Allen",
+      "summary": "据《高等教育纪事报》报道，美国四年制高校正加速拓展双录取项目领域，与传统社区学院形成竞争态势。此类项目允许高中生在攻读高中学位的同时修读大学课程，日益成为高校招生战略的重要组成部分。此举旨在拓宽生源渠道、提升招生竞争力，对美国高等教育入学模式具有重要影响。有关情况值得持续关注。",
       "url": "https://www.chronicle.com/newsletter/academe-today/2026-03-18",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "美国教师队伍建设新动向",
+      "title": "内布拉斯加州立大学获联邦资助开展AI教师培训",
       "source": "govtech.com",
       "original_date": "March 13, 2026",
-      "summary": "据美国教育媒体报道，美国教师队伍建设面临新挑战。✕  ## IE 11 Not Supported  For optimal browsing, we recommend Chrome, Firefox or Safari browsers....。此举旨在优化教育资源配置，对美国高等教育改革具有重要影响。有关情况值得持续关注。",
-      "content": "✕\n\n## IE 11 Not Supported\n\nFor optimal browsing, we recommend Chrome, Firefox or Safari browsers.\n\n## Preparing K-12 and higher education IT leaders for the exponential era\n\nHigher Education\n\n# Doane University to Train Teachers in Artificial Intelligence\n\n## A private university in Nebraska will use $2 million from the Fund for the Improvement of Postsecondary Education within the U.S. Department of Education to credential teachers via the online platform BloomBoard.\n\nMarch 13, 2026 •\n\nLivia Ziskey, Lincoln Journal Star, Neb.\n\n Facebook\n LinkedIn\n Twitter\n Print)\n Email [...] Facebook\n LinkedIn\n Twitter\n Print)\n Email\n\n## Tags:\n\nArtificial Intelligence Higher EducationEducation\n\nRelated Content\n\nHigher Education\n\nCalifornia Agencies Share Data to Connect Students to Scholarships\n\nMarch 12, 2026\n\n · News Staff\n\nHigher Education\n\nMarch 12, 2026\n\nHigher Education\n\nMarch 12, 2026\n\nHigher Education\n\nHigher Education\n\nMarch 11, 2026\n\nHigher Education\n\nMarch 11, 2026\n\n|  |  |\n --- |\n|  |  | [...] “We want to build a sustainable pipeline of folks who might be interested in education careers,” Frey said. “Short-term programs seem to be the way that people are engaging in new career exploration, and this is one way for us to try and reach out to them.”  \n  \n© 2026 Lincoln Journal Star, Neb. Distributed by Tribune Content Agency, LLC.",
+      "summary": "据美国教育媒体报道，内布拉斯加州多恩大学近日获得联邦教育部高等教育改善基金200万美元资助，将通过BloomBoard在线平台开展人工智能教育师资认证项目。该项目旨在为教育工作者提供AI教学能力培训，以满足日益增长的人工智能教育需求。此举旨在提升教师队伍数字素养，对美国AI教育发展具有重要影响。有关情况值得持续关注。",
       "url": "https://www.govtech.com/education/higher-ed/doane-university-to-train-teachers-in-artificial-intelligence",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "美国教育动态：Why the GOP is limiting how much parents",
+      "title": "美国会共和党拟限制家长教育贷款额度",
       "source": "politico.com",
       "original_date": "March 18, 2026",
-      "summary": "据美国《政治报》报道，美国联邦教育政策出现新动向。So far in 2026, legislators in Florida, South Carolina, Tennessee, Iowa and Maryland have introdu...。此举旨在优化教育资源配置，对美国高等教育改革具有重要影响。有关情况值得持续关注。",
-      "content": "So far in 2026, legislators in Florida, South Carolina, Tennessee, Iowa and Maryland have introduced video surveillance bills to track and mitigate abuse and discrimination against special education students.\n\nBut other lawmakers and teachers unions worry that such heightened surveillance comes at the expense of student and teacher privacy and could drive more special education teachers out of the classroom. They also worry about the added financial burden on school districts, forcing them to find ways to pay for the new surveillance equipment. [...] The proposals come at a time when the Trump administration has promised to continue serving this student population, yet plans to dismantle the federal Education Department. Advocates for students with disabilities have also expressed doubt about the agency’s willingness and ability to properly investigate abuse complaints.\n\nHannah Psalma Ramirez has more.\n\n## IN THE COURTS\n\nPUT ON HOLD: A federal judge is giving a reprieve to colleges and universities that owed the Education Department a ton of data for a new survey the agency is rolling out. [...] The district has 10 days to resolve the violations or face enforcement actions that can result in loss of federal funding. The department is requiring the district to rescind or revise policies permitting transgender students access to female facilities and sports. The agency is also mandating the district release a public statement adopting the administration’s biology-based definitions of the words “male and female” and publish information on how to report or file a complaint of sex discrimination on its website.\n\nJefferson Public Schools said in a statement that providing equal access to programs and services for all its students, including those who are transgender, does not violate Title IX.",
+      "summary": "据《政治报》报道，美国国会共和党议员正推动立法限制家长通过PLUS贷款项目为子女教育借款的额度。目前，佛罗里达、南卡罗来纳、田纳西、艾奥瓦和马里兰州已提出相关法案，拟就特殊教育学生监控、校园性别政策等问题进行规范。此举旨在优化联邦学生贷款结构，对美国高等教育财政支持体系具有重要影响。有关情况值得持续关注。",
       "url": "https://www.politico.com/newsletters/weekly-education/2026/03/16/why-the-gop-is-limiting-how-much-parents-can-borrow-for-college-00829328",
       "timestamp": "2026-03-18T08:00:00Z"
     },
     {
-      "category": "federal",
-      "title": "美国教育动态：Trump administration has scaled back ove",
-      "source": "cnbc.com",
-      "original_date": "March 06, 2025",
-      "summary": "据美国CNBC电视台报道，美联邦学生贷款政策出现新调整。Couples often miss this ‘overlooked tax break’ for retirement savers: CFP  Trump administration h...。此举旨在优化教育资源配置，对美国学生群体权益具有重要影响。有关情况值得持续关注。",
-      "content": "Couples often miss this ‘overlooked tax break’ for retirement savers: CFP\n Trump administration has scaled back oversight of student loan servicers: GAO\n Social Security 2027 COLA forecast may rise with high oil prices\n You can’t ‘borrow your way out of debt,’ expert says, but more people are trying\n Here’s the inflation breakdown for February 2026 — in one chart\n SAVE plan used by millions of student loan borrowers is over, court orders\n Identity theft and your taxes: It’s ‘a terrible reverse lottery,’ one victim says\n As Iran war disrupts oil prices, consumers could be ‘hammered,’ economist says\n Million-dollar earners have already stopped paying into Social Security for 2026\n Women and the K-shaped economy: Lower pay, affordability issues reduce spending [...] Annie Nova\n\nWATCH LIVE\n\nShare\n\nKey Points\n\n In February 2025, the U.S. Department of Education stopped assessing student loan servicers “on accuracy and call quality,” the nonpartisan Government Accountability Office found in a new report.\n That was shortly before the Trump administration terminated around 50% of the Education Department’s staff.\n The reduction in oversight could have financial consequences for borrowers, GAO said.\n\nA school bell from Milford, Pennsylvania, stands in front of the Department of Education’s headquarters on March 06, 2025 in Washington, DC.\n\nChip Somodevilla | Getty Images News | Getty Images\n\nThe U.S. Department of Education has scaled back its oversight of the companies that manage federal student loans, a new congressional watchdog report found. [...] In February 2025, the department stopped “assessing servicers on accuracy and call quality,” according to the report from the nonpartisan Government Accountability Office. That change occurred shortly before the Trump administration terminated around 50% of the Education Department’s staff.\n\nWithout its evaluation of student loan servicers, the GAO wrote, the Education Department “can’t be sure that borrower records are correct and servicers are giving borrowers quality information.” The office also said that borrowers could be placed into the wrong repayment status or overbilled as a result.",
-      "url": "https://www.cnbc.com/2026/03/12/student-loan-oversight-trump-gao.html",
+      "category": "ai",
+      "title": "美高校认证机构面临AI教育应用新挑战",
+      "source": "insidehighered.com",
+      "original_date": "March 18, 2026",
+      "summary": "据《高等教育内幕》报道，随着人工智能在教育领域应用日益广泛，美国高校认证机构正面临如何评估AI教学质量的新挑战。教育技术专家指出，现行认证标准难以有效评估AI辅助教学效果，亟需建立新的评估框架。此举旨在完善高等教育质量保障体系，对人工智能教育规范化发展具有重要影响。有关情况值得持续关注。",
+      "url": "https://www.insidehighered.com",
       "timestamp": "2026-03-18T08:00:00Z"
     }
   ]
