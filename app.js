@@ -109,6 +109,7 @@ function renderNews(data) {
                                 <i class="fas ${category.icon} mr-1"></i>${category.name}
                             </span>
                             ${item.source ? `<span class="text-xs text-gray-500">${item.source}</span>` : ''}
+                            ${item.original_date ? `<span class="text-xs text-gray-400"><i class="far fa-clock mr-1"></i>${item.original_date}</span>` : ''}
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 transition">
                             ${item.title}
