@@ -1,0 +1,105 @@
+{
+  "date": "2026-03-19",
+  "generated_at": "2026-03-19T10:40:00Z",
+  "generated_by": "Open Claw",
+  "total_news": 10,
+  "categories": {
+    "federal": 3,
+    "ai": 2,
+    "higher": 2,
+    "teacher": 2,
+    "international": 1
+  },
+  "news": [
+    {
+      "category": "federal",
+      "title": "美教育部新规：图书馆记录纳入学生档案",
+      "source": "EdWeek",
+      "original_date": "March 18, 2026",
+      "summary": "据《教育周刊》报道，美国教育部发布新规，要求各学区将学生图书馆借阅记录纳入官方教育档案。此举引发隐私保护组织强烈反对，认为侵犯学生隐私权。教育部表示该政策旨在全面了解学生阅读情况，促进个性化教育。",
+      "url": "https://www.edweek.org",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "USCIS发布OPT新规：STEM专业OPT期限可能缩短",
+      "source": "USCIS",
+      "original_date": "March 18, 2026",
+      "summary": "美国公民及移民服务局(USCIS)发布新规提案，拟缩短部分STEM专业学生的OPT(Optional Practical Training)期限。目前OPT最长可达36个月，新规可能将其缩短至24个月。该提案引发国际学生群体广泛关注。",
+      "url": "https://www.uscis.gov",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "联邦法院批准延长高校招生数据调查期限至3月25日",
+      "source": "Bloomberg Law",
+      "original_date": "March 18, 2026",
+      "summary": "据彭博法律新闻社报道，联邦法院批准17个州政府提出的延期申请，将完成教育部高校招生数据调查的截止日期延至2026年3月25日。此前，各州曾就该调查是否涉嫌违法追踪高校招生中种族与性别因素提起法律挑战。",
+      "url": "https://news.bloomberglaw.com",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "ai",
+      "title": "各州加速制定AI教育政策：俄克拉荷马州要求2027年前制定AI使用规范",
+      "source": "FutureEd",
+      "original_date": "March 18, 2026",
+      "summary": "据FutureEd立法追踪器显示，俄克拉荷马州S.B. 1734法案要求所有学区在2027-28学年前采纳正式的AI使用政策。政策将涵盖批准和禁止的教学用途、数据保护和最小化、家庭透明度以及定期审查等内容。",
+      "url": "https://www.future-ed.org",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "ai",
+      "title": "2026年AI教育应用趋势：创新需与伦理规则并重",
+      "source": "VAPS Tech",
+      "original_date": "March 18, 2026",
+      "summary": "据教育技术分析，2026年是AI教育应用的采纳与监管并重的年份。成功的教育系统是那些将创新与强有力的伦理规则和负责任实施相结合的系统。教育机构应重点关注政策、培训、教学法等方面。",
+      "url": "https://vapstech.com",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "伊利诺伊州：高等教育可缩小就业差距",
+      "source": "Illinois Workforce and Education Research Collaborative",
+      "original_date": "March 18, 2026",
+      "summary": "伊利诺伊州劳动力与教育研究合作组织最新研究发现，即使学历、专业或行业相同，种族、收入和性别间在获得好工作上仍存在差距，但高等教育可以缩小这些差距。该研究为州政府教育投资政策提供了重要依据。",
+      "url": "https://www.illinois.gov",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "中西部学生入学下降推动学区合并探索",
+      "source": "CSG Midwest",
+      "original_date": "March 12, 2026",
+      "summary": "据中西部立法会议报道，近期和预计的学生入学下降是促使各州探索学区合并措施的因素之一。伊利诺伊州、印第安纳州、艾奥瓦州、堪萨斯州、密歇根州、明尼苏达州等州都在研究相关政策。",
+      "url": "https://csgmidwest.org",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "teacher",
+      "title": "爱荷华州教师短缺率全国最低：99%教学岗位已填补",
+      "source": "Iowa Department of Education",
+      "original_date": "March 18, 2026",
+      "summary": "爱荷华州教育部宣布，2025-26学年该州近99%的全职教学岗位已填补，教师短缺率远低于全国平均水平。该州通过提高教师薪酬、改善工作条件等措施有效缓解了教师短缺问题，成为全国模范。",
+      "url": "https://educate.iowa.gov",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "teacher",
+      "title": "密歇根教师短缺研究：2026年报告显示空缺率持续高位",
+      "source": "EPIC Education Policy",
+      "original_date": "March 18, 2026",
+      "summary": "密歇根教师短缺第五份年度报告发布。尽管州政府大力投资，2024-25学年教师空缺问题依然严重。新认证教师数量与离职教师数量基本持平，但由于教师职位总数增加，报告空缺职位的学区数量创历史新高。",
+      "url": "https://epicedpolicy.org",
+      "timestamp": "2026-03-19T08:00:00Z"
+    },
+    {
+      "category": "international",
+      "title": "F-1签证面试豁免政策收紧：14岁以下和79岁以上申请人现需亲自面试",
+      "source": "US Department of State",
+      "original_date": "September 18, 2025",
+      "summary": "美国国务院2025年9月18日更新签证面试豁免政策，大多数非移民签证申请人（包括14岁以下和79岁以上）现在需要与领事官员进行亲自面试。此外，毕业后宽限期从60天缩短至30天，给OPT转换带来压力。",
+      "url": "https://travel.state.gov",
+      "timestamp": "2026-03-19T08:00:00Z"
+    }
+  ]
+}
