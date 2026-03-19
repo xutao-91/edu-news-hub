@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-03-19",
+  "total_sources": 113,
+  "categories": {
+    "think_tank": {
+      "name": "智库/研究机构",
+      "sources": [
+        {"id": "brookings", "name": "布鲁金斯研究院", "url": "https://www.brookings.edu/topics/education-2/", "crawler": "wordpress", "priority": 1},
+        {"id": "heritage", "name": "美国传统基金会", "url": "https://www.heritage.org/education", "crawler": "heritage", "priority": 1},
+        {"id": "carnegie", "name": "卡内基国际和平基金会", "url": "https://carnegieendowment.org/research", "crawler": "carnegie", "priority": 1},
+        {"id": "csis", "name": "CSIS战略与国际研究中心", "url": "https://www.csis.org/analysis", "crawler": "csis", "priority": 1},
+        {"id": "cato", "name": "凯托研究所", "url": "https://www.cato.org/blog", "crawler": "wordpress", "priority": 1},
+        {"id": "piie", "name": "彼得森国际经济研究所", "url": "https://www.piie.com/publications", "crawler": "piie", "priority": 1},
+        {"id": "nber", "name": "美国国家经济研究局", "url": "https://www.nber.org/papers", "crawler": "nber", "priority": 1},
+        {"id": "cfr", "name": "对外关系委员会", "url": "https://www.cfr.org/", "crawler": "cfr", "priority": 1},
+        {"id": "rand", "name": "兰德公司", "url": "https://www.rand.org/pubs", "crawler": "rand", "priority": 1},
+        {"id": "pew", "name": "皮尤研究中心", "url": "https://www.pewresearch.org/publications/", "crawler": "pew", "priority": 1},
+        {"id": "americanprogress", "name": "美国进步中心", "url": "https://www.americanprogress.org/topic/education/", "crawler": "wordpress", "priority": 1},
+        {"id": "atlanticcouncil", "name": "大西洋理事会", "url": "https://www.atlanticcouncil.org/", "crawler": "wordpress", "priority": 1},
+        {"id": "cnas", "name": "新美国安全中心", "url": "https://www.cnas.org/articles", "crawler": "wordpress", "priority": 2},
+        {"id": "hudson", "name": "哈德逊研究所", "url": "https://www.hudson.org/research", "crawler": "hudson", "priority": 2},
+        {"id": "aei", "name": "美国企业研究所", "url": "https://www.aei.org/research/", "crawler": "wordpress", "priority": 2},
+        {"id": "manhattan", "name": "曼哈顿政策研究所", "url": "https://manhattan.institute/policy/education", "crawler": "wordpress", "priority": 2},
+        {"id": "urban", "name": "城市研究所", "url": "https://www.urban.org/research", "crawler": "urban", "priority": 1},
+        {"id": "crpe", "name": "区域教育政策中心", "url": "https://crpe.org/research/", "crawler": "wordpress", "priority": 2}
+      ]
+    },
+    "media": {
+      "name": "教育专业媒体",
+      "sources": [
+        {"id": "edweek", "name": "Education Week", "url": "https://www.edweek.org/", "crawler": "edweek", "priority": 1},
+        {"id": "chronicle", "name": "Chronicle of Higher Education", "url": "https://www.chronicle.com/", "crawler": "chronicle", "priority": 1},
+        {"id": "insidehighered", "name": "Inside Higher Ed", "url": "https://www.insidehighered.com/", "crawler": "wordpress", "priority": 1},
+        {"id": "highereddive", "name": "Higher Ed Dive", "url": "https://www.highereddive.com/", "crawler": "industrydive", "priority": 1},
+        {"id": "districtadmin", "name": "District Administration", "url": "https://districtadministration.com/", "crawler": "wordpress", "priority": 2},
+        {"id": "timeshighered", "name": "Times Higher Education", "url": "https://www.timeshighereducation.com/", "crawler": "timeshighered", "priority": 1},
+        {"id": "universityworldnews", "name": "University World News", "url": "https://www.universityworldnews.com/", "crawler": "uwn", "priority": 2}
+      ]
+    },
+    "government": {
+      "name": "政府/官方",
+      "sources": [
+        {"id": "edgov", "name": "联邦教育部", "url": "https://www.ed.gov/news", "crawler": "edgov", "priority": 1},
+        {"id": "whitehouse", "name": "白宫", "url": "https://www.whitehouse.gov/news/", "crawler": "whitehouse", "priority": 1},
+        {"id": "congress", "name": "美国国会", "url": "https://www.congress.gov/", "crawler": "congress", "priority": 2},
+        {"id": "nasbe", "name": "州教育委员会协会", "url": "https://www.nasbe.org/newsroom/", "crawler": "nasbe", "priority": 1},
+        {"id": "ecs", "name": "教育委员会", "url": "https://www.ecs.org/blog/", "crawler": "wordpress", "priority": 2},
+        {"id": "ies", "name": "教育科学研究院", "url": "https://ies.ed.gov/whatsnew/", "crawler": "edgov", "priority": 1},
+        {"id": "nces", "name": "国家教育统计中心", "url": "https://nces.ed.gov/whatsnew/", "crawler": "edgov", "priority": 1},
+        {"id": "nsf", "name": "国家科学基金会", "url": "https://www.nsf.gov/news/", "crawler": "nsf", "priority": 1},
+        {"id": "air", "name": "美国研究所", "url": "https://www.air.org/news/", "crawler": "air", "priority": 1},
+        {"id": "learningpolicy", "name": "学习政策研究所", "url": "https://learningpolicyinstitute.org/blog/", "crawler": "wordpress", "priority": 1}
+      ]
+    },
+    "international": {
+      "name": "国际组织",
+      "sources": [
+        {"id": "iau", "name": "国际大学协会", "url": "https://www.iau-aiu.net/", "crawler": "iau", "priority": 1},
+        {"id": "oecd", "name": "OECD教育", "url": "https://www.oecd.org/education/", "crawler": "oecd", "priority": 1},
+        {"id": "eua", "name": "欧盟大学协会", "url": "https://eua.eu/news.html", "crawler": "eua", "priority": 2},
+        {"id": "nafsa", "name": "NAFSA国际教育者协会", "url": "https://www.nafsa.org/blog", "crawler": "wordpress", "priority": 1}
+      ]
+    },
+    "universities": {
+      "name": "高校新闻",
+      "sources": [
+        {"id": "harvardgse", "name": "哈佛教育学院", "url": "https://www.gse.harvard.edu/news/", "crawler": "harvard", "priority": 1},
+        {"id": "stanford", "name": "斯坦福大学", "url": "https://news.stanford.edu/", "crawler": "stanford", "priority": 1},
+        {"id": "mit", "name": "麻省理工", "url": "http://news.mit.edu/topic/education", "crawler": "mit", "priority": 1},
+        {"id": "msu", "name": "密歇根州立大学", "url": "https://education.msu.edu/news/", "crawler": "msu", "priority": 1},
+        {"id": "illinois", "name": "伊利诺伊大学", "url": "https://www.insideillinois.edu/", "crawler": "illinois", "priority": 1},
+        {"id": "michigan", "name": "密歇根大学", "url": "https://news.umich.edu/", "crawler": "michigan", "priority": 1},
+        {"id": "berkeley", "name": "加州大学伯克利分校", "url": "https://news.berkeley.edu/", "crawler": "berkeley", "priority": 1}
+      ]
+    }
+  },
+  "crawler_rules": {
+    "edweek": {
+      "date_selectors": [
+        "span.m-article-title__author",
+        "meta[property='article:published_time']"
+      ],
+      "date_pattern": "— ([A-Za-z]+ \d{1,2}, \d{4})",
+      "title_selector": "h1.m-article-title__text",
+      "content_selector": "div.m-article-content"
+    },
+    "wordpress": {
+      "date_selectors": [
+        "meta[property='article:published_time']",
+        "time.entry-date",
+        "span.posted-on time"
+      ],
+      "title_selector": "h1.entry-title, h1.article-title",
+      "content_selector": "div.entry-content, article"
+    },
+    "chronicle": {
+      "date_selectors": [
+        "time.c-article-header__date",
+        "meta[property='article:published_time']"
+      ],
+      "title_selector": "h1.c-article-header__title",
+      "content_selector": "div.c-article-body"
+    }
+  }
+}
