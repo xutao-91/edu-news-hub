@@ -6,72 +6,822 @@
     "think_tank": {
       "name": "智库/研究机构",
       "sources": [
-        {"id": "brookings", "name": "布鲁金斯研究院", "url": "https://www.brookings.edu/topics/education-2/", "crawler": "wordpress", "priority": 1},
-        {"id": "heritage", "name": "美国传统基金会", "url": "https://www.heritage.org/education", "crawler": "heritage", "priority": 1},
-        {"id": "carnegie", "name": "卡内基国际和平基金会", "url": "https://carnegieendowment.org/research", "crawler": "carnegie", "priority": 1},
-        {"id": "csis", "name": "CSIS战略与国际研究中心", "url": "https://www.csis.org/analysis", "crawler": "csis", "priority": 1},
-        {"id": "cato", "name": "凯托研究所", "url": "https://www.cato.org/blog", "crawler": "wordpress", "priority": 1},
-        {"id": "piie", "name": "彼得森国际经济研究所", "url": "https://www.piie.com/publications", "crawler": "piie", "priority": 1},
-        {"id": "nber", "name": "美国国家经济研究局", "url": "https://www.nber.org/papers", "crawler": "nber", "priority": 1},
-        {"id": "cfr", "name": "对外关系委员会", "url": "https://www.cfr.org/", "crawler": "cfr", "priority": 1},
-        {"id": "rand", "name": "兰德公司", "url": "https://www.rand.org/pubs", "crawler": "rand", "priority": 1},
-        {"id": "pew", "name": "皮尤研究中心", "url": "https://www.pewresearch.org/publications/", "crawler": "pew", "priority": 1},
-        {"id": "americanprogress", "name": "美国进步中心", "url": "https://www.americanprogress.org/topic/education/", "crawler": "wordpress", "priority": 1},
-        {"id": "atlanticcouncil", "name": "大西洋理事会", "url": "https://www.atlanticcouncil.org/", "crawler": "wordpress", "priority": 1},
-        {"id": "cnas", "name": "新美国安全中心", "url": "https://www.cnas.org/articles", "crawler": "wordpress", "priority": 2},
-        {"id": "hudson", "name": "哈德逊研究所", "url": "https://www.hudson.org/research", "crawler": "hudson", "priority": 2},
-        {"id": "aei", "name": "美国企业研究所", "url": "https://www.aei.org/research/", "crawler": "wordpress", "priority": 2},
-        {"id": "manhattan", "name": "曼哈顿政策研究所", "url": "https://manhattan.institute/policy/education", "crawler": "wordpress", "priority": 2},
-        {"id": "urban", "name": "城市研究所", "url": "https://www.urban.org/research", "crawler": "urban", "priority": 1},
-        {"id": "crpe", "name": "区域教育政策中心", "url": "https://crpe.org/research/", "crawler": "wordpress", "priority": 2}
+        {
+          "id": "布鲁金斯研究院",
+          "name": "布鲁金斯研究院",
+          "url": "https://www.brookings.edu/topics/education-2/",
+          "crawler": "wordpress",
+          "priority": 1
+        },
+        {
+          "id": "美国传统基金会",
+          "name": "美国传统基金会",
+          "url": "https://www.heritage.org/education",
+          "crawler": "wordpress",
+          "priority": 1
+        },
+        {
+          "id": "卡内基国际和平基金会",
+          "name": "卡内基国际和平基金会",
+          "url": "https://carnegieendowment.org/research?lang=en",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "csis战略与国际研究中心",
+          "name": "CSIS战略与国际研究中心",
+          "url": "https://www.csis.org/analysis?f%5B0%5D=content_type%3Aarticle&f%5B1%5D=content_type%3Areport&f%5B2%5D=date_published%3A2025&f%5B3%5D=topics%3A822&f%5B4%5D=topics%3A833&f%5B5%5D=topics%3A847&f%5B6%5D=topics%3A3055&f%5B7%5D=topics%3A3056&f%5B8%5D=topics%3A3057&f%5B9%5D=topics%3A3066",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "凯托研究所",
+          "name": "凯托研究所",
+          "url": "https://www.cato.org/search?daterange=1745989200%3A1746680399",
+          "crawler": "wordpress",
+          "priority": 1
+        },
+        {
+          "id": "彼得森国际经济研究所",
+          "name": "彼得森国际经济研究所",
+          "url": "https://www.piie.com/publications/working-papers",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "美国国家经济研究局",
+          "name": "美国国家经济研究局",
+          "url": "https://www.nber.org/taxonomy/term/556?page=1&perPage=50",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "对外关系委员会",
+          "name": "对外关系委员会",
+          "url": "https://www.cfr.org/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "兰德公司",
+          "name": "兰德公司",
+          "url": "https://www.rand.org/search.html?q=university&dateFixedRange=Last+30+days&sortby=date_dt&rows=12#siteSearchList-337983979-form",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "皮尤研究中心",
+          "name": "皮尤研究中心",
+          "url": "https://www.pewresearch.org/publications/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "will_law",
+          "name": "Will-Law",
+          "url": "https://will-law.org/press-release/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "showmeinstitute",
+          "name": "Showmeinstitute",
+          "url": "https://showmeinstitute.org/topics/education/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "kansaspolicy",
+          "name": "Kansaspolicy",
+          "url": "https://kansaspolicy.org/category/education/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "heartland",
+          "name": "Heartland",
+          "url": "https://heartland.org/?s=&topic=education",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "americanexperiment",
+          "name": "Americanexperiment",
+          "url": "https://www.americanexperiment.org/news/?issue=education",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "crpe",
+          "name": "Crpe",
+          "url": "https://crpe.org/research-reports-publications/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "cosn",
+          "name": "Cosn",
+          "url": "https://www.cosn.org/news-publications/cosn-news/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "ncee",
+          "name": "Ncee",
+          "url": "https://ncee.org/?s",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "air",
+          "name": "Air",
+          "url": "https://www.air.org/search?search=&sort_by=created&sort_order=DESC&f%5B0%5D=type%3Acenter&f%5B1%5D=type%3Aevent&f%5B2%5D=type%3Anews&f%5B3%5D=type%3Apage&f%5B4%5D=type%3Aperson&f%5B5%5D=type%3Apress_mentions&f%5B6%5D=type%3Aproject&f%5B7%5D=type%3Aresource",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "urban",
+          "name": "Urban",
+          "url": "https://www.urban.org/research-and-evidence/work-education-and-labor",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "atlanticcouncil",
+          "name": "Atlanticcouncil",
+          "url": "https://www.atlanticcouncil.org/region/china/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "cnas",
+          "name": "Cnas",
+          "url": "https://www.cnas.org/articles-multimedia",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "hudson",
+          "name": "Hudson",
+          "url": "https://www.hudson.org/search?hud-content-type=259&expert=&date-from=&date-to=&keywords=&topics=All&region=All",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "aei",
+          "name": "Aei",
+          "url": "https://www.aei.org/search-results/?wpsolr_fq%5B0%5D=categories_str:Education",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "manhattan",
+          "name": "Manhattan",
+          "url": "https://manhattan.institute/policy/education",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "americanprogress",
+          "name": "Americanprogress",
+          "url": "https://www.americanprogress.org/topic/education/?filters=article_type__article%252Carticle_type__report%252Carticle_type__fact-sheet%252Carticle_type__in-the-news&per_page=12",
+          "crawler": "generic",
+          "priority": 1
+        }
       ]
     },
     "media": {
       "name": "教育专业媒体",
       "sources": [
-        {"id": "edweek", "name": "Education Week", "url": "https://www.edweek.org/", "crawler": "edweek", "priority": 1},
-        {"id": "chronicle", "name": "Chronicle of Higher Education", "url": "https://www.chronicle.com/", "crawler": "chronicle", "priority": 1},
-        {"id": "insidehighered", "name": "Inside Higher Ed", "url": "https://www.insidehighered.com/", "crawler": "wordpress", "priority": 1},
-        {"id": "highereddive", "name": "Higher Ed Dive", "url": "https://www.highereddive.com/", "crawler": "industrydive", "priority": 1},
-        {"id": "districtadmin", "name": "District Administration", "url": "https://districtadministration.com/", "crawler": "wordpress", "priority": 2},
-        {"id": "timeshighered", "name": "Times Higher Education", "url": "https://www.timeshighereducation.com/", "crawler": "timeshighered", "priority": 1},
-        {"id": "universityworldnews", "name": "University World News", "url": "https://www.universityworldnews.com/", "crawler": "uwn", "priority": 2}
+        {
+          "id": "newsweek",
+          "name": "Newsweek",
+          "url": "https://www.newsweek.com/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "education_week",
+          "name": "Education Week",
+          "url": "https://www.edweek.org/search?q=&f0=06%2F17%2F2025%3A&s=0&p=3",
+          "crawler": "edweek",
+          "priority": 1
+        },
+        {
+          "id": "higher_ed_dive",
+          "name": "Higher Ed Dive",
+          "url": "https://www.highereddive.com/",
+          "crawler": "industrydive",
+          "priority": 1
+        },
+        {
+          "id": "districtadministration",
+          "name": "Districtadministration",
+          "url": "https://districtadministration.com/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "cbsnews",
+          "name": "Cbsnews",
+          "url": "https://www.cbsnews.com/detroit/tag/university-of-michigan/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "cbsnews",
+          "name": "Cbsnews",
+          "url": "https://www.cbsnews.com/minnesota/tag/university-of-minnesota/",
+          "crawler": "generic",
+          "priority": 1
+        }
       ]
     },
     "government": {
-      "name": "政府/官方",
+      "name": "政府/官方机构",
       "sources": [
-        {"id": "edgov", "name": "联邦教育部", "url": "https://www.ed.gov/news", "crawler": "edgov", "priority": 1},
-        {"id": "whitehouse", "name": "白宫", "url": "https://www.whitehouse.gov/news/", "crawler": "whitehouse", "priority": 1},
-        {"id": "congress", "name": "美国国会", "url": "https://www.congress.gov/", "crawler": "congress", "priority": 2},
-        {"id": "nasbe", "name": "州教育委员会协会", "url": "https://www.nasbe.org/newsroom/", "crawler": "nasbe", "priority": 1},
-        {"id": "ecs", "name": "教育委员会", "url": "https://www.ecs.org/blog/", "crawler": "wordpress", "priority": 2},
-        {"id": "ies", "name": "教育科学研究院", "url": "https://ies.ed.gov/whatsnew/", "crawler": "edgov", "priority": 1},
-        {"id": "nces", "name": "国家教育统计中心", "url": "https://nces.ed.gov/whatsnew/", "crawler": "edgov", "priority": 1},
-        {"id": "nsf", "name": "国家科学基金会", "url": "https://www.nsf.gov/news/", "crawler": "nsf", "priority": 1},
-        {"id": "air", "name": "美国研究所", "url": "https://www.air.org/news/", "crawler": "air", "priority": 1},
-        {"id": "learningpolicy", "name": "学习政策研究所", "url": "https://learningpolicyinstitute.org/blog/", "crawler": "wordpress", "priority": 1}
+        {
+          "id": "美国研究所",
+          "name": "美国研究所",
+          "url": "https://www.airweb.org/about/who-we-are/airnews",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "教育委员会",
+          "name": "教育委员会",
+          "url": "https://www.ecs.org/stay-current/blog/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "学习政策研究所",
+          "name": "学习政策研究所",
+          "url": "https://learningpolicyinstitute.org/all-resources",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "国家科学基金会",
+          "name": "国家科学基金会",
+          "url": "https://www.nsf.gov/news",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "ies",
+          "name": "Ies",
+          "url": "https://ies.ed.gov/search-results?&mcontenttype=Report",
+          "crawler": "edgov",
+          "priority": 1
+        },
+        {
+          "id": "州教育委员会协会",
+          "name": "州教育委员会协会",
+          "url": "https://www.nasbe.org/newsroom/",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "密歇根大学",
+          "name": "密歇根大学",
+          "url": "https://www.michigan.gov/som/minewswire#minewswire%20agency=e150591cd4e948ebbc7a5f31b8f5c4d1%20Department%20of%20Education||afe7c1dc8cd544bd9b5a075ff9853167%20Labor%20and%20Economic%20Opportunity",
+          "crawler": "generic",
+          "priority": 1
+        },
+        {
+          "id": "education",
+          "name": "Education",
+          "url": "https://education.mn.gov/MDE/about/press/",
+          "crawler": "generic",
+          "priority": 1
+        }
+      ]
+    },
+    "universities": {
+      "name": "高校/学术机构",
+      "sources": [
+        {
+          "id": "iiss",
+          "name": "Iiss",
+          "url": "https://www.iiss.pku.edu.cn/info/1021/5671.htm",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "fsi",
+          "name": "Fsi",
+          "url": "https://fsi.stanford.edu/publications?pubs_type[commentary]=commentary&pubs_type[dissertation]=dissertation&pubs_type[policy_brief]=policy_brief&pubs_type[white_paper]=white_paper&pubs_type[report]=report&pubs_type[working_paper]=working_paper&field_pub_date[min]=2003&field_pub_date[max]=2025",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "ciss",
+          "name": "Ciss",
+          "url": "https://ciss.tsinghua.edu.cn/column/qb",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "siis",
+          "name": "Siis",
+          "url": "https://www.siis.org.cn/syygc/index.jhtml",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "密歇根大学",
+          "name": "密歇根大学",
+          "url": "https://michigan.law.umich.edu/news?search=",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "密歇根大学",
+          "name": "密歇根大学",
+          "url": "https://michiganross.umich.edu/news",
+          "crawler": "generic",
+          "priority": 2
+        }
       ]
     },
     "international": {
       "name": "国际组织",
       "sources": [
-        {"id": "iau", "name": "国际大学协会", "url": "https://www.iau-aiu.net/", "crawler": "iau", "priority": 1},
-        {"id": "oecd", "name": "OECD教育", "url": "https://www.oecd.org/education/", "crawler": "oecd", "priority": 1},
-        {"id": "eua", "name": "欧盟大学协会", "url": "https://eua.eu/news.html", "crawler": "eua", "priority": 2},
-        {"id": "nafsa", "name": "NAFSA国际教育者协会", "url": "https://www.nafsa.org/blog", "crawler": "wordpress", "priority": 1}
+        {
+          "id": "nafsa国际教育者协会",
+          "name": "NAFSA国际教育者协会",
+          "url": "https://www.nafsa.org/blog",
+          "crawler": "generic",
+          "priority": 2
+        }
       ]
     },
-    "universities": {
-      "name": "高校新闻",
+    "other": {
+      "name": "其他来源",
       "sources": [
-        {"id": "harvardgse", "name": "哈佛教育学院", "url": "https://www.gse.harvard.edu/news/", "crawler": "harvard", "priority": 1},
-        {"id": "stanford", "name": "斯坦福大学", "url": "https://news.stanford.edu/", "crawler": "stanford", "priority": 1},
-        {"id": "mit", "name": "麻省理工", "url": "http://news.mit.edu/topic/education", "crawler": "mit", "priority": 1},
-        {"id": "msu", "name": "密歇根州立大学", "url": "https://education.msu.edu/news/", "crawler": "msu", "priority": 1},
-        {"id": "illinois", "name": "伊利诺伊大学", "url": "https://www.insideillinois.edu/", "crawler": "illinois", "priority": 1},
-        {"id": "michigan", "name": "密歇根大学", "url": "https://news.umich.edu/", "crawler": "michigan", "priority": 1},
-        {"id": "berkeley", "name": "加州大学伯克利分校", "url": "https://news.berkeley.edu/", "crawler": "berkeley", "priority": 1}
+        {
+          "id": "美国大学教授协会",
+          "name": "美国大学教授协会",
+          "url": "https://www.aaup.org/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "aacte",
+          "name": "Aacte",
+          "url": "https://aacte.org/news/press-releases/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "美国高校协会",
+          "name": "美国高校协会",
+          "url": "https://www.aacu.org/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "美国高等教育委员会",
+          "name": "美国高等教育委员会",
+          "url": "https://www.acenet.edu/Pages/default.aspx",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "news",
+          "name": "News",
+          "url": "https://news.gallup.com/topic/category-education.aspx",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "nea",
+          "name": "Nea",
+          "url": "https://www.nea.org/nea-today/all-news-articles?",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "quincyinst",
+          "name": "Quincyinst",
+          "url": "https://quincyinst.org/research/?_sort_by=date_desc",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "belfercenter",
+          "name": "Belfercenter",
+          "url": "https://www.belfercenter.org/topics/artificial-intelligence",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "wilsoncenter",
+          "name": "Wilsoncenter",
+          "url": "http://wilsoncenter.org/region/china-mainland",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "globalaffairs",
+          "name": "Globalaffairs",
+          "url": "https://globalaffairs.org/research",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "news",
+          "name": "News",
+          "url": "https://news.engin.umich.edu/category/campus-community/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "mlive",
+          "name": "Mlive",
+          "url": "https://www.mlive.com/education/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "bridgemi",
+          "name": "Bridgemi",
+          "url": "https://www.bridgemi.com/topics/talent-education",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "medschool",
+          "name": "Medschool",
+          "url": "https://medschool.umich.edu/about-us/education-news-stories",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "freep",
+          "name": "Freep",
+          "url": "https://www.freep.com/news/education/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "src",
+          "name": "Src",
+          "url": "https://src.isr.umich.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "educationminnesota",
+          "name": "Educationminnesota",
+          "url": "https://educationminnesota.org/news/education-headlines/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "mprnews",
+          "name": "Mprnews",
+          "url": "https://www.mprnews.org/education",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "twincities",
+          "name": "Twincities",
+          "url": "https://www.twincities.com/news/education/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "startribune",
+          "name": "Startribune",
+          "url": "https://www.startribune.com/search?query=education",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "bringmethenews",
+          "name": "Bringmethenews",
+          "url": "https://bringmethenews.com/tag/education-minnesota",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "cse",
+          "name": "Cse",
+          "url": "https://cse.umn.edu/college/news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "med",
+          "name": "Med",
+          "url": "https://med.umn.edu/news-search?keywords=&category=All&unit=241&unit_category=All",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "carlsonschool",
+          "name": "Carlsonschool",
+          "url": "https://carlsonschool.umn.edu/news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "source",
+          "name": "Source",
+          "url": "https://source.washu.edu/channels/newsroom/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "studlife",
+          "name": "Studlife",
+          "url": "https://www.studlife.com/news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "medicine",
+          "name": "Medicine",
+          "url": "https://medicine.washu.edu/news/type/news-release/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "search",
+          "name": "Search",
+          "url": "https://search.engineering.wustl.edu/s/search.html?profile=engineering&query=%21showall&f.Tabs%7CengNews=News&collection=wustl-search&sort=date",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "medicine",
+          "name": "Medicine",
+          "url": "https://medicine.washu.edu/news/type/news-release/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "law",
+          "name": "Law",
+          "url": "https://law.washu.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "olin",
+          "name": "Olin",
+          "url": "https://olin.washu.edu/about/news-and-media/news/index.php?search=&type=&topic=&year=&month=&pageindex=0&pagesize=10",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "fordschool",
+          "name": "Fordschool",
+          "url": "https://fordschool.umich.edu/news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "si",
+          "name": "Si",
+          "url": "https://www.si.umich.edu/about-umsi/news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "brownschool",
+          "name": "Brownschool",
+          "url": "https://brownschool.washu.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "forwardpathway",
+          "name": "Forwardpathway",
+          "url": "https://www.forwardpathway.com/category/news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "mcw",
+          "name": "Mcw",
+          "url": "https://www.mcw.edu/newsroom/topics/press-releases",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "today",
+          "name": "Today",
+          "url": "https://today.marquette.edu/archive/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "msoe",
+          "name": "Msoe",
+          "url": "https://www.msoe.edu/about-msoe/news/1/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "global",
+          "name": "Global",
+          "url": "https://global.nd.edu/news-stories/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "news",
+          "name": "News",
+          "url": "https://news.nd.edu/news/archives/2025/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "mendoza",
+          "name": "Mendoza",
+          "url": "https://mendoza.nd.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "engineering",
+          "name": "Engineering",
+          "url": "https://engineering.nd.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "law",
+          "name": "Law",
+          "url": "https://law.nd.edu/news-events/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "science",
+          "name": "Science",
+          "url": "https://science.nd.edu/news-and-media/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "news",
+          "name": "News",
+          "url": "https://news.iu.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "education",
+          "name": "Education",
+          "url": "https://education.indiana.edu/news/index.html",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "kelley",
+          "name": "Kelley",
+          "url": "https://kelley.iu.edu/news-events/index.html",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "oneill",
+          "name": "Oneill",
+          "url": "https://oneill.indiana.edu/news/index.html",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "purdue",
+          "name": "Purdue",
+          "url": "https://www.purdue.edu/newsroom/articles/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "engineering",
+          "name": "Engineering",
+          "url": "https://engineering.purdue.edu/Engr/AboutUs/News/all-news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "purdue",
+          "name": "Purdue",
+          "url": "https://www.purdue.edu/science/about/news/articles/archive.html",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "ag",
+          "name": "Ag",
+          "url": "https://ag.purdue.edu/news-listing.html",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "business",
+          "name": "Business",
+          "url": "https://business.purdue.edu/news/home.php",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "polytechnic",
+          "name": "Polytechnic",
+          "url": "https://polytechnic.purdue.edu/newsroom/all-news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "education",
+          "name": "Education",
+          "url": "https://education.purdue.edu/news",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "news",
+          "name": "News",
+          "url": "https://news.wisc.edu/latest-news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "news",
+          "name": "News",
+          "url": "https://news.cals.wisc.edu/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "artsdivision",
+          "name": "Artsdivision",
+          "url": "https://artsdivision.wisc.edu/news/dota-news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "business",
+          "name": "Business",
+          "url": "https://business.wisc.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "cdis",
+          "name": "Cdis",
+          "url": "https://cdis.wisc.edu/news-events/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "education",
+          "name": "Education",
+          "url": "https://education.wisc.edu/category/school-news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "engineering",
+          "name": "Engineering",
+          "url": "https://engineering.wisc.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "nelson",
+          "name": "Nelson",
+          "url": "https://nelson.wisc.edu/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "grad",
+          "name": "Grad",
+          "url": "https://grad.wisc.edu/category/news/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "humanecology",
+          "name": "Humanecology",
+          "url": "https://humanecology.wisc.edu/news-events/",
+          "crawler": "generic",
+          "priority": 2
+        },
+        {
+          "id": "socwork",
+          "name": "Socwork",
+          "url": "https://socwork.wisc.edu/news-events/",
+          "crawler": "generic",
+          "priority": 2
+        }
       ]
     }
   },
@@ -81,9 +831,17 @@
         "span.m-article-title__author",
         "meta[property='article:published_time']"
       ],
-      "date_pattern": "— ([A-Za-z]+ \d{1,2}, \d{4})",
+      "date_pattern": "— ([A-Za-z]+ \\d{1,2}, \\d{4})",
       "title_selector": "h1.m-article-title__text",
       "content_selector": "div.m-article-content"
+    },
+    "chronicle": {
+      "date_selectors": [
+        "time.c-article-header__date",
+        "meta[property='article:published_time']"
+      ],
+      "title_selector": "h1.c-article-header__title",
+      "content_selector": "div.c-article-body"
     },
     "wordpress": {
       "date_selectors": [
@@ -94,13 +852,15 @@
       "title_selector": "h1.entry-title, h1.article-title",
       "content_selector": "div.entry-content, article"
     },
-    "chronicle": {
+    "generic": {
       "date_selectors": [
-        "time.c-article-header__date",
-        "meta[property='article:published_time']"
+        "meta[property='article:published_time']",
+        "time",
+        "span.date",
+        "div.date"
       ],
-      "title_selector": "h1.c-article-header__title",
-      "content_selector": "div.c-article-body"
+      "title_selector": "h1",
+      "content_selector": "article, div.content, div.entry-content"
     }
   }
 }
