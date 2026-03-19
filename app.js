@@ -101,7 +101,7 @@ function renderNews(data) {
         };
         
         return `
-            <article class="news-card bg-white rounded-lg shadow-md p-6 cursor-pointer" onclick="toggleDetails(${index})">
+            <article class="news-card bg-white rounded-lg shadow-md p-6 ${item.content && item.content !== item.summary ? 'cursor-pointer' : ''}" ${item.content && item.content !== item.summary ? `onclick="toggleDetails(${index})"` : ''}>
                 <div class="flex items-start justify-between">
                     <div class="flex-1">
                         <div class="flex items-center space-x-2 mb-2">
@@ -117,18 +117,22 @@ function renderNews(data) {
                         <p class="text-gray-600 text-sm line-clamp-2" id="summary-${index}">
                             ${item.summary || (item.content ? item.content.substring(0, 200) + '...' : '暂无摘要')}
                         </p>
+                        ${item.content && item.content !== item.summary ? `
                         <div id="details-${index}" class="hidden mt-4 pt-4 border-t border-gray-100">
-                            <p class="text-gray-700 text-sm mb-3">${item.content || item.summary || '暂无详细内容'}</p>
+                            <p class="text-gray-700 text-sm mb-3">${item.content}</p>
                             ${item.url ? `
                                 <a href="${item.url}" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm">
                                     阅读原文 <i class="fas fa-external-link-alt ml-1"></i>
                                 </a>
                             ` : ''}
                         </div>
+                        ` : ''}
                     </div>
                     <div class="ml-4 text-right">
                         <span class="text-xs text-gray-400">#${index + 1}</span>
+                        ${item.content && item.content !== item.summary ? `
                         <i class="fas fa-chevron-down text-gray-400 mt-2 block transition-transform" id="arrow-${index}"></i>
+                        ` : ''}
                     </div>
                 </div>
             </article>
