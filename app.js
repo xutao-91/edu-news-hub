@@ -120,11 +120,13 @@ function renderNews(data) {
                         ${item.content && item.content !== item.summary ? `
                         <div id="details-${index}" class="hidden mt-4 pt-4 border-t border-gray-100">
                             <p class="text-gray-700 text-sm mb-3">${item.content}</p>
-                            ${item.url ? `
-                                <a href="${item.url}" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm">
-                                    阅读原文 <i class="fas fa-external-link-alt ml-1"></i>
-                                </a>
-                            ` : ''}
+                        </div>
+                        ` : ''}
+                        ${item.url ? `
+                        <div class="mt-3 pt-3 border-t border-gray-100">
+                            <a href="${item.url}" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm">
+                                查看来源 <i class="fas fa-external-link-alt ml-1"></i>
+                            </a>
                         </div>
                         ` : ''}
                     </div>
