@@ -20,9 +20,12 @@ class DualSourceNewsFetcher:
         self.target_date = target_date or datetime.now()
         self.crawler = EducationNewsCrawler()
         
-        # 加载配置
-        self.sources_file = '/root/.openclaw/workspace/edu-news-hub/sources/index.json'
-        self.history_file = '/root/.openclaw/workspace/edu-news-hub/history/news_history.json'
+        # 使用相对路径（适配GitHub Actions）
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_dir = os.path.dirname(script_dir)
+        
+        self.sources_file = os.path.join(project_dir, 'sources', 'index.json')
+        self.history_file = os.path.join(project_dir, 'history', 'news_history.json')
         
         with open(self.sources_file, 'r') as f:
             self.sources_config = json.load(f)

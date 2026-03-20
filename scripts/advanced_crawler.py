@@ -9,13 +9,20 @@ import re
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
 import random
+import os
 
 class AdvancedEducationCrawler:
     """高级教育新闻爬虫 - 使用Playwright"""
     
     def __init__(self):
         self.results = []
-        self.history_file = '/root/.openclaw/workspace/edu-news-hub/history/news_history.json'
+        
+        # 使用相对路径
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_dir = os.path.dirname(script_dir)
+        self.history_file = os.path.join(project_dir, 'history', 'news_history.json')
+        self.sources_file = os.path.join(project_dir, 'sources', 'index.json')
+        
         self.load_history()
         
     def load_history(self):
@@ -298,7 +305,7 @@ class AdvancedEducationCrawler:
         print("="*70)
         
         # 加载来源配置
-        with open('/root/.openclaw/workspace/edu-news-hub/sources/index.json', 'r') as f:
+        with open(self.sources_file, 'r') as f:
             config = json.load(f)
         
         # 收集所有来源

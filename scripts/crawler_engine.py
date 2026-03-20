@@ -8,6 +8,7 @@ import re
 from datetime import datetime, timedelta
 import time
 import json
+import os
 
 class EducationNewsCrawler:
     """教育新闻爬虫引擎"""
@@ -17,7 +18,12 @@ class EducationNewsCrawler:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         })
-        self.history_file = '/root/.openclaw/workspace/edu-news-hub/history/news_history.json'
+        
+        # 使用相对路径
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_dir = os.path.dirname(script_dir)
+        self.history_file = os.path.join(project_dir, 'history', 'news_history.json')
+        
         self.load_history()
         
     def load_history(self):
