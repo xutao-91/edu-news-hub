@@ -18,14 +18,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install beautifulsoup4 requests lxml pandas tavily || echo "Some packages failed but continuing..."
-    
-    - name: Check directory
-      run: |
-        echo "Current directory: $(pwd)"
-        ls -la
-        ls -la scripts/ 2>/dev/null || echo "No scripts directory at root"
-        ls -la edu-news-hub/scripts/ 2>/dev/null || echo "No edu-news-hub/scripts directory"
+        pip install beautifulsoup4 requests lxml pandas tavily
     
     - name: Run scraper
       continue-on-error: true
@@ -33,31 +26,43 @@ jobs:
         TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       run: |
         echo "Starting scraper..."
-        if [ -f "scripts/dual_source_fetcher.py" ]; then
-          echo "Running from root..."
-          python3 -u scripts/dual_source_fetcher.py 2>&1 | tee scraper.log || echo "Script failed but continuing..."
-        else
-          echo "Script not found!"
-          find . -name "*.py" | head -10
-        fi
+        python3 scripts/dual_source_fetcher.py 2>&1 | tee scraper.log || echo "Script completed with warnings"
         echo "Scraper finished"
     
-    - name: Debug output
+    - name: Update index.json
       run: |
-        echo "=== Scraper log ==="
-        cat scraper.log 2>/dev/null || echo "No log file"
-        echo ""
-        echo "=== Data directory ==="
-        ls -la data/ 2>/dev/null || echo "No data dir"
-        echo ""
-        echo "=== Today's file check ==="
-        TODAY=$(date +%Y-%m-%d)
-        if [ -f "data/${TODAY}.json" ]; then
-          echo "Found data/${TODAY}.json"
-          wc -l "data/${TODAY}.json"
-        else
-          echo "data/${TODAY}.json NOT FOUND"
-        fi
+        python3 << 'EOF'
+import json
+import datetime
+import os
+import glob
+
+# Find all data JSON files
+data_files = glob.glob('data/2026-*.json')
+dates = []
+
+for f in data_files:
+    basename = os.path.basename(f)
+    if basename.startswith('2026-') and basename.endswith('.json'):
+        date_str = basename.replace('.json', '')
+        dates.append(date_str)
+
+# Sort dates (newest first)
+dates.sort(reverse=True)
+
+# Update index
+with open('data/index.json', 'r') as f:
+    idx = json.load(f)
+
+idx['dates'] = dates
+idx['total_days'] = len(dates)
+idx['last_updated'] = datetime.datetime.now().isoformat()
+
+with open('data/index.json', 'w') as f:
+    json.dump(idx, f, indent=2, ensure_ascii=False)
+
+print(f'Updated index with {len(dates)} dates: {dates[:5]}')
+EOF
     
     - name: Commit changes
       run: |
@@ -65,5 +70,5 @@ jobs:
         git config user.name "GitHub Action"
         git add -A
         git status
-        git commit -m "Daily news update $(date +%Y-%m-%d)" || echo "Nothing to commit"
-        git push || echo "Push failed or nothing to push"
+        git commit -m "📰 Daily news update $(date +%Y-%m-%d)" || echo "Nothing to commit"
+        git push
