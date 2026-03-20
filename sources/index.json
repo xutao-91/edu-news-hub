@@ -38,7 +38,7 @@
           "id": "凯托研究所",
           "name": "凯托研究所",
           "url": "https://www.cato.org/search?daterange=1745989200%3A1746680399",
-          "crawler": "wordpress",
+          "crawler": "cato",
           "priority": 1
         },
         {
@@ -861,6 +861,15 @@
       ],
       "title_selector": "h1",
       "content_selector": "article, div.content, div.entry-content"
+    },
+    "cato": {
+      "date_selectors": [
+        "span.date-time__date--default",
+        "meta[property=\"article:published_time\"]"
+      ],
+      "date_pattern": "([A-Za-z]+ \\d{1,2}, \\d{4})",
+      "title_selector": "h1.h2, h1[property=\"headline\"]",
+      "content_selector": "div.blog-page__content"
     }
   }
 }

@@ -220,10 +220,49 @@ class EducationNewsCrawler:
             print(f"❌ 通用爬取失败 {url}: {e}")
             return None
     
+    def crawl_cato(self, url):
+        """爬取 Cato Institute 网站"""
+        try:
+            response = self.session.get(url, timeout=10)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 提取日期
+            date_str = None
+            date_elem = soup.find('span', class_='date-time__date--default')
+            if date_elem:
+                date_str = date_elem.get_text().strip()
+            
+            # 备用：从meta标签
+            if not date_str:
+                meta = soup.find('meta', property='article:published_time')
+                if meta:
+                    date_str = meta.get('content', '').split('T')[0]
+            
+            # 提取标题
+            title_elem = soup.find('h1', class_='h2') or soup.find('h1', property='headline')
+            title = title_elem.get_text().strip() if title_elem else None
+            
+            # 提取内容
+            content_elem = soup.find('div', class_='blog-page__content')
+            content = content_elem.get_text().strip()[:1000] if content_elem else None
+            
+            return {
+                'title': title,
+                'date_str': date_str,
+                'date_parsed': self.parse_date(date_str) if date_str else None,
+                'content': content,
+                'url': url,
+                'source': 'Cato Institute'
+            }
+        except Exception as e:
+            print(f"❌ Cato爬取失败 {url}: {e}")
+            return None
+    
     def crawl_by_source(self, url, source_type, source_name):
         """根据来源类型选择爬虫"""
         crawlers = {
             'edweek': self.crawl_edweek,
+            'cato': self.crawl_cato,
             'wordpress': self.crawl_wordpress,
         }
         
