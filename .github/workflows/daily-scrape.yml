@@ -16,6 +16,17 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     
+    - name: Debug - Check secrets
+      run: |
+        echo "Checking if TAVILY_API_KEY is set..."
+        if [ -z "${{ secrets.TAVILY_API_KEY }}" ]; then
+          echo "❌ TAVILY_API_KEY is NOT set!"
+        else
+          echo "✅ TAVILY_API_KEY is set (length: ${#TAVILY_API_KEY})"
+        fi
+      env:
+        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+    
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -26,24 +37,57 @@ jobs:
         python -m pip install --upgrade pip
         pip install beautifulsoup4 requests lxml pandas openpyxl tavily playwright
         playwright install chromium
+        echo "✅ Dependencies installed"
+    
+    - name: Check directory structure
+      run: |
+        pwd
+        ls -la
+        ls -la edu-news-hub/ || echo "No edu-news-hub directory"
     
     - name: Run advanced crawler
       env:
         TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       run: |
-        cd edu-news-hub
-        python3 scripts/advanced_crawler.py || echo "Advanced crawler failed, trying fallback..."
-        python3 scripts/dual_source_fetcher.py || echo "Fallback also failed"
+        if [ -d "edu-news-hub" ]; then
+          cd edu-news-hub
+          echo "Running advanced crawler..."
+          python3 scripts/advanced_crawler.py 2>&1 || echo "Advanced crawler failed with exit code $?"
+        else
+          echo "Running from root..."
+          python3 scripts/advanced_crawler.py 2>&1 || echo "Advanced crawler failed with exit code $?"
+        fi
+    
+    - name: Run fallback crawler
+      if: always()
+      env:
+        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+      run: |
+        if [ -d "edu-news-hub" ]; then
+          cd edu-news-hub
+          echo "Running fallback crawler..."
+          python3 scripts/dual_source_fetcher.py 2>&1 || echo "Fallback also failed with exit code $?"
+        else
+          python3 scripts/dual_source_fetcher.py 2>&1 || echo "Fallback also failed with exit code $?"
+        fi
     
     - name: Update index
+      if: always()
       run: |
-        cd edu-news-hub
+        WORKDIR="."
+        if [ -d "edu-news-hub" ]; then
+          WORKDIR="edu-news-hub"
+        fi
+        cd $WORKDIR
         python3 -c "
 import json
 import datetime
 date_str = datetime.datetime.now().strftime('%Y-%m-%d')
-with open('data/index.json', 'r') as f:
-    idx = json.load(f)
+try:
+    with open('data/index.json', 'r') as f:
+        idx = json.load(f)
+except:
+    idx = {'dates': [], 'total_days': 0}
 if date_str not in idx['dates']:
     idx['dates'].insert(0, date_str)
     idx['total_days'] = len(idx['dates'])
@@ -54,18 +98,25 @@ print(f'Updated index with {date_str}')
 "
     
     - name: Commit and push changes
+      if: always()
       run: |
-        cd edu-news-hub
+        WORKDIR="."
+        if [ -d "edu-news-hub" ]; then
+          WORKDIR="edu-news-hub"
+        fi
+        cd $WORKDIR
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add data/ history/ sources/
+        git add -A
         git diff --staged --quiet || (git commit -m "📰 Daily news update $(date +%Y-%m-%d-%H:%M)" && git push)
     
     - name: Upload artifacts
-      if: failure()
+      if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: scrape-logs
+        name: scrape-logs-${{ github.run_number }}
         path: |
+          *.log
+          data/*.json
           edu-news-hub/*.log
           edu-news-hub/data/*.json
