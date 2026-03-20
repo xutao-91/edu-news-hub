@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>数据验证测试</title>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+    <h1>🧪 GitHub Pages 数据验证</h1>
+    <div id="status">检查中...</div>
+    
+    <script>
+        const status = document.getElementById('status');
+        let html = '';
+        
+        // 测试 1: index.json
+        fetch('./data/index.json?t=' + Date.now())
+            .then(r => {
+                html += '<p>1️⃣ index.json HTTP状态: ' + r.status + '</p>';
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(data => {
+                html += '<p>✅ index.json 解析成功</p>';
+                html += '<p>📅 日期: ' + data.dates.join(', ') + '</p>';
+                html += '<p>📊 总计: ' + data.total_days + ' 天</p>';
+                
+                // 测试 2: 第一个日期文件
+                const firstDate = data.dates[0];
+                return fetch('./data/' + firstDate + '.json?t=' + Date.now());
+            })
+            .then(r => {
+                html += '<hr><p>2️⃣ 第一个日期文件 HTTP状态: ' + r.status + '</p>';
+                if (!r.ok) throw new Error('日期文件 404');
+                return r.json();
+            })
+            .then(data => {
+                html += '<p>✅ 日期文件解析成功</p>';
+                html += '<p>📰 新闻数量: ' + data.total_news + '</p>';
+                html += '<p>🔖 标题: ' + (data.news[0]?.title?.substring(0, 50) + '...' || 'N/A') + '</p>';
+            })
+            .catch(e => {
+                html += '<p style="color: red;">❌ 错误: ' + e.message + '</p>';
+            })
+            .finally(() => {
+                status.innerHTML = html;
+            });
+    </script>
+</body>
+</html>
