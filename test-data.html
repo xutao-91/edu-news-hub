@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>数据文件测试</title>
+</head>
+<body>
+    <h1>教育新闻数据文件测试</h1>
+    <p>如果此页面显示，说明GitHub Pages工作正常。</p>
+    <script>
+        fetch('./data/index.json')
+            .then(r => r.json())
+            .then(data => {
+                document.body.innerHTML += '<p>✅ index.json 加载成功!</p>';
+                document.body.innerHTML += '<p>日期: ' + data.dates.join(', ') + '</p>';
+            })
+            .catch(e => {
+                document.body.innerHTML += '<p>❌ 错误: ' + e.message + '</p>';
+            });
+        
+        fetch('./data/2026-03-20.json')
+            .then(r => r.ok ? r.json() : Promise.reject('404'))
+            .then(data => {
+                document.body.innerHTML += '<p>✅ 2026-03-20.json 加载成功!</p>';
+                document.body.innerHTML += '<p>新闻数量: ' + data.total_news + '</p>';
+            })
+            .catch(e => {
+                document.body.innerHTML += '<p>❌ 2026-03-20.json 错误: ' + e + '</p>';
+            });
+    </script>
+</body>
+</html>
