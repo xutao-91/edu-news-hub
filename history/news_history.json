@@ -2,9 +2,201 @@
   "schema_version": "1.0",
   "description": "本地历史新闻库 - 用于去重和追踪",
   "created_at": "2026-03-19",
-  "total_entries": 0,
-  "entries": [],
-  "url_index": {},
+  "total_entries": 26,
+  "entries": [
+    {
+      "category": "ai",
+      "title": "Press Releases",
+      "source": "Will-Law",
+      "original_date": "March 19, 2026",
+      "summary": "Press Releases       3        WILL Exposes Race-Based Highway Construction Schemes in Four StatesMarch 19, 2026Voters Given Opportunity to Reject Costly 400-Year VetoMarch 17, 2026Racial Achievement Gaps in Wisconsin Explained by Poverty and Family Structure, New Report ShowsMarch 10, 2026WILL Praises Department of Education for Title IX Investigation into New Richmond Schools, Encourages Further...",
+      "url": "https://will-law.org/press-release/",
+      "fetched_from": "local_source",
+      "fetched_at": "2026-03-19T23:14:11.054327"
+    },
+    {
+      "category": "higher",
+      "title": "News",
+      "source": "Americanexperiment",
+      "original_date": "March 19, 2026 by Catrin Wigfall",
+      "summary": "All Issues Culture Economy Education Energy & Environment Governance Health Care Public Safety Spending & Taxes Transportation Unions   News          Education Homeschool enrollment reaches all-time high \r \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMarch 19, 2026 by Catrin Wigfall\t\t\t\t\t\t\t\t\t\t\t\t\t   \r \t\t\t\t\t\t\tHome education enrollment in Minnesota hit a record-high for the 2025-26 school year, surpassing even the spike during...",
+      "url": "https://www.americanexperiment.org/news/?issue=education",
+      "fetched_from": "local_source",
+      "fetched_at": "2026-03-19T23:14:27.589743"
+    },
+    {
+      "url": "https://www.edweek.org/policy-politics/the-education-department-will-send-more-of-its-programs-to-other-agencies/2026/02",
+      "title": "美国教育部持续推进机构重组：多项核心职能移交其他联邦部门",
+      "date": "February 23, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.nassp.org/2026/02/13/congress-funds-federal-k-12-programs-for-fy2026/",
+      "title": "美国国会通过2026财年K-12教育拨款法案：维持既有资金水平",
+      "date": "February 13, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://news.bloomberglaw.com/us-law-week/states-get-court-extension-to-complete-college-admissions-survey",
+      "title": "联邦法院批准延长高校招生数据调查期限",
+      "date": "March 16, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.forbes.com/sites/adamminsky/2026/03/16/ominous-student-loan-backlogs-persist-as-7-million-borrowers-are-soon-forced-to-change-plans/",
+      "title": "联邦学生贷款申请积压问题持续",
+      "date": "March 16, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.cato.org/blog/end-fed-ed-watch-march-2026",
+      "title": "特朗普政府教育部改革持续推进：大规模裁员与职能转移并行",
+      "date": "March 12, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.future-ed.org/legislative-tracker-2026-state-ai-in-education-bills/",
+      "title": "俄克拉荷马州立法要求学区制定AI使用政策：2027学年前完成",
+      "date": "March 5, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.nasbe.org/states-take-next-steps-on-governing-ai-use-in-schools/",
+      "title": "2026年AI教育政策走向：各州加速制定全州性框架",
+      "date": "March 3, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.strategicadvancement.com/blog/ai-policy-in-schools-2026",
+      "title": "俄亥俄州要求所有学区2026年7月前制定AI使用政策",
+      "date": "February 23, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://csgmidwest.org/2026/03/12/declining-student-enrollment-both-recent-and-projected-are-among-factors-that-have-states-exploring-measures-to-consolidate-school-districts/",
+      "title": "美国高校招生下滑引发预算危机：多所大学启动紧缩措施",
+      "date": "March 12, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.hlcommission.org/learning-center/news/triad-news-march-2026/",
+      "title": "联邦教育部推进认证体系改革",
+      "date": "March 10, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.chronicle.com/article/georgetown-phd-admissions-cuts",
+      "title": "乔治城大学削减博士招生：文理学院项目受影响",
+      "date": "March 8, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.chronicle.com/newsletter/academe-today/2026-03-18",
+      "title": "高校双录取项目竞争加剧：四年制大学加速布局",
+      "date": "March 6, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/01/higher-educations-uncertain-fiscal-future",
+      "title": "多州州立大学系统面临预算削减危机",
+      "date": "March 1, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://educate.iowa.gov/press-release/2026-03-05/nearly-99-all-iowa-full-time-teaching-positions-filled",
+      "title": "爱荷华州教师岗位填补率达99%：成为全美教师短缺率最低州之一",
+      "date": "March 5, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://epicedpolicy.org/michigan-teacher-shortage-study-2026-report/",
+      "title": "密歇根教师短缺报告：空缺率持续高位引发关注",
+      "date": "February 28, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://bridgemi.com/talent-education/five-universities-collaborate-to-address-michigan-teacher-shortage/",
+      "title": "密歇根五所公立大学联合应对教师短缺",
+      "date": "February 22, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://sahanjournal.com/education/minneapolis-public-schools-strike-vote-2026/",
+      "title": "明尼阿波利斯教师授权罢工：薪酬谈判陷入僵局",
+      "date": "March 4, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-march-2026.html",
+      "title": "美国F-1学生签证政策收紧：面试豁免范围大幅缩减",
+      "date": "March 8, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.internationalstudent.com/immigration/f1-student-visa/f1-visa-landscape-2026/",
+      "title": "特朗普政府2026年学生签证新规：F-1签证审查趋严",
+      "date": "March 3, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://retrogradenews.com/2026/02/19/falling-international-enrollment-behind-recent-budget-cuts/",
+      "title": "美国高校国际学生入学下降引发预算压力",
+      "date": "February 19, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.illinois.gov/government/executive-orders/executive-order.executive-order-2026-03.2026.html",
+      "title": "伊利诺伊州：高等教育可缩小就业机会差距",
+      "date": "March 13, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://education.msu.edu/news/2026/01/msu-joins-epp-collaborative",
+      "title": "密歇根州立大学加入2026年教育准备提供者合作项目",
+      "date": "January 15, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.govtech.com/education/higher-ed/doane-university-to-train-teachers-in-artificial-intelligence",
+      "title": "内布拉斯加州立大学获联邦资助开展AI教师培训",
+      "date": "March 13, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    },
+    {
+      "url": "https://www.goldenapple.org/awards/2026-finalists",
+      "title": "2026年Golden Apple奖提名公布：表彰伊利诺伊州优秀教师",
+      "date": "March 1, 2026",
+      "added_at": "2026-03-19T23:15:00"
+    }
+  ],
+  "url_index": {
+    "https://will-law.org/press-release/": 0,
+    "https://www.americanexperiment.org/news/?issue=education": 1,
+    "https://www.edweek.org/policy-politics/the-education-department-will-send-more-of-its-programs-to-other-agencies/2026/02": 2,
+    "https://www.nassp.org/2026/02/13/congress-funds-federal-k-12-programs-for-fy2026/": 3,
+    "https://news.bloomberglaw.com/us-law-week/states-get-court-extension-to-complete-college-admissions-survey": 4,
+    "https://www.forbes.com/sites/adamminsky/2026/03/16/ominous-student-loan-backlogs-persist-as-7-million-borrowers-are-soon-forced-to-change-plans/": 5,
+    "https://www.cato.org/blog/end-fed-ed-watch-march-2026": 6,
+    "https://www.future-ed.org/legislative-tracker-2026-state-ai-in-education-bills/": 7,
+    "https://www.nasbe.org/states-take-next-steps-on-governing-ai-use-in-schools/": 8,
+    "https://www.strategicadvancement.com/blog/ai-policy-in-schools-2026": 9,
+    "https://csgmidwest.org/2026/03/12/declining-student-enrollment-both-recent-and-projected-are-among-factors-that-have-states-exploring-measures-to-consolidate-school-districts/": 10,
+    "https://www.hlcommission.org/learning-center/news/triad-news-march-2026/": 11,
+    "https://www.chronicle.com/article/georgetown-phd-admissions-cuts": 12,
+    "https://www.chronicle.com/newsletter/academe-today/2026-03-18": 13,
+    "https://www.pew.org/en/research-and-analysis/articles/2026/03/01/higher-educations-uncertain-fiscal-future": 14,
+    "https://educate.iowa.gov/press-release/2026-03-05/nearly-99-all-iowa-full-time-teaching-positions-filled": 15,
+    "https://epicedpolicy.org/michigan-teacher-shortage-study-2026-report/": 16,
+    "https://bridgemi.com/talent-education/five-universities-collaborate-to-address-michigan-teacher-shortage/": 17,
+    "https://sahanjournal.com/education/minneapolis-public-schools-strike-vote-2026/": 18,
+    "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-march-2026.html": 19,
+    "https://www.internationalstudent.com/immigration/f1-student-visa/f1-visa-landscape-2026/": 20,
+    "https://retrogradenews.com/2026/02/19/falling-international-enrollment-behind-recent-budget-cuts/": 21,
+    "https://www.illinois.gov/government/executive-orders/executive-order.executive-order-2026-03.2026.html": 22,
+    "https://education.msu.edu/news/2026/01/msu-joins-epp-collaborative": 23,
+    "https://www.govtech.com/education/higher-ed/doane-university-to-train-teachers-in-artificial-intelligence": 24,
+    "https://www.goldenapple.org/awards/2026-finalists": 25
+  },
   "date_range": {
     "earliest": null,
     "latest": null

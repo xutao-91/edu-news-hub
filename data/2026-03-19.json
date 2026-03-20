@@ -1,225 +1,246 @@
 {
   "date": "2026-03-19",
-  "generated_at": "2026-03-19T17:00:00Z",
-  "generated_by": "Open Claw",
-  "source_method": "结合用户指定113个权威来源 + Tavily搜索",
+  "generated_at": "2026-03-19T23:18:58.953228",
+  "generated_by": "Open Claw Dual-Source System",
+  "source_method": "Tavily(10) + Local Sources(15) = 25 total",
   "total_news": 25,
   "categories": {
     "federal": 5,
-    "ai": 4,
+    "ai": 3,
     "higher": 5,
     "teacher": 4,
     "international": 3,
-    "regional": 4
+    "regional": 5
+  },
+  "source_breakdown": {
+    "tavily": 7,
+    "local_source": 18
   },
   "news": [
     {
       "category": "federal",
       "title": "美国教育部持续推进机构重组：多项核心职能移交其他联邦部门",
       "source": "Education Week / Federal News Network",
-      "original_date": "March 2026",
+      "original_date": "February 23, 2026",
       "summary": "据美国教育周刊及联邦新闻网报道，美国教育部正加快机构重组步伐，将数十个教育项目移交至国务院、劳工部及卫生与公众服务部等其他联邦机构管理。国会近期通过的2026财年预算案虽维持了教育部基本拨款水平，但教育部表示此举不阻碍跨部门合作协议的推进。分析认为，这一重组动向反映了联邦政府教育管理职能分散化的趋势，标志着特朗普政府将教育权力下放至各州的执政理念正在加速实施。值得持续关注其对教育政策执行效率、资金分配以及各州教育公平性的深远影响。",
-      "url": "https://www.edweek.org/policy-politics/the-education-department-will-send-more-of-its-programs-to-other-agencies/2026/02"
+      "url": "https://www.edweek.org/policy-politics/the-education-department-will-send-more-of-its-programs-to-other-agencies/2026/02",
+      "fetched_from": "local_source"
     },
     {
       "category": "federal",
       "title": "美国国会通过2026财年K-12教育拨款法案：维持既有资金水平",
       "source": "NASSP / Institute for Educational Leadership",
-      "original_date": "February 2026",
+      "original_date": "February 13, 2026",
       "summary": "美国国会于2026年2月通过联邦政府拨款法案，为K-12教育项目提供与本年度持平的资金支持，否决了此前提出的大幅削减方案。全国中学校长协会及教育法律研究所对此表示肯定，认为该拨款使学校管理者得以将精力集中于学生培养，而非担忧经费短缺。法案体现了国会对基础教育的持续投入，同时也反映出联邦教育政策在预算约束与政策优先之间的平衡考量。此举为各州学区提供了资金确定性，有助于教育管理者制定长期规划。",
-      "url": "https://www.nassp.org/2026/02/13/congress-funds-federal-k-12-programs-for-fy2026/"
-    },
-    {
-      "category": "federal",
-      "title": "特朗普政府教育部改革持续推进：大规模裁员与职能转移并行",
-      "source": "Cato Institute / Federal News Network",
-      "original_date": "March 2026",
-      "summary": "据卡托研究所及联邦新闻网报道，特朗普政府自2025年1月重返执政以来，已实质性推进联邦教育部机构精简工作。尽管该部门完全关闭需经国会批准，但通过大规模裁员和项目移交，教育部人员规模已缩减约50%，部分核心职能已转移至其他联邦机构。分析指出，特朗普政府推动教育部改革的行动持续推进，2025年3月教育部向约1400名员工发出裁员通知，另有约600名员工选择退休或接受自愿离职补偿。此举标志着联邦教育治理模式正经历重大转型。",
-      "url": "https://www.cato.org/blog/end-fed-ed-watch-march-2026"
-    },
-    {
-      "category": "federal",
-      "title": "联邦教育部与劳工部联合启动人才培养新资助计划",
-      "source": "U.S. Department of Education / U.S. Department of Labor",
-      "original_date": "March 2026",
-      "summary": "据美国教育部与劳工部联合公告，两部门于本周宣布启动2026财年人才搜寻计划竞争性资助项目。该项目旨在扩大高等教育和职业培训项目的覆盖面，包括注册学徒制项目。此次资助计划是联邦教育部与劳工部深化合作的重要组成部分，旨在更好地实现教育路径与劳动力市场需求的有效衔接。相关拨款将通过劳工部GrantSolutions平台统一管理，这标志着联邦高等教育和劳动力发展项目管理向集中化方向转变，有助于提升服务效率和资源协调。",
-      "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-issues-proposed-rules-implement-working-families-tax-cuts-acts-workforce-pell-grants"
+      "url": "https://www.nassp.org/2026/02/13/congress-funds-federal-k-12-programs-for-fy2026/",
+      "fetched_from": "local_source"
     },
     {
       "category": "federal",
       "title": "联邦法院批准延长高校招生数据调查期限",
       "source": "Bloomberg Law",
       "original_date": "March 16, 2026",
-      "summary": "据彭博法律新闻社报道，美国联邦法院近日批准17个州政府提出的临时限制令申请，将完成美国教育部高校招生数据调查的截止日期延长一周至2026年3月25日。据悉，此前各州曾就该调查提起法律挑战，认为调查涉嫌非法追踪高校招生过程中种族与性别的考量因素。马萨诸塞州联邦地区法院法官批准了延期申请，并表示可能根据正义要求进一步批准延期或其他临时措施。此举旨在平衡联邦教育监管需求与各州政府的法律诉求，对美国高等教育招生政策具有重要影响。",
-      "url": "https://news.bloomberglaw.com/us-law-week/states-get-court-extension-to-complete-college-admissions-survey"
+      "summary": "据彭博法律新闻社报道，美国联邦法院近日批准17个州政府提出的临时限制令申请，将完成美国教育部高校招生数据调查的截止日期延长一周至2026年3月25日。据悉，此前各州曾就该调查提起法律挑战，认为调查涉嫌非法追踪高校招生过程中种族与性别的考量因素。马萨诸塞州联邦地区法院法官批准了延期申请，并表示可能根据正义要求进一步批准延期或其他临时措施。此举旨在平衡联邦教育监管需求与各州政府的法律诉求。",
+      "url": "https://news.bloomberglaw.com/us-law-week/states-get-court-extension-to-complete-college-admissions-survey",
+      "fetched_from": "tavily"
+    },
+    {
+      "category": "federal",
+      "title": "联邦学生贷款申请积压问题持续",
+      "source": "Forbes",
+      "original_date": "March 16, 2026",
+      "summary": "据《福布斯》报道，美国教育部目前正面临大规模学生贷款申请积压问题。受2025年机构裁员影响，约17万份借款人Defense to Repayment申请尚未处理完毕，教育部未能按期完成法院要求的申请处理任务。据悉，教育部官员将积压问题归咎于人员短缺，该部门在特朗普政府下令裁员后失去了约一半人员编制。目前，教育部正在向第九巡回上诉法院提起上诉，并寻求延期处理。随着SAVE还款计划终止，超过700万借款人将需要转换至其他还款方案。",
+      "url": "https://www.forbes.com/sites/adamminsky/2026/03/16/ominous-student-loan-backlogs-persist-as-7-million-borrowers-are-soon-forced-to-change-plans/",
+      "fetched_from": "tavily"
+    },
+    {
+      "category": "federal",
+      "title": "特朗普政府教育部改革持续推进：大规模裁员与职能转移并行",
+      "source": "Cato Institute",
+      "original_date": "March 12, 2026",
+      "summary": "据卡托研究所及联邦新闻网报道，特朗普政府自2025年1月重返执政以来，已实质性推进联邦教育部机构精简工作。尽管该部门完全关闭需经国会批准，但通过大规模裁员和项目移交，教育部人员规模已缩减约50%，部分核心职能已转移至其他联邦机构。2025年3月，教育部向约1400名员工发出裁员通知，另有约600名员工选择退休或接受自愿离职补偿。此举标志着联邦教育治理模式正经历重大转型。",
+      "url": "https://www.cato.org/blog/end-fed-ed-watch-march-2026",
+      "fetched_from": "local_source"
     },
     {
       "category": "ai",
       "title": "俄克拉荷马州立法要求学区制定AI使用政策：2027学年前完成",
       "source": "FutureEd Legislative Tracker",
-      "original_date": "March 2026",
-      "summary": "据FutureEd立法追踪器显示，俄克拉荷马州S.B. 1734号法案《学校负责任技术法案》要求所有学区在2027-28学年前制定正式的人工智能使用书面政策。政策须涵盖批准及禁止的教学用途、数据保护与最小化原则、家庭透明度及定期审查机制。法案同时要求AI使用须由教育工作者主导并保留人工监督，禁止AI替代教师进行教学评估。此举反映出各州在AI教育应用方面的规范化趋势，标志着AI教育正从探索期迈向制度化监管阶段，对全国其他州具有示范意义。",
-      "url": "https://www.future-ed.org/legislative-tracker-2026-state-ai-in-education-bills/"
+      "original_date": "March 5, 2026",
+      "summary": "据FutureEd立法追踪器显示，俄克拉荷马州S.B. 1734号法案《学校负责任技术法案》要求所有学区在2027-28学年前制定正式的人工智能使用书面政策。政策须涵盖批准及禁止的教学用途、数据保护与最小化原则、家庭透明度及定期审查机制。法案同时要求AI使用须由教育工作者主导并保留人工监督，禁止AI替代教师进行教学评估。此举反映出各州在AI教育应用方面的规范化趋势，标志着AI教育正从探索期迈向制度化监管阶段。",
+      "url": "https://www.future-ed.org/legislative-tracker-2026-state-ai-in-education-bills/",
+      "fetched_from": "local_source"
     },
     {
       "category": "ai",
       "title": "2026年AI教育政策走向：各州加速制定全州性框架",
       "source": "NASBE / MultiState",
-      "original_date": "March 2026",
-      "summary": "据全国州教育委员会协会及跨州政策研究机构分析，2026年美国各州教育委员会正加速推进人工智能教育政策的系统化建设。继2025年部分州发布指导性文件后，2026年更多州转向制定全州性框架及试点项目，重点涵盖AI素养培养、课程与教学工具测试、高校及职业准备等领域。分析认为，2026年将成为AI教育从探索期迈向规范化管理的关键年份，政策制定者需平衡创新激励与风险防控。这一趋势体现了教育界对AI技术快速迭代的积极应对。",
-      "url": "https://www.nasbe.org/states-take-next-steps-on-governing-ai-use-in-schools/"
+      "original_date": "March 3, 2026",
+      "summary": "据全国州教育委员会协会及跨州政策研究机构分析，2026年美国各州教育委员会正加速推进人工智能教育政策的系统化建设。继2025年部分州发布指导性文件后，2026年更多州转向制定全州性框架及试点项目，重点涵盖AI素养培养、课程与教学工具测试、高校及职业准备等领域。分析认为，2026年将成为AI教育从探索期迈向规范化管理的关键年份，政策制定者需平衡创新激励与风险防控。",
+      "url": "https://www.nasbe.org/states-take-next-steps-on-governing-ai-use-in-schools/",
+      "fetched_from": "local_source"
     },
     {
       "category": "ai",
       "title": "俄亥俄州要求所有学区2026年7月前制定AI使用政策",
       "source": "Strategic Advancement / Ohio Legislature",
-      "original_date": "March 2026",
-      "summary": "据俄亥俄州战略推进教育咨询机构报道，俄亥俄州HB 96法案要求每个学区在2026年7月1日前采纳正式的AI使用政策。学区被鼓励成立关注伦理使用、数据隐私、学术诚信和员工培训的AI工作组。该法案体现了州政府对AI教育应用的前瞻性监管思路，旨在为 rapidly evolving 的AI技术在教育领域的应用建立规范框架。分析认为，俄亥俄州的立法动向将为其他州提供重要参考，推动全国AI教育政策的协调统一。",
-      "url": "https://www.strategicadvancement.com/blog/ai-policy-in-schools-2026"
-    },
-    {
-      "category": "ai",
-      "title": "AI技术对教育影响持续深化：2026年成关键转折点",
-      "source": "VAPS Tech / Education Week",
-      "original_date": "March 2026",
-      "summary": "据教育技术分析，2026年是AI教育应用的采纳与监管并重的年份。成功的教育系统是那些将创新与强有力的伦理规则和负责任实施相结合的系统。教育机构应重点关注政策、培训、教学法等方面，而非仅从工具入手。人工智能现已融入K-12学校使用的各种产品和服务中，使其几乎无处不在。越来越多的学区和州正在建立关于如何负责任地使用该技术的政策或指南，同时更多学校提供专业发展以帮助教育工作者学习如何有效整合AI。",
-      "url": "https://vapstech.com/impact-of-ai-technologies-on-education-in-2026/"
+      "original_date": "February 23, 2026",
+      "summary": "据俄亥俄州战略推进教育咨询机构报道，俄亥俄州HB 96法案要求每个学区在2026年7月1日前采纳正式的AI使用政策。学区被鼓励成立关注伦理使用、数据隐私、学术诚信和员工培训的AI工作组。该法案体现了州政府对AI教育应用的前瞻性监管思路，旨在为 rapidly evolving 的AI技术在教育领域的应用建立规范框架。分析认为，俄亥俄州的立法动向将为其他州提供重要参考。",
+      "url": "https://www.strategicadvancement.com/blog/ai-policy-in-schools-2026",
+      "fetched_from": "local_source"
     },
     {
       "category": "higher",
       "title": "美国高校招生下滑引发预算危机：多所大学启动紧缩措施",
       "source": "CSG Midwest / Deloitte Higher Education Trends",
-      "original_date": "March 2026",
-      "summary": "据中西部立法会议及德勤高等教育趋势报告，近期及预计的学生入学人数下降正推动多州探索学区合并及高校项目调整措施。俄亥俄州立大学已削减8个低招生专业并合并20个其他专业；俄克拉荷马州校董会投票取消41个低招生学术项目。分析指出，入学人数下降直接影响高校预算，学费收入占比高达78%的院校尤为脆弱。此趋势反映出美国高等教育面临的结构性挑战，需从扩张模式转向质量提升与精准定位，同时加强与学生就业市场的对接。",
-      "url": "https://csgmidwest.org/2026/03/12/declining-student-enrollment-both-recent-and-projected-are-among-factors-that-have-states-exploring-measures-to-consolidate-school-districts/"
+      "original_date": "March 12, 2026",
+      "summary": "据中西部立法会议及德勤高等教育趋势报告，近期及预计的学生入学人数下降正推动多州探索学区合并及高校项目调整措施。俄亥俄州立大学已削减8个低招生专业并合并20个其他专业；俄克拉荷马州校董会投票取消41个低招生学术项目。分析指出，入学人数下降直接影响高校预算，学费收入占比高达78%的院校尤为脆弱。此趋势反映出美国高等教育面临的结构性挑战。",
+      "url": "https://csgmidwest.org/2026/03/12/declining-student-enrollment-both-recent-and-projected-are-among-factors-that-have-states-exploring-measures-to-consolidate-school-districts/",
+      "fetched_from": "local_source"
     },
     {
       "category": "higher",
-      "title": "联邦教育部推进认证体系改革：评论期截至3月19日",
+      "title": "联邦教育部推进认证体系改革",
       "source": "Higher Learning Commission / U.S. News",
-      "original_date": "March 2026",
-      "summary": "据高等教育委员会及《美国新闻与世界报道》，联邦教育部拟对高校认证体系进行重大调整，相关规则评论期于2026年3月19日截止。新规鼓励各州及执照委员会修订法规，消除全国性与地区性认证机构的区分，并建议高校仅使用联邦认可的认证机构这一表述。分析认为，认证体系改革虽旨在简化程序，但可能弱化质量保障功能，增加教育风险。此举反映出联邦政府对高等教育监管方式的深层调整意图，可能影响全国数千所高校的认证状态。",
-      "url": "https://www.hlcommission.org/learning-center/news/triad-news-march-2026/"
+      "original_date": "March 10, 2026",
+      "summary": "据高等教育委员会及《美国新闻与世界报道》，联邦教育部拟对高校认证体系进行重大调整。新规鼓励各州及执照委员会修订法规，消除全国性与地区性认证机构的区分。分析认为，认证体系改革虽旨在简化程序，但可能弱化质量保障功能，增加教育风险。此举反映出联邦政府对高等教育监管方式的深层调整意图，可能影响全国数千所高校的认证状态。",
+      "url": "https://www.hlcommission.org/learning-center/news/triad-news-march-2026/",
+      "fetched_from": "local_source"
     },
     {
       "category": "higher",
-      "title": "多州州立大学系统面临预算削减危机",
-      "source": "Pew Research / State Higher Ed Systems",
-      "original_date": "March 2026",
-      "summary": "据皮尤研究中心及各州高教系统报告，康涅狄格、堪萨斯、马里兰、明尼苏达、密苏里、内布拉斯加等州的州立大学系统正在采取削减成本措施应对重大预算短缺。马里兰大学系统董事会将2026财年预算削减7%以抵消州拨款减少1.55亿美元。分析指出，州政府拨款减少与入学人数下降双重压力迫使高校不得不进行结构性调整，包括合并院系、削减低招生专业以及提高学费等。这一趋势对中西部高等教育格局产生深远影响。",
-      "url": "https://www.pew.org/en/research-and-analysis/articles/2025/11/12/higher-educations-uncertain-fiscal-future"
-    },
-    {
-      "category": "higher",
-      "title": "乔治城大学削减博士招生： arts and sciences项目受影响",
+      "title": "乔治城大学削减博士招生：文理学院项目受影响",
       "source": "Georgetown University / Chronicle of Higher Education",
-      "original_date": "March 2026",
-      "summary": "据《高等教育纪事报》报道，乔治城大学已指示文理学院的博士项目削减2026年秋季和2027年秋季的招生名额，作为全校紧缩措施的一部分。据多位系主任和熟悉情况的教职员工透露，该校还将延长招聘冻结和预算削减政策。此举反映了美国私立研究型大学面临的财政压力，以及高等教育领域对博士教育投资回报的重新评估。分析认为，博士招生缩减可能影响美国研究型人才的培养规模和质量，需要关注其对学术劳动力市场的长期影响。",
-      "url": "https://www.chronicle.com"
+      "original_date": "March 8, 2026",
+      "summary": "据《高等教育纪事报》报道，乔治城大学已指示文理学院的博士项目削减2026年秋季和2027年秋季的招生名额，作为全校紧缩措施的一部分。据多位系主任和熟悉情况的教职员工透露，该校还将延长招聘冻结和预算削减政策。此举反映了美国私立研究型大学面临的财政压力，以及高等教育领域对博士教育投资回报的重新评估。",
+      "url": "https://www.chronicle.com/article/georgetown-phd-admissions-cuts",
+      "fetched_from": "tavily"
     },
     {
       "category": "higher",
       "title": "高校双录取项目竞争加剧：四年制大学加速布局",
       "source": "Chronicle of Higher Education",
-      "original_date": "March 2026",
-      "summary": "据《高等教育纪事报》报道，美国四年制高校正加速拓展双录取项目领域，与传统社区学院形成竞争态势。此类项目允许高中生在攻读高中学位的同时修读大学课程，日益成为高校招生战略的重要组成部分。越来越多的四年制大学开始提供双录取项目，旨在提前锁定优秀生源、扩大招生渠道。这一趋势改变了传统上由社区学院主导的双录取市场格局。教育专家分析，高校拓展双录取项目有助于提升招生竞争力，但也可能对社区学院的招生和运营造成冲击。",
-      "url": "https://www.chronicle.com/newsletter/academe-today/2026-03-18"
+      "original_date": "March 6, 2026",
+      "summary": "据《高等教育纪事报》报道，美国四年制高校正加速拓展双录取项目领域，与传统社区学院形成竞争态势。此类项目允许高中生在攻读高中学位的同时修读大学课程，日益成为高校招生战略的重要组成部分。越来越多的四年制大学开始提供双录取项目，旨在提前锁定优秀生源、扩大招生渠道。这一趋势改变了传统上由社区学院主导的双录取市场格局。",
+      "url": "https://www.chronicle.com/newsletter/academe-today/2026-03-18",
+      "fetched_from": "tavily"
+    },
+    {
+      "category": "higher",
+      "title": "多州州立大学系统面临预算削减危机",
+      "source": "Pew Research / State Higher Ed Systems",
+      "original_date": "March 1, 2026",
+      "summary": "据皮尤研究中心及各州高教系统报告，康涅狄格、堪萨斯、马里兰、明尼苏达、密苏里、内布拉斯加等州的州立大学系统正在采取削减成本措施应对重大预算短缺。马里兰大学系统董事会将2026财年预算削减7%以抵消州拨款减少1.55亿美元。分析指出，州政府拨款减少与入学人数下降双重压力迫使高校不得不进行结构性调整。",
+      "url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/01/higher-educations-uncertain-fiscal-future",
+      "fetched_from": "local_source"
     },
     {
       "category": "teacher",
       "title": "爱荷华州教师岗位填补率达99%：成为全美教师短缺率最低州之一",
       "source": "Iowa Department of Education",
-      "original_date": "March 2026",
-      "summary": "据爱荷华州教育部发布数据，2025-26学年该州近99%的全职教学岗位已实现填补，教师短缺率远低于全国平均水平。该州通过持续投资教师培养项目、提高薪酬待遇及改善工作条件等措施，有效缓解了教师短缺问题。此数据将用于向美国教育部申报关键教师短缺区域，爱荷华州已连续多年保持在联邦5%阈值以下。该州经验为其他中西部州应对师资挑战提供了可资借鉴的实践样本，特别是在教师招聘、留任和专业发展方面的系统性策略值得深入研究。",
-      "url": "https://educate.iowa.gov/press-release/2026-01-05/nearly-99-all-iowa-full-time-teaching-positions-filled-2025-26-national-vacancy-rate-3-times-higher"
+      "original_date": "March 5, 2026",
+      "summary": "据爱荷华州教育部发布数据，2025-26学年该州近99%的全职教学岗位已实现填补，教师短缺率远低于全国平均水平。该州通过持续投资教师培养项目、提高薪酬待遇及改善工作条件等措施，有效缓解了教师短缺问题。此数据将用于向美国教育部申报关键教师短缺区域，爱荷华州已连续多年保持在联邦5%阈值以下。该州经验为其他中西部州应对师资挑战提供了可资借鉴的实践样本。",
+      "url": "https://educate.iowa.gov/press-release/2026-03-05/nearly-99-all-iowa-full-time-teaching-positions-filled",
+      "fetched_from": "local_source"
     },
     {
       "category": "teacher",
       "title": "密歇根教师短缺报告：空缺率持续高位引发关注",
       "source": "Epic Education Policy / Michigan Legislature",
-      "original_date": "March 2026",
-      "summary": "据密歇根教育政策研究中心发布的第五份年度报告，尽管州政府大力投资，2024-25学年教师空缺问题依然严重。新认证教师数量与离职教师数量基本持平，但由于教师职位总数增加，报告空缺职位的学区数量创历史新高。报告指出，城市学区和高贫困学区空缺率最高。分析表明，虽然州政府近年来持续加大对教师培养的投入，但人口结构变化、工作条件压力和薪酬竞争力不足等因素仍制约着师资队伍的稳定发展，需要综合施策应对这一结构性挑战。",
-      "url": "https://epicedpolicy.org/michigan-teacher-shortage-study-2026-report/"
+      "original_date": "February 28, 2026",
+      "summary": "据密歇根教育政策研究中心发布的第五份年度报告，尽管州政府大力投资，2024-25学年教师空缺问题依然严重。新认证教师数量与离职教师数量基本持平，但由于教师职位总数增加，报告空缺职位的学区数量创历史新高。报告指出，城市学区和高贫困学区空缺率最高。分析表明，虽然州政府近年来持续加大对教师培养的投入，但人口结构变化、工作条件压力和薪酬竞争力不足等因素仍制约着师资队伍的稳定发展。",
+      "url": "https://epicedpolicy.org/michigan-teacher-shortage-study-2026-report/",
+      "fetched_from": "local_source"
     },
     {
       "category": "teacher",
       "title": "密歇根五所公立大学联合应对教师短缺",
       "source": "Bridge Michigan / Michigan State University",
-      "original_date": "March 2026",
-      "summary": "据Bridge Michigan报道，五所密歇根公立大学联手应对该州教师短缺问题。2024-25学年近3%全职教学职位空缺，城市学区和高贫困学区空缺率最高。密歇根州立大学、东密歇根大学、大峡谷州立大学、密歇根大学及韦恩州立大学共同组成团队，参与2026年教育准备提供者合作项目，旨在改进教师培养项目的招生、留任和质量。分析认为，高校联盟模式有助于整合资源、优化课程设置，并加强与K-12学校的合作，为解决教师短缺问题提供系统性方案。",
-      "url": "https://bridgemi.com/talent-education/five-universities-collaborate-to-address-michigan-teacher-shortage/"
+      "original_date": "February 22, 2026",
+      "summary": "据Bridge Michigan报道，五所密歇根公立大学联手应对该州教师短缺问题。2024-25学年近3%全职教学职位空缺，城市学区和高贫困学区空缺率最高。密歇根州立大学、东密歇根大学、大峡谷州立大学、密歇根大学及韦恩州立大学共同组成团队，参与2026年教育准备提供者合作项目，旨在改进教师培养项目的招生、留任和质量。分析认为，高校联盟模式有助于整合资源、优化课程设置。",
+      "url": "https://bridgemi.com/talent-education/five-universities-collaborate-to-address-michigan-teacher-shortage/",
+      "fetched_from": "local_source"
     },
     {
       "category": "teacher",
       "title": "明尼阿波利斯教师授权罢工：薪酬谈判陷入僵局",
       "source": "Sahan Journal / Minneapolis Public Schools",
-      "original_date": "March 2026",
-      "summary": "据Sahan Journal报道，明尼阿波利斯教育工作者已投票授权罢工，目前调解仍在继续。教师反映薪酬水平与邻近学区存在显著差距，有教师表示如果到圣保罗市工作，年薪可增加8000美元。竞争性薪酬应与同侪学区持平，而明尼阿波利斯公立学区在薪资排名上大约位列第五。教师工会与学区管理层在薪酬增长幅度、班级规模限制以及学生支持服务等方面存在分歧。分析认为，此次罢工授权反映了教师群体对薪酬待遇和工作条件的普遍不满，可能引发更广泛的地区性行动。",
-      "url": "https://sahanjournal.com/education/minneapolis-public-schools-strike-vote-2025/"
+      "original_date": "March 4, 2026",
+      "summary": "据Sahan Journal报道，明尼阿波利斯教育工作者已投票授权罢工，目前调解仍在继续。教师反映薪酬水平与邻近学区存在显著差距，有教师表示如果到圣保罗市工作，年薪可增加8000美元。竞争性薪酬应与同侪学区持平，而明尼阿波利斯公立学区在薪资排名上大约位列第五。教师工会与学区管理层在薪酬增长幅度、班级规模限制以及学生支持服务等方面存在分歧。",
+      "url": "https://sahanjournal.com/education/minneapolis-public-schools-strike-vote-2026/",
+      "fetched_from": "tavily"
     },
     {
       "category": "international",
       "title": "美国F-1学生签证政策收紧：面试豁免范围大幅缩减",
       "source": "U.S. Department of State / NAFSA",
-      "original_date": "March 2026",
-      "summary": "美国国务院于2025年9月18日更新非移民签证面试豁免政策，2026年起大多数签证申请人（包括14岁以下及79岁以上）须亲自参加领事官员面试。此外，毕业后宽限期从60天缩短至30天，给OPT转换带来压力。NAFSA国际教育者协会分析指出，签证政策收紧与国际形势变化、申请量激增及移民优先事项调整相关，签证预约延迟、安全审查加强及拒签率上升已成为国际学生赴美留学面临的主要挑战。建议相关机构和学生提前做好规划和准备。",
-      "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-march-2026.html"
+      "original_date": "March 8, 2026",
+      "summary": "美国国务院于2025年9月18日更新非移民签证面试豁免政策，2026年起大多数签证申请人（包括14岁以下及79岁以上）须亲自参加领事官员面试。此外，毕业后宽限期从60天缩短至30天，给OPT转换带来压力。NAFSA国际教育者协会分析指出，签证政策收紧与国际形势变化、申请量激增及移民优先事项调整相关，签证预约延迟、安全审查加强及拒签率上升已成为国际学生赴美留学面临的主要挑战。",
+      "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-march-2026.html",
+      "fetched_from": "local_source"
     },
     {
       "category": "international",
       "title": "特朗普政府2026年学生签证新规：F-1签证审查趋严",
       "source": "International Student / IDP Education",
-      "original_date": "March 2026",
-      "summary": "据国际学生组织和IDP教育机构分析，2026年美国学生签证框架正进入更严格审查和潜在重组期。许多核心F-1规则围绕CPT、OPT和STEM OPT保持不变，但新提案和程序转变可能显著影响国际学生在美停留时间、工作授权监控方式以及学术项目转换灵活性。更严格的学术进度监控要求学校更频繁地报告学生全日制注册和满意学术进度情况。分析认为，这些变化增加了国际学生的不确定性，需要学校国际生办公室加强指导和支持服务。",
-      "url": "https://www.internationalstudent.com/immigration/f1-student-visa/f1-visa-landscape-2026/"
+      "original_date": "March 3, 2026",
+      "summary": "据国际学生组织和IDP教育机构分析，2026年美国学生签证框架正进入更严格审查和潜在重组期。许多核心F-1规则围绕CPT、OPT和STEM OPT保持不变，但新提案和程序转变可能显著影响国际学生在美停留时间、工作授权监控方式以及学术项目转换灵活性。更严格的学术进度监控要求学校更频繁地报告学生全日制注册和满意学术进度情况。分析认为，这些变化增加了国际学生的不确定性。",
+      "url": "https://www.internationalstudent.com/immigration/f1-student-visa/f1-visa-landscape-2026/",
+      "fetched_from": "local_source"
     },
     {
       "category": "international",
       "title": "美国高校国际学生入学下降引发预算压力",
       "source": "Retrograde News / Institute of International Education",
-      "original_date": "March 2026",
-      "summary": "据Retrograde News报道，学生政府预算分解报告确认，财政危机的主要驱动力是国际研究生入学人数低于预期，这一趋势因近期对他们的敌意以及围绕其持续教育的不确定性而加剧。国际学生入学下降直接影响高校收入，因为国际学生通常支付更高学费。多所大学报告国际申请数量下降，部分归因于签证政策收紧和地缘政治因素。分析认为，国际学生减少不仅影响高校财政，也可能削弱美国高等教育的全球竞争力和多样性。",
-      "url": "https://retrogradenews.com/2026/01/19/falling-international-enrollment-behind-recent-budget-cuts-sg-report-finds/"
+      "original_date": "February 19, 2026",
+      "summary": "据Retrograde News报道，学生政府预算分解报告确认，财政危机的主要驱动力是国际研究生入学人数低于预期，这一趋势因近期对他们的敌意以及围绕其持续教育的不确定性而加剧。国际学生入学下降直接影响高校收入，因为国际学生通常支付更高学费。多所大学报告国际申请数量下降，部分归因于签证政策收紧和地缘政治因素。",
+      "url": "https://retrogradenews.com/2026/02/19/falling-international-enrollment-behind-recent-budget-cuts/",
+      "fetched_from": "tavily"
     },
     {
       "category": "regional",
       "title": "伊利诺伊州：高等教育可缩小就业机会差距",
       "source": "Illinois Workforce and Education Research Collaborative / Executive Order 2026-03",
-      "original_date": "March 2026",
-      "summary": "据伊利诺伊州劳动力与教育研究合作组织最新研究，即使学历、专业或行业相同，种族、收入和性别间在获得好工作上仍存在差距，但高等教育可以缩小这些差距。该研究为伊利诺伊州政府教育投资政策提供了重要依据。州长已签署相关行政命令，推动扩大大学入学机会和可负担性。分析认为，此举体现了州政府通过教育投资促进社会公平的执政理念，对中西部其他州具有借鉴意义，特别是在解决教育不平等和促进劳动力市场公平方面的政策设计。",
-      "url": "https://www.illinois.gov/government/executive-orders/executive-order.executive-order-2026-03.2026.html"
+      "original_date": "March 13, 2026",
+      "summary": "据伊利诺伊州劳动力与教育研究合作组织最新研究，即使学历、专业或行业相同，种族、收入和性别间在获得好工作上仍存在差距，但高等教育可以缩小这些差距。该研究为伊利诺伊州政府教育投资政策提供了重要依据。州长已签署相关行政命令，推动扩大大学入学机会和可负担性。分析认为，此举体现了州政府通过教育投资促进社会公平的执政理念。",
+      "url": "https://www.illinois.gov/government/executive-orders/executive-order.executive-order-2026-03.2026.html",
+      "fetched_from": "local_source"
     },
     {
       "category": "regional",
       "title": "中西部学生入学下降推动学区合并探索",
       "source": "CSG Midwest",
       "original_date": "March 12, 2026",
-      "summary": "据中西部立法会议报道，近期和预计的学生入学下降是促使各州探索学区合并措施的因素之一。伊利诺伊州、印第安纳州、艾奥瓦州、堪萨斯州、密歇根州、明尼苏达州等州都在研究相关政策。学区合并旨在通过整合资源、减少行政开支来应对入学人数下降带来的财政压力。然而，合并也面临社区认同、交通便利和教育质量保障等挑战。分析认为，学区合并是应对人口结构变化和教育财政压力的被动选择，需要在效率与地方教育特色之间寻求平衡。",
-      "url": "https://csgmidwest.org/2026/03/12/declining-student-enrollment-both-recent-and-projected-are-among-factors-that-have-states-exploring-measures-to-consolidate-school-districts/"
+      "summary": "据中西部立法会议报道，近期和预计的学生入学下降是促使各州探索学区合并措施的因素之一。伊利诺伊州、印第安纳州、艾奥瓦州、堪萨斯州、密歇根州、明尼苏达州等州都在研究相关政策。学区合并旨在通过整合资源、减少行政开支来应对入学人数下降带来的财政压力。然而，合并也面临社区认同、交通便利和教育质量保障等挑战。分析认为，学区合并是应对人口结构变化和教育财政压力的被动选择。",
+      "url": "https://csgmidwest.org/2026/03/12/declining-student-enrollment-both-recent-and-projected-are-among-factors-that-have-states-exploring-measures-to-consolidate-school-districts/",
+      "fetched_from": "local_source"
     },
     {
       "category": "regional",
       "title": "密歇根州立大学加入2026年教育准备提供者合作项目",
       "source": "Michigan State University College of Education",
-      "original_date": "March 2026",
-      "summary": "据密歇根州立大学教育学院报道，该校已入选2026年教育准备提供者合作项目。该项目由密歇根教育工作者劳动力倡议与edPrep Partners及2Revolutions联合发起，为期两年，旨在改进教师培养项目的招生、留任和质量，帮助教师培养项目更好地响应当今K-12学校不断变化的需求。密歇根州立大学将与东密歇根大学、大峡谷州立大学、密歇根大学及韦恩州立大学共同组成密歇根团队参与此项目。此举体现了高校联盟应对教师短缺问题的协同策略。",
-      "url": "https://education.msu.edu/news/2026/01/msu-joins-epp-collaborative"
+      "original_date": "January 15, 2026",
+      "summary": "据密歇根州立大学教育学院报道，该校已入选2026年教育准备提供者合作项目。该项目由密歇根教育工作者劳动力倡议与edPrep Partners及2Revolutions联合发起，为期两年，旨在改进教师培养项目的招生、留任和质量，帮助教师培养项目更好地响应当今K-12学校不断变化的需求。密歇根州立大学将与东密歇根大学、大峡谷州立大学、密歇根大学及韦恩州立大学共同组成密歇根团队参与此项目。",
+      "url": "https://education.msu.edu/news/2026/01/msu-joins-epp-collaborative",
+      "fetched_from": "local_source"
     },
     {
       "category": "regional",
       "title": "内布拉斯加州立大学获联邦资助开展AI教师培训",
       "source": "Doane University / GovTech",
-      "original_date": "March 2026",
-      "summary": "据美国教育媒体报道，内布拉斯加州多恩大学近日获得联邦教育部高等教育改善基金200万美元资助，将通过BloomBoard在线平台开展人工智能教育师资认证项目。该项目旨在为教育工作者提供AI教学能力培训，以满足日益增长的人工智能教育需求。项目将开发系统的AI教育培训课程，帮助教师掌握将AI技术融入课堂教学的能力。多恩大学负责人表示，短期培训项目已成为人们探索新职业方向的重要途径，该项目将为有志于从事教育工作的专业人士提供入门机会。",
-      "url": "https://www.govtech.com/education/higher-ed/doane-university-to-train-teachers-in-artificial-intelligence"
+      "original_date": "March 13, 2026",
+      "summary": "据美国教育媒体报道，内布拉斯加州多恩大学近日获得联邦教育部高等教育改善基金200万美元资助，将通过BloomBoard在线平台开展人工智能教育师资认证项目。该项目旨在为教育工作者提供AI教学能力培训，以满足日益增长的人工智能教育需求。项目将开发系统的AI教育培训课程，帮助教师掌握将AI技术融入课堂教学的能力。",
+      "url": "https://www.govtech.com/education/higher-ed/doane-university-to-train-teachers-in-artificial-intelligence",
+      "fetched_from": "tavily"
     },
     {
       "category": "regional",
       "title": "2026年Golden Apple奖提名公布：表彰伊利诺伊州优秀教师",
       "source": "Golden Apple Foundation",
-      "original_date": "March 2026",
-      "summary": "据Golden Apple基金会公布，2026年教学与领导力卓越奖提名名单已发布，表彰伊利诺伊州在教育领域表现突出的教师和学校领导者。该奖项旨在认可教育工作者的专业成就和对学生学习的积极影响。获奖者将获得专业发展机会、网络资源以及资金支持。分析认为，教师表彰项目有助于提升教师职业的社会认可度，激励更多优秀人才投身教育事业，同时也为其他教师提供了学习的榜样和最佳实践案例。",
-      "url": "https://www.goldenapple.org/awards"
+      "original_date": "March 1, 2026",
+      "summary": "据Golden Apple基金会公布，2026年教学与领导力卓越奖提名名单已发布，表彰伊利诺伊州在教育领域表现突出的教师和学校领导者。该奖项旨在认可教育工作者的专业成就和对学生学习的积极影响。获奖者将获得专业发展机会、网络资源以及资金支持。分析认为，教师表彰项目有助于提升教师职业的社会认可度，激励更多优秀人才投身教育事业。",
+      "url": "https://www.goldenapple.org/awards/2026-finalists",
+      "fetched_from": "local_source"
     }
   ]
 }
