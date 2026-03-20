@@ -1,8 +1,8 @@
 {
   "date": "2026-03-19",
-  "generated_at": "2026-03-19T23:18:58.953228",
+  "generated_at": "2026-03-19T23:46:22.281037",
   "generated_by": "Open Claw Dual-Source System",
-  "source_method": "Tavily(10) + Local Sources(15) = 25 total",
+  "source_method": "Tavily(7) + Local Sources(18) = 25 total",
   "total_news": 25,
   "categories": {
     "federal": 5,
@@ -57,7 +57,7 @@
       "category": "federal",
       "title": "特朗普政府教育部改革持续推进：大规模裁员与职能转移并行",
       "source": "Cato Institute",
-      "original_date": "March 12, 2026",
+      "original_date": "March 10, 2026",
       "summary": "据卡托研究所及联邦新闻网报道，特朗普政府自2025年1月重返执政以来，已实质性推进联邦教育部机构精简工作。尽管该部门完全关闭需经国会批准，但通过大规模裁员和项目移交，教育部人员规模已缩减约50%，部分核心职能已转移至其他联邦机构。2025年3月，教育部向约1400名员工发出裁员通知，另有约600名员工选择退休或接受自愿离职补偿。此举标志着联邦教育治理模式正经历重大转型。",
       "url": "https://www.cato.org/blog/end-fed-ed-watch-march-2026",
       "fetched_from": "local_source"
@@ -138,7 +138,7 @@
       "category": "teacher",
       "title": "爱荷华州教师岗位填补率达99%：成为全美教师短缺率最低州之一",
       "source": "Iowa Department of Education",
-      "original_date": "March 5, 2026",
+      "original_date": "January 5, 2026",
       "summary": "据爱荷华州教育部发布数据，2025-26学年该州近99%的全职教学岗位已实现填补，教师短缺率远低于全国平均水平。该州通过持续投资教师培养项目、提高薪酬待遇及改善工作条件等措施，有效缓解了教师短缺问题。此数据将用于向美国教育部申报关键教师短缺区域，爱荷华州已连续多年保持在联邦5%阈值以下。该州经验为其他中西部州应对师资挑战提供了可资借鉴的实践样本。",
       "url": "https://educate.iowa.gov/press-release/2026-03-05/nearly-99-all-iowa-full-time-teaching-positions-filled",
       "fetched_from": "local_source"
@@ -219,7 +219,7 @@
       "category": "regional",
       "title": "密歇根州立大学加入2026年教育准备提供者合作项目",
       "source": "Michigan State University College of Education",
-      "original_date": "January 15, 2026",
+      "original_date": "Jan. 22, 2026",
       "summary": "据密歇根州立大学教育学院报道，该校已入选2026年教育准备提供者合作项目。该项目由密歇根教育工作者劳动力倡议与edPrep Partners及2Revolutions联合发起，为期两年，旨在改进教师培养项目的招生、留任和质量，帮助教师培养项目更好地响应当今K-12学校不断变化的需求。密歇根州立大学将与东密歇根大学、大峡谷州立大学、密歇根大学及韦恩州立大学共同组成密歇根团队参与此项目。",
       "url": "https://education.msu.edu/news/2026/01/msu-joins-epp-collaborative",
       "fetched_from": "local_source"
