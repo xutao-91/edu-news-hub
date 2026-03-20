@@ -14,23 +14,48 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.12'
+        python-version: '3.11'
     
     - name: Install dependencies
       run: |
-        pip install beautifulsoup4 requests lxml pandas tavily
+        pip install beautifulsoup4 requests lxml pandas tavily || echo "Some packages failed but continuing..."
+    
+    - name: Check directory
+      run: |
+        echo "Current directory: $(pwd)"
+        ls -la
+        ls -la scripts/ 2>/dev/null || echo "No scripts directory at root"
+        ls -la edu-news-hub/scripts/ 2>/dev/null || echo "No edu-news-hub/scripts directory"
     
     - name: Run scraper
+      continue-on-error: true
       env:
         TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       run: |
-        cd edu-news-hub
-        python3 scripts/dual_source_fetcher.py || true
+        if [ -f "scripts/dual_source_fetcher.py" ]; then
+          echo "Running from root..."
+          python3 scripts/dual_source_fetcher.py || echo "Script failed but continuing..."
+        elif [ -f "edu-news-hub/scripts/dual_source_fetcher.py" ]; then
+          echo "Running from edu-news-hub..."
+          cd edu-news-hub
+          python3 scripts/dual_source_fetcher.py || echo "Script failed but continuing..."
+        else
+          echo "Script not found, listing files:"
+          find . -name "*.py" | head -10
+        fi
+    
+    - name: Check if data was generated
+      run: |
+        ls -la data/ 2>/dev/null || echo "No data directory at root"
+        ls -la edu-news-hub/data/ 2>/dev/null || echo "No edu-news-hub/data directory"
+        echo "JSON files found:"
+        find . -name "*.json" -type f 2>/dev/null | head -10
     
     - name: Commit changes
       run: |
         git config user.email "action@github.com"
         git config user.name "GitHub Action"
-        git add .
-        git commit -m "Daily update $(date +%Y-%m-%d)" || true
-        git push
+        git add -A
+        git status
+        git commit -m "Daily news update $(date +%Y-%m-%d)" || echo "Nothing to commit"
+        git push || echo "Push failed or nothing to push"
