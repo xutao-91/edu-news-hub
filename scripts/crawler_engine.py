@@ -220,6 +220,51 @@ class EducationNewsCrawler:
             print(f"❌ 通用爬取失败 {url}: {e}")
             return None
     
+    def crawl_iowa(self, url):
+        """爬取 Iowa Department of Education 网站"""
+        try:
+            response = self.session.get(url, timeout=10)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 提取日期 - 从time标签的datetime属性
+            date_str = None
+            time_elem = soup.find('div', class_='field--name-field-news__display-date')
+            if time_elem:
+                time_tag = time_elem.find('time')
+                if time_tag and time_tag.get('datetime'):
+                    # 从 ISO 格式提取日期: 2026-01-05T12:00:00Z
+                    iso_date = time_tag['datetime']
+                    date_str = iso_date.split('T')[0]  # "2026-01-05"
+                else:
+                    # 从显示文本提取: "Monday, January 5, 2026"
+                    date_str = time_tag.get_text().strip()
+            
+            # 备用：从meta标签
+            if not date_str:
+                meta = soup.find('meta', property='article:published_time')
+                if meta:
+                    date_str = meta.get('content', '').split('T')[0]
+            
+            # 提取标题
+            title_elem = soup.find('h1', class_='page-title') or soup.find('h1')
+            title = title_elem.get_text().strip() if title_elem else None
+            
+            # 提取内容
+            content_elem = soup.find('div', class_='field--name-body') or soup.find('div', class_='node__content')
+            content = content_elem.get_text().strip()[:1000] if content_elem else None
+            
+            return {
+                'title': title,
+                'date_str': date_str,
+                'date_parsed': self.parse_date(date_str) if date_str else None,
+                'content': content,
+                'url': url,
+                'source': 'Iowa Department of Education'
+            }
+        except Exception as e:
+            print(f"❌ Iowa爬取失败 {url}: {e}")
+            return None
+    
     def crawl_pew(self, url):
         """爬取 Pew Research Center 网站"""
         try:
@@ -354,6 +399,7 @@ class EducationNewsCrawler:
             'cato': self.crawl_cato,
             'edgov': self.crawl_edgov,
             'pew': self.crawl_pew,
+            'iowa': self.crawl_iowa,
             'wordpress': self.crawl_wordpress,
         }
         

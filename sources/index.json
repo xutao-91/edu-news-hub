@@ -891,6 +891,17 @@
       "date_pattern": "([A-Za-z]+ \\d{1,2}, \\d{4})",
       "title_selector": "h1, h1.article-title",
       "content_selector": "div.article-content, div.main-content"
+    },
+    "iowa": {
+      "date_selectors": [
+        "div.field--name-field-news__display-date time",
+        "time.datetime",
+        "meta[property=\"article:published_time\"]"
+      ],
+      "date_attribute": "datetime",
+      "date_pattern": "(\\d{4}-\\d{2}-\\d{2})",
+      "title_selector": "h1, h1.page-title",
+      "content_selector": "div.field--name-body, div.node__content"
     }
   }
 }
