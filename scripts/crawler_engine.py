@@ -220,6 +220,50 @@ class EducationNewsCrawler:
             print(f"❌ 通用爬取失败 {url}: {e}")
             return None
     
+    def crawl_msu(self, url):
+        """爬取 Michigan State University 网站"""
+        try:
+            response = self.session.get(url, timeout=10)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 提取日期 - 从p.dateline.line
+            date_str = None
+            date_elem = soup.find('p', class_='dateline line') or soup.find('p', class_='dateline')
+            if date_elem:
+                # 提取文本，去掉后面的阅读时间
+                text = date_elem.get_text().strip()
+                # 匹配 "Jan. 22, 2026" 或 "January 22, 2026"
+                import re
+                match = re.search(r'([A-Za-z]+\.?\s+\d{1,2},\s+\d{4})', text)
+                if match:
+                    date_str = match.group(1)
+            
+            # 备用：从meta标签
+            if not date_str:
+                meta = soup.find('meta', property='article:published_time')
+                if meta:
+                    date_str = meta.get('content', '').split('T')[0]
+            
+            # 提取标题
+            title_elem = soup.find('h1', class_='news-title') or soup.find('h1', class_='article-title') or soup.find('h1')
+            title = title_elem.get_text().strip() if title_elem else None
+            
+            # 提取内容
+            content_elem = soup.find('div', class_='field--name-body') or soup.find('div', class_='news-content') or soup.find('article')
+            content = content_elem.get_text().strip()[:1000] if content_elem else None
+            
+            return {
+                'title': title,
+                'date_str': date_str,
+                'date_parsed': self.parse_date(date_str) if date_str else None,
+                'content': content,
+                'url': url,
+                'source': 'Michigan State University'
+            }
+        except Exception as e:
+            print(f"❌ MSU爬取失败 {url}: {e}")
+            return None
+    
     def crawl_iowa(self, url):
         """爬取 Iowa Department of Education 网站"""
         try:
@@ -400,6 +444,7 @@ class EducationNewsCrawler:
             'edgov': self.crawl_edgov,
             'pew': self.crawl_pew,
             'iowa': self.crawl_iowa,
+            'msu': self.crawl_msu,
             'wordpress': self.crawl_wordpress,
         }
         
