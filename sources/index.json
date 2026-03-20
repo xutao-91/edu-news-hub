@@ -870,6 +870,17 @@
       "date_pattern": "([A-Za-z]+ \\d{1,2}, \\d{4})",
       "title_selector": "h1.h2, h1[property=\"headline\"]",
       "content_selector": "div.blog-page__content"
+    },
+    "edgov": {
+      "date_selectors": [
+        "time[datetime]",
+        "div.field--name-published-at time",
+        "meta[property=\"article:published_time\"]"
+      ],
+      "date_attribute": "datetime",
+      "date_pattern": "(\\d{4}-\\d{2}-\\d{2})",
+      "title_selector": "h1, h1.ed-node-title",
+      "content_selector": "div.field--name-body, div.ed-node-content"
     }
   }
 }

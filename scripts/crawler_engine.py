@@ -220,6 +220,54 @@ class EducationNewsCrawler:
             print(f"❌ 通用爬取失败 {url}: {e}")
             return None
     
+    def crawl_edgov(self, url):
+        """爬取 U.S. Department of Education 网站"""
+        try:
+            response = self.session.get(url, timeout=10)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 提取日期 - 优先从time标签的datetime属性
+            date_str = None
+            time_elem = soup.find('div', class_='field--name-published-at')
+            if time_elem:
+                time_tag = time_elem.find('time')
+                if time_tag and time_tag.get('datetime'):
+                    # 从 ISO 格式提取日期: 2026-03-06T10:11:16-05:00
+                    iso_date = time_tag['datetime']
+                    date_str = iso_date.split('T')[0]  # "2026-03-06"
+            
+            # 备用：从显示文本提取
+            if not date_str and time_elem:
+                time_tag = time_elem.find('time')
+                if time_tag:
+                    date_str = time_tag.get_text().strip()  # "March 6, 2026"
+            
+            # 备用2：从meta标签
+            if not date_str:
+                meta = soup.find('meta', property='article:published_time')
+                if meta:
+                    date_str = meta.get('content', '').split('T')[0]
+            
+            # 提取标题
+            title_elem = soup.find('h1', class_='ed-node-title') or soup.find('h1')
+            title = title_elem.get_text().strip() if title_elem else None
+            
+            # 提取内容
+            content_elem = soup.find('div', class_='field--name-body') or soup.find('div', class_='ed-node-content')
+            content = content_elem.get_text().strip()[:1000] if content_elem else None
+            
+            return {
+                'title': title,
+                'date_str': date_str,
+                'date_parsed': self.parse_date(date_str) if date_str else None,
+                'content': content,
+                'url': url,
+                'source': 'U.S. Department of Education'
+            }
+        except Exception as e:
+            print(f"❌ ed.gov爬取失败 {url}: {e}")
+            return None
+    
     def crawl_cato(self, url):
         """爬取 Cato Institute 网站"""
         try:
