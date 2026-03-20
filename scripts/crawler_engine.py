@@ -220,6 +220,47 @@ class EducationNewsCrawler:
             print(f"❌ 通用爬取失败 {url}: {e}")
             return None
     
+    def crawl_pew(self, url):
+        """爬取 Pew Research Center 网站"""
+        try:
+            response = self.session.get(url, timeout=10)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 提取日期 - 从page-metadata__items中的第2个span
+            date_str = None
+            metadata_div = soup.find('div', class_='page-metadata__items')
+            if metadata_div:
+                spans = metadata_div.find_all('span', class_='page-metadata__item')
+                # 第2个span是日期（第一个是Article，第二个是日期，第三个是阅读时间）
+                if len(spans) >= 2:
+                    date_str = spans[1].get_text().strip()
+            
+            # 备用：从meta标签
+            if not date_str:
+                meta = soup.find('meta', property='article:published_time')
+                if meta:
+                    date_str = meta.get('content', '').split('T')[0]
+            
+            # 提取标题
+            title_elem = soup.find('h1')
+            title = title_elem.get_text().strip() if title_elem else None
+            
+            # 提取内容
+            content_elem = soup.find('div', class_='article-content') or soup.find('div', class_='main-content')
+            content = content_elem.get_text().strip()[:1000] if content_elem else None
+            
+            return {
+                'title': title,
+                'date_str': date_str,
+                'date_parsed': self.parse_date(date_str) if date_str else None,
+                'content': content,
+                'url': url,
+                'source': 'Pew Research Center'
+            }
+        except Exception as e:
+            print(f"❌ Pew爬取失败 {url}: {e}")
+            return None
+    
     def crawl_edgov(self, url):
         """爬取 U.S. Department of Education 网站"""
         try:
@@ -311,6 +352,8 @@ class EducationNewsCrawler:
         crawlers = {
             'edweek': self.crawl_edweek,
             'cato': self.crawl_cato,
+            'edgov': self.crawl_edgov,
+            'pew': self.crawl_pew,
             'wordpress': self.crawl_wordpress,
         }
         

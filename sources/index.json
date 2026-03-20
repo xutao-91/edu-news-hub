@@ -73,7 +73,7 @@
           "id": "皮尤研究中心",
           "name": "皮尤研究中心",
           "url": "https://www.pewresearch.org/publications/",
-          "crawler": "generic",
+          "crawler": "pew",
           "priority": 1
         },
         {
@@ -881,6 +881,16 @@
       "date_pattern": "(\\d{4}-\\d{2}-\\d{2})",
       "title_selector": "h1, h1.ed-node-title",
       "content_selector": "div.field--name-body, div.ed-node-content"
+    },
+    "pew": {
+      "date_selectors": [
+        "div.page-metadata__items span.page-metadata__item.text-body-xs",
+        "meta[property=\"article:published_time\"]"
+      ],
+      "date_index": 1,
+      "date_pattern": "([A-Za-z]+ \\d{1,2}, \\d{4})",
+      "title_selector": "h1, h1.article-title",
+      "content_selector": "div.article-content, div.main-content"
     }
   }
 }
