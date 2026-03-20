@@ -22,10 +22,8 @@ jobs:
         if [ -z "${{ secrets.TAVILY_API_KEY }}" ]; then
           echo "❌ TAVILY_API_KEY is NOT set!"
         else
-          echo "✅ TAVILY_API_KEY is set (length: ${#TAVILY_API_KEY})"
+          echo "✅ TAVILY_API_KEY is set"
         fi
-      env:
-        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
     
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -43,19 +41,21 @@ jobs:
       run: |
         pwd
         ls -la
-        ls -la edu-news-hub/ || echo "No edu-news-hub directory"
+        ls -la edu-news-hub/ 2>/dev/null || echo "No edu-news-hub directory at root"
     
     - name: Run advanced crawler
       env:
         TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       run: |
-        if [ -d "edu-news-hub" ]; then
-          cd edu-news-hub
-          echo "Running advanced crawler..."
-          python3 scripts/advanced_crawler.py 2>&1 || echo "Advanced crawler failed with exit code $?"
-        else
+        if [ -f "scripts/advanced_crawler.py" ]; then
           echo "Running from root..."
-          python3 scripts/advanced_crawler.py 2>&1 || echo "Advanced crawler failed with exit code $?"
+          python3 scripts/advanced_crawler.py 2>&1 || echo "Advanced crawler failed"
+        elif [ -f "edu-news-hub/scripts/advanced_crawler.py" ]; then
+          cd edu-news-hub
+          echo "Running from edu-news-hub..."
+          python3 scripts/advanced_crawler.py 2>&1 || echo "Advanced crawler failed"
+        else
+          echo "❌ advanced_crawler.py not found"
         fi
     
     - name: Run fallback crawler
@@ -63,48 +63,53 @@ jobs:
       env:
         TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       run: |
-        if [ -d "edu-news-hub" ]; then
+        if [ -f "scripts/dual_source_fetcher.py" ]; then
+          python3 scripts/dual_source_fetcher.py 2>&1 || echo "Fallback also failed"
+        elif [ -f "edu-news-hub/scripts/dual_source_fetcher.py" ]; then
           cd edu-news-hub
-          echo "Running fallback crawler..."
-          python3 scripts/dual_source_fetcher.py 2>&1 || echo "Fallback also failed with exit code $?"
-        else
-          python3 scripts/dual_source_fetcher.py 2>&1 || echo "Fallback also failed with exit code $?"
+          python3 scripts/dual_source_fetcher.py 2>&1 || echo "Fallback also failed"
         fi
     
     - name: Update index
       if: always()
       run: |
-        WORKDIR="."
-        if [ -d "edu-news-hub" ]; then
-          WORKDIR="edu-news-hub"
-        fi
-        cd $WORKDIR
-        python3 -c "
+        python3 << 'PYTHON_EOF'
 import json
 import datetime
+import os
+
+# Find data directory
+if os.path.exists('data/index.json'):
+    index_path = 'data/index.json'
+elif os.path.exists('edu-news-hub/data/index.json'):
+    index_path = 'edu-news-hub/data/index.json'
+else:
+    print("No index.json found")
+    exit(0)
+
 date_str = datetime.datetime.now().strftime('%Y-%m-%d')
+
 try:
-    with open('data/index.json', 'r') as f:
+    with open(index_path, 'r') as f:
         idx = json.load(f)
 except:
     idx = {'dates': [], 'total_days': 0}
-if date_str not in idx['dates']:
+
+if date_str not in idx.get('dates', []):
     idx['dates'].insert(0, date_str)
     idx['total_days'] = len(idx['dates'])
+
 idx['last_updated'] = datetime.datetime.now().isoformat()
-with open('data/index.json', 'w') as f:
+
+with open(index_path, 'w') as f:
     json.dump(idx, f, indent=2)
+
 print(f'Updated index with {date_str}')
-"
+PYTHON_EOF
     
     - name: Commit and push changes
       if: always()
       run: |
-        WORKDIR="."
-        if [ -d "edu-news-hub" ]; then
-          WORKDIR="edu-news-hub"
-        fi
-        cd $WORKDIR
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add -A
