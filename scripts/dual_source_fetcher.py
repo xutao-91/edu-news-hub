@@ -335,7 +335,10 @@ class DualSourceNewsFetcher:
         """生成输出文件"""
         if not output_file:
             date_str = self.target_date.strftime('%Y-%m-%d')
-            output_file = f'/root/.openclaw/workspace/edu-news-hub/data/{date_str}.json'
+            # 使用相对路径
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            project_dir = os.path.dirname(script_dir)
+            output_file = os.path.join(project_dir, 'data', f'{date_str}.json')
         
         output = {
             'date': self.target_date.strftime('%Y-%m-%d'),

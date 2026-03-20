@@ -19,9 +19,9 @@ class AdvancedEducationCrawler:
         
         # 使用相对路径
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        project_dir = os.path.dirname(script_dir)
-        self.history_file = os.path.join(project_dir, 'history', 'news_history.json')
-        self.sources_file = os.path.join(project_dir, 'sources', 'index.json')
+        self.project_dir = os.path.dirname(script_dir)
+        self.history_file = os.path.join(self.project_dir, 'history', 'news_history.json')
+        self.sources_file = os.path.join(self.project_dir, 'sources', 'index.json')
         
         self.load_history()
         
@@ -391,7 +391,8 @@ class AdvancedEducationCrawler:
             'news': self.results
         }
         
-        output_file = f'/root/.openclaw/workspace/edu-news-hub/data/{output["date"]}.json'
+        # 使用相对路径
+        output_file = os.path.join(self.project_dir, 'data', f'{output["date"]}.json')
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
         
