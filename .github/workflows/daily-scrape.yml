@@ -32,24 +32,32 @@ jobs:
       env:
         TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       run: |
+        echo "Starting scraper..."
         if [ -f "scripts/dual_source_fetcher.py" ]; then
           echo "Running from root..."
-          python3 scripts/dual_source_fetcher.py || echo "Script failed but continuing..."
-        elif [ -f "edu-news-hub/scripts/dual_source_fetcher.py" ]; then
-          echo "Running from edu-news-hub..."
-          cd edu-news-hub
-          python3 scripts/dual_source_fetcher.py || echo "Script failed but continuing..."
+          python3 -u scripts/dual_source_fetcher.py 2>&1 | tee scraper.log || echo "Script failed but continuing..."
         else
-          echo "Script not found, listing files:"
+          echo "Script not found!"
           find . -name "*.py" | head -10
         fi
+        echo "Scraper finished"
     
-    - name: Check if data was generated
+    - name: Debug output
       run: |
-        ls -la data/ 2>/dev/null || echo "No data directory at root"
-        ls -la edu-news-hub/data/ 2>/dev/null || echo "No edu-news-hub/data directory"
-        echo "JSON files found:"
-        find . -name "*.json" -type f 2>/dev/null | head -10
+        echo "=== Scraper log ==="
+        cat scraper.log 2>/dev/null || echo "No log file"
+        echo ""
+        echo "=== Data directory ==="
+        ls -la data/ 2>/dev/null || echo "No data dir"
+        echo ""
+        echo "=== Today's file check ==="
+        TODAY=$(date +%Y-%m-%d)
+        if [ -f "data/${TODAY}.json" ]; then
+          echo "Found data/${TODAY}.json"
+          wc -l "data/${TODAY}.json"
+        else
+          echo "data/${TODAY}.json NOT FOUND"
+        fi
     
     - name: Commit changes
       run: |
