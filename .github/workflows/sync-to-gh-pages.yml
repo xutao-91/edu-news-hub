@@ -1,0 +1,79 @@
+name: Sync to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**'
+      - 'index.html'
+      - 'app.js'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main
+      uses: actions/checkout@v4
+      with:
+        ref: main
+        fetch-depth: 0
+    
+    - name: Checkout gh-pages
+      uses: actions/checkout@v4
+      with:
+        ref: gh-pages
+        path: gh-pages
+        fetch-depth: 0
+    
+    - name: Sync files to gh-pages
+      run: |
+        # Copy data files
+        cp -r data/* gh-pages/data/
+        cp index.html gh-pages/
+        cp app.js gh-pages/
+        cp -r sources gh-pages/ 2>/dev/null || true
+        cp -r history gh-pages/ 2>/dev/null || true
+        
+        # Update index.json with all dates
+        cd gh-pages
+        python3 << 'PYEOF'
+import json
+import glob
+import os
+import datetime
+
+# Scan all data files
+data_files = glob.glob('data/2026-*.json')
+dates = []
+for f in data_files:
+    basename = os.path.basename(f)
+    if basename.startswith('2026-') and basename.endswith('.json'):
+        date_str = basename.replace('.json', '')
+        dates.append(date_str)
+
+dates.sort(reverse=True)
+
+# Update index
+with open('data/index.json', 'r') as f:
+    idx = json.load(f)
+
+idx['dates'] = dates
+idx['total_days'] = len(dates)
+idx['last_updated'] = datetime.datetime.now().isoformat()
+
+with open('data/index.json', 'w') as f:
+    json.dump(idx, f, indent=2, ensure_ascii=False)
+
+print(f'Updated index with {len(dates)} dates: {dates}')
+PYEOF
+    
+    - name: Deploy to gh-pages
+      run: |
+        cd gh-pages
+        git config user.email "action@github.com"
+        git config user.name "GitHub Action"
+        git add -A
+        git commit -m "🔄 Auto-sync from main: $(date +%Y-%m-%d-%H:%M)" || echo "No changes"
+        git push origin gh-pages
