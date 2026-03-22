@@ -1,6 +1,7 @@
 // 配置
 const CONFIG = {
     dataPath: './data/',
+    fallbackDataPath: 'https://raw.githubusercontent.com/xutao-91/edu-news-hub/main/data/',
     defaultDate: new Date().toISOString().split('T')[0],
     categories: {
         'federal': { name: '联邦政策', color: 'bg-red-500', icon: 'fa-landmark' },
@@ -46,7 +47,15 @@ async function init() {
 // 加载可用日期列表
 async function loadAvailableDates() {
     try {
-        const response = await fetch(`${CONFIG.dataPath}index.json`);
+        // 尝试本地加载
+        let response = await fetch(`${CONFIG.dataPath}index.json?t=${Date.now()}`);
+        
+        // 如果失败，使用GitHub Raw备用源
+        if (!response.ok) {
+            console.log('本地加载失败，尝试GitHub Raw备用源...');
+            response = await fetch(`${CONFIG.fallbackDataPath}index.json?t=${Date.now()}`);
+        }
+        
         if (response.ok) {
             const data = await response.json();
             availableDates = data.dates || [];
@@ -58,7 +67,7 @@ async function loadAvailableDates() {
             }
         }
     } catch (error) {
-        console.log('No index.json found');
+        console.error('加载日期列表失败:', error);
     }
 }
 
@@ -67,7 +76,14 @@ async function loadNews(date) {
     showLoading();
     
     try {
-        const response = await fetch(`${CONFIG.dataPath}${date}.json`);
+        // 尝试本地加载
+        let response = await fetch(`${CONFIG.dataPath}${date}.json?t=${Date.now()}`);
+        
+        // 如果失败，使用GitHub Raw备用源
+        if (!response.ok) {
+            console.log(`本地加载${date}失败，尝试GitHub Raw备用源...`);
+            response = await fetch(`${CONFIG.fallbackDataPath}${date}.json?t=${Date.now()}`);
+        }
         
         if (!response.ok) {
             throw new Error('No data for this date');
