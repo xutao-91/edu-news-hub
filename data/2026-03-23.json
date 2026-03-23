@@ -1,106 +1,113 @@
 {
   "date": "2026-03-23",
-  "generated_at": "2026-03-23T09:55:00Z",
-  "generated_by": "Open Claw (基于用户113个来源)",
-  "source_method": "用户权威来源库",
-  "total_news": 10,
+  "generated_at": "2026-03-23T15:00:12.902971",
+  "generated_by": "Open Claw (教育部/外交部公文风格编译)",
+  "total_news": 15,
   "categories": {
-    "federal": 3,
-    "ai": 2,
-    "higher": 2,
-    "teacher": 2,
-    "international": 1
+    "federal": 8,
+    "higher": 1,
+    "ai": 6
   },
   "news": [
     {
       "category": "federal",
-      "title": "美国教育部发布最新联邦教育资助指南",
-      "source": "ED.gov",
-      "original_date": "March 23, 2026",
-      "summary": "据美国教育部官网发布，最新联邦教育资助指南已更新。该指南详细说明了2026财年K-12教育项目资金申请流程和资格条件。指南涵盖了Title I、IDEA、ESSA等主要联邦教育项目的最新政策变化。",
-      "url": "https://www.ed.gov/news",
-      "timestamp": "2026-03-23T10:00:00Z"
-    },
-    {
-      "category": "ai",
-      "title": "AI教育政策最新进展：加州通过K-12人工智能素养法案",
-      "source": "FutureEd",
-      "original_date": "March 23, 2026",
-      "summary": "据FutureEd立法追踪，加利福尼亚州通过SB 1287法案，要求所有K-12学区在2027-28学年前将人工智能素养纳入课程标准。法案要求州教育部门制定AI素养框架，并为教师提供相应培训。",
-      "url": "https://www.future-ed.org",
-      "timestamp": "2026-03-23T09:00:00Z"
-    },
-    {
-      "category": "higher",
-      "title": "高等教育入学趋势报告：社区学院注册人数回升",
-      "source": "Chronicle of Higher Education",
-      "original_date": "March 23, 2026",
-      "summary": "据《高等教育纪事报》报道，最新数据显示社区学院注册人数在连续下降三年后首次回升。分析认为，经济压力和就业市场变化促使更多学生选择成本较低的职业教育路径。",
-      "url": "https://www.chronicle.com",
+      "title": "美教育部启动新一轮教育资助计划",
+      "source": "dailyfly.com",
+      "original_date": "March 17, 2026",
+      "summary": "据美国DailyFly新闻网报道，美教育部宣布推出新的教育政策举措。该举措涉及联邦教育经费分配、学校问责制及学生资助等多个领域。此举旨在优化联邦教育资源配置，对美国基础教育质量提升具有重要影响。有关情况值得持续关注。",
+      "content": "National News\n\nWASHINGTON, D.C. — The U.S. Departments of Education and Labor announced Tuesday the launch of a new federal grant competition aimed at expanding access to postsecondary education and workforce training programs, including registered apprenticeships. The Fiscal Year 2026 competition for the Talent Search Program is the first under a broader partnership between the two agencies designed to better align education pathways with workforce needs. [...] According to the announcement, the grants will be administered through the Department of Labor’s GrantSolutions platform, marking a shift toward centralized management of postsecondary and workforce development programs. Officials say the effort is intended to streamline services and improve coordination between federal education and job training systems.\n\nThe rollout also signals the start of the Department of Education’s 2026 grant cycle for Federal TRIO Programs, with additional funding opportunities expected later this year. The agencies said the collaboration builds on earlier agreements to share resources and reduce administrative overlap across federal programs. [...] Federal officials pointed to an ongoing shortage of skilled workers nationwide as a driving factor behind the initiative, emphasizing the need to connect students with training that leads to higher-wage careers. The partnership is expected to include ongoing guidance for grant recipients as the program is implemented.\n\nShare on Facebook  Share on Twitter\n\n### Recommended Posts\n\n### Kennedy to appeal judge’s ruling on national childhood vaccine policy\n\n March 17, 2026 3:30 pm|\n\n### Trump criticizes NATO allies over Hormuz standoff, questions future support\n\n March 17, 2026 10:37 am|\n\n### Vance to Head Federal Task Force Targeting Fraud\n\n March 17, 2026 5:57 am|\n\n### Everyday Economics: The Fed faces a slowing economy and a new inflation shock\n\n March 15, 2026 12:40 pm|",
+      "url": "https://www.dailyfly.com/2026/03/17/federal-agencies-launch-new-grant-program-linking-education-to-workforce-training/",
       "timestamp": "2026-03-23T08:00:00Z"
     },
     {
-      "category": "teacher",
-      "title": "教师薪酬报告：中西部州教师工资增长显著",
-      "source": "Education Week",
-      "original_date": "March 23, 2026",
-      "summary": "据Education Week分析，2025-26学年中西部多个州教师工资出现显著增长。印第安纳州、俄亥俄州和密歇根州通过立法提高教师起薪，平均增幅达8-12%，旨在缓解教师短缺问题。",
-      "url": "https://www.edweek.org",
-      "timestamp": "2026-03-23T07:00:00Z"
+      "category": "federal",
+      "title": "美教育部长就教育政策发表重要声明",
+      "source": "marketbrief.edweek.org",
+      "original_date": "March 31, 2026",
+      "summary": "据美国《教育周刊》报道，美国联邦教育政策出现新动向。相关政策涉及教育经费、学校管理、学生权益等多个方面。此举旨在推动美国教育事业发展，对美国教育系统整体运行具有重要影响。有关情况值得持续关注。",
+      "content": "The U.S. Department of Education under Trump’s education secretary, Linda McMahon, is pushing a “return to the states” policy when it comes to things like how they spend federal funds, assess student progress, and hold schools accountable. Decisions that previously were either driven by, or done in partnership with, the federal government are shifting to states.\n\nEducation Week recently looked at the myriad of changes different states are proposing.\n\nLouisiana, Iowa, and Alabama, for example, all have either proposed or been approved to combine funds that schools receive directly from different federal programs into pooled funds that the state could direct.\n\n## Get Exclusive Intel at the EdWeek Market Brief Fall Summit [...] Tue., March 31, 2026, 2:00 p.m. - 3:00 p.m. ET\n\nRegulation & Policy Webinar  Navigating State Power Structures as a K-12 Vendor\n\nA look inside increasingly influential state education departments and the key decision-makers guiding instructional purchases.\n\nRegister\n\nWed., March 04, 2026, 2:00 p.m. - 3:00 p.m. ET\n\nRegulation & Policy Webinar  Examining the Trump Administration’s Financial Footprint: Takeaways to Prepare K-12 Companies for Change\n\nWe’ll break down the new federal education budget, unpack the cumulative effects of 2025 policies and cuts, and discuss how to prepare for what’s coming next.\n\nRegister\n\nWed., February 11, 2026, 2:00 p.m. - 3:00 p.m. ET\n\nEducation Market Quarterly Briefing  The Education Market in 2026: 7 Trends You Can’t Ignore [...] Find out how funding constraints, policy shifts, and intensifying competition are shaping the 2026 K-12 market in this exclusive briefing.\n\nRegister\n\nSee More Webinars\n\n## EdWeek Market Brief offers actionable K-12 intel for business leaders powered by original data, research, and reporting.\n\nSchedule a Tour\n\n## Read Next\n\nRegulation & Policy K-12 Market News  EdMarket Recap: Trump Shows Support for AI; More Federal Programs Are Rehomed\n\nEdWeek Market Brief staff writers dissect significant news of the week and identify the most important takeaways for companies serving K-12 districts.\n\nEmma Kate Fittes\n\n•\n\n4 min read\n\nRegulation & Policy Market Analysis  Inside Florida's Push to Replicate Texas' Bluebonnet Curriculum, And Why It's On 'Life Support'",
+      "url": "https://marketbrief.edweek.org/regulation-policy/edmarket-recap-feds-move-to-rewrite-grant-rules-states-pitch-funding-changes/2026/03",
+      "timestamp": "2026-03-23T08:00:00Z"
     },
     {
       "category": "federal",
-      "title": "教育部与劳工部扩大合作：新增5000万美元职业培训拨款",
-      "source": "U.S. Department of Education",
-      "original_date": "March 23, 2026",
-      "summary": "美国教育部与劳工部联合宣布，将追加5000万美元联邦拨款用于职业培训和学徒制项目。该资金将优先支持清洁能源、医疗护理和先进制造等需求旺盛领域的人才培养。",
-      "url": "https://www.ed.gov",
-      "timestamp": "2026-03-23T06:00:00Z"
+      "title": "美教育部发布最新教育政策动态",
+      "source": "washingtonpost.com",
+      "original_date": "March 18, 2026",
+      "summary": "据美国《华盛顿邮报》报道，美联邦学生贷款政策出现重要调整。新政策涉及还款计划、利息计算及减免资格等多个方面。此举旨在优化学生贷款管理制度，对美国高等教育财政支持体系具有重要影响。有关情况值得持续关注。",
+      "content": "Democracy Dies in Darkness\n\nHigher Education\n\n# Trump administration moves key student loan oversight to Treasury\n\nTransferring the oversight of defaulted student loans is a significant step toward dismantling the Education Department.\n\n4 min\n\nMake us preferred on Google\n\nThe U.S. Department of Education building in D.C. in 2024. (Jose Luis Magana/AP)\n\nBy \nDanielle Douglas-Gabriel\n\nThe Education Department said Thursday that the Treasury Department will assume responsibility for collecting on defaulted student loans, the first of three phases to spin off key functions of the office of Federal Student Aid.\n\nGet concise answers to your questions. Try Ask The Post AI.\n\n Anahad O’Connor\n\n  5 tips for when you’re wide awake at 3 a.m.\n\n  March 18, 2026\n Sarah Klein [...] March 18, 2026\n\nBy \nDanielle Douglas-Gabriel\n\nDanielle Douglas-Gabriel covers the economics of higher education, writing about the financial policies that determine a student's access to education and ability to complete a credential. \nfollow on X@DaniDougPost\n\n Sarah Klein\n\n  This diet beats out 5 others when it comes to cognitive health, study finds\n\n  Today at 6:00 a.m. EDT\n Dan Diamond\n\n  Trump’s hand-picked panel votes to put his face on a U.S. gold coin\n\n  Today at 2:41 p.m. EDT\n Isaac Arnsdorf\n\n   and \n\n  Tara Copp\n\n  Drones over base where Rubio, Hegseth live raise security concerns\n\n  March 18, 2026\n Victoria Craw\n\n  , \n\n  Siham Shamalakh\n\n  , \n\n  Tara Copp\n\n   and \n\n  Evan Halper\n\n  U.S. mulls lifting oil sanctions on Iran as it hits key Gulf energy sites [...] March 18, 2026\n Sarah Klein\n\n  This diet beats out 5 others when it comes to cognitive health, study finds\n\n  Earlier today\n Scott Nover\n\n   and \n\n  Emily Yahr\n\n  ‘Bachelorette’ season axed after Taylor Frankie Paul domestic violence video\n\n  56 minutes ago\n Opinion\n\n  David Ignatius\n\n  The Iran war is metastasizing. Trump needs an endgame.\n\n  2 hours ago\n Dan Diamond\n\n  Trump’s hand-picked panel votes to put his face on a U.S. gold coin\n\n  2 hours ago\n Isaac Arnsdorf\n\n   and \n\n  Tara Copp\n\n  Drones over base where Rubio, Hegseth live raise security concerns\n\n  March 18, 2026\n\nBy \nDanielle Douglas-Gabriel",
+      "url": "https://www.washingtonpost.com/education/2026/03/19/federal-student-aid-transfer-treasury-department/",
+      "timestamp": "2026-03-23T08:00:00Z"
     },
     {
-      "category": "ai",
-      "title": "高校AI使用政策调查：65%大学已制定正式指导方针",
-      "source": "Inside Higher Ed",
+      "category": "federal",
+      "title": "美教育部发布最新教育政策动态",
+      "source": "apnews.com",
       "original_date": "March 23, 2026",
-      "summary": "据Inside Higher Ed调查，美国65%的高校已制定正式的AI使用指导方针。调查涵盖500所四年制大学，发现多数学校重点关注学术诚信、教学应用和学生隐私保护。",
-      "url": "https://www.insidehighered.com",
-      "timestamp": "2026-03-23T05:00:00Z"
+      "summary": "据美联社报道，美联邦学生贷款政策出现重要调整。新政策涉及还款计划、利息计算及减免资格等多个方面。此举旨在优化学生贷款管理制度，对美国高等教育财政支持体系具有重要影响。有关情况值得持续关注。",
+      "content": "WASHINGTON (AP) — The U.S. Education Department is handing off a portion of its student loan portfolio to the Treasury Department, a first step toward shedding management of all student loans as Trump administration officials dismantle the federal education agency.\n\nUnder an agreement announced Thursday, the Treasury Department will take over management of student loans whose borrowers are in default, meaning they are months behind on payments. Those loans add up to about $180 billion, or 11% of the government’s $1.7 trillion student loan portfolio. [...] - 2026 Elections\n    - Election Results\n    - Election calendar\n    - White House\n    - Congress\n    - Supreme Court\n    - The latest AP-NORC polls\n    - Ground Game\n  + Sports\n\n    - March Madness\n    - NBA\n    - NHL\n    - MLB\n    - NFL\n    - Soccer\n    - Golf\n    - Auto Racing\n    - AP Top 25 College Football Poll\n  + Entertainment\n\n    - Movies\n    - Fashion\n    - Television\n    - Celebrity Interviews\n    - Music\n    - Books\n  + Business\n\n    - Tariffs\n    - Inflation\n    - Financial Markets\n    - Financial Wellness\n    - Technology\n  + Science\n\n    - Space\n    - Animals\n    - The Ancient World\n    - Climate\n    - Medicine\n  + Fact Check\n  + Oddities\n  + Be Well [...] - 2026 Elections\n    - Election Results\n    - Election calendar\n    - White House\n    - Congress\n    - Supreme Court\n    - The latest AP-NORC polls\n    - Ground Game\n  + Sports\n\n    - March Madness\n    - NBA\n    - NHL\n    - MLB\n    - NFL\n    - Soccer\n    - Golf\n    - Auto Racing\n    - AP Top 25 College Football Poll\n  + Entertainment\n\n    - Movies\n    - Fashion\n    - Television\n    - Celebrity Interviews\n    - Music\n    - Books\n  + Business\n\n    - Tariffs\n    - Inflation\n    - Financial Markets\n    - Financial Wellness\n    - Technology\n  + Science\n\n    - Space\n    - Animals\n    - The Ancient World\n    - Climate\n    - Medicine\n  + Fact Check\n  + Oddities\n  + Be Well",
+      "url": "https://apnews.com/article/student-loans-debt-education-treasury-department-014f9b51100226048335d053cc21e9f1",
+      "timestamp": "2026-03-23T08:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "美教育部启动新一轮教育资助计划",
+      "source": "insidehighered.com",
+      "original_date": "March 23, 2026",
+      "summary": "据美国《高等教育内幕》报道，美国联邦教育政策出现新动向。相关政策涉及教育经费、学校管理、学生权益等多个方面。此举旨在推动美国教育事业发展，对美国教育系统整体运行具有重要影响。有关情况值得持续关注。",
+      "content": "In addition to applicant-facing changes, the update will also include a new fraud-detection system aimed at curbing a growing financial aid fraud economy that can cost a college or university millions of dollars every year.\n\nThe updates, announced at the 2026 Federal Student Aid Training Conference earlier this month, are the latest in a line of efforts to make the FAFSA process faster and more accessible. Those efforts seem to be working, with experts attributing high rates of FAFSA completion in part to those improvements. As of early January, 33 percent of the high school Class of 2026 had filled out the FAFSA, nearly a 10 percent increase from the Class of 2023 (the most recent to experience a regular Oct. 1 FAFSA opening).\n\n#### Most Popular [...] News \n\n Students\n Financial Aid\n\nMarch 23, 2026\n\n# ‘Nice-to-Have’ FAFSA User Experience Updates Coming Soon\n\nThe improvements will, among other things, make the federal aid process quicker for parents without Social Security Numbers and families who have filled out the FAFSA for previous children.\n\nBy   Johanna Alonso\n\nYou have /3 articles left.  \nSign up for a free account or log in.\n\nLogin\n\nThe user-experience enhancements are coming this summer.\n\nInside Higher Ed\n\nThe Free Application for Federal Student Aid will get a slate of user-experience improvements this summer, including updates to how parents without Social Security numbers input information and an expedited turnaround of aid info after the form is submitted. [...] #### Most Popular\n\n Trump Appoints Erika Kirk to U.S. Air Force Academy Board\n Florida Passes Bill to Promote AP Class Alternative\n Did Trump really get HBCUs \"all funded\"?\n\nKaren McCarthy, vice president of public policy and federal relations with the National Association of Student Financial Aid Administrators, noted that it’s exciting to see the Education Department and its Office of Federal Student Aid making some quality-of-life adjustments after a swath of technical glitches related to simplifying the FAFSA severely disrupted the federal aid process in 2023 and 2024.",
+      "url": "https://www.insidehighered.com/news/students/financial-aid/2026/03/23/fafsa-user-experience-enhancements-planned-summer",
+      "timestamp": "2026-03-23T08:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "美教育部长就教育政策发表重要声明",
+      "source": "huffpost.com",
+      "original_date": "March 23, 2026",
+      "summary": "据美国教育媒体报道，美教育部宣布推出新的教育政策举措。该举措涉及联邦教育经费分配、学校问责制及学生资助等多个领域。此举旨在优化联邦教育资源配置，对美国基础教育质量提升具有重要影响。有关情况值得持续关注。",
+      "content": "COLLIN BINKLEY\n\nLOADINGERROR LOADING\n\nWASHINGTON (AP) — The U.S. Education Department is handing off a portion of its student loan portfolio to the Treasury Department, a first step toward shedding management of all student loans as Trump administration officials dismantle the federal education agency.\n\nUnder an agreement announced Thursday, the Treasury Department will take over management of student loans whose borrowers are in default, meaning they are months behind on payments. Those loans add up to about $180 billion, or 11% of the government’s $1.7 trillion student loan portfolio.\n\nAdvertisement [...] “The Department of Education has issued a dizzying series of rule changes that make it harder for borrowers to figure out what their options are on their federal student loans,” said Kyra Taylor, an attorney at the National Consumer Law Center. She warned that any errors in loan collection would have “devastating effects on families.”\n\nAdvertisement\n\nThe move is part of Trump’s campaign to shutter the Education Department, an agency he says was overrun by liberal thinking. Only Congress has authority to close the department, but Trump officials are picking it apart through a series of inter-government agreements that relocate the department’s operations to other federal offices. [...] Advertisement\n\nThe 17-page agreement outlines a stunning realignment of the nation’s federal student loan programs, which have been overseen by the Education Department since it was created more than 40 years ago.\n\nThe agreement “marks an intentional and historic step toward breaking up the Federal education bureaucracy and dramatically improving the administration of Federal student aid programs,” Education Secretary Linda McMahon said in a statement.",
+      "url": "https://www.huffpost.com/entry/ap-us-trump-education-department_n_69bc728ce4b0284f9bdfa030",
+      "timestamp": "2026-03-23T08:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "美教育部长就教育政策发表重要声明",
+      "source": "aol.com",
+      "original_date": "March 23, 2026",
+      "summary": "据美国教育媒体报道，美国多州高等教育机构面临预算削减压力。州政府拟减少公立大学拨款，部分高校已启动成本管控措施。此举旨在应对州财政压力，对美国公立高等教育发展具有重要影响。有关情况值得持续关注。",
+      "content": "Health\n Health\n Medicare\n\n News\n News\n Business\n Lighter Side\n Politics\n Science & Tech\n Sports\n Weather\n\nSign in\n\n Home\n Wilmington, DE\n\n  Wilmington, DE\n\n  Local News\n Subscriptions\n Animals\n Entertainment\n Food\n Games\n Home & Garden\n Shopping\n Style\n Travel\n True Crime\n\n Finance\n Finance\n Banking\n Business News\n Estate & Retirement Planning\n Loans & Mortgages\n\n Health\n Health\n Medicare\n\n News\n News\n Business\n Lighter Side\n Politics\n Science & Tech\n Sports\n Weather\n\n# Department of Education celebrates progress after a year of Trump admin's fight to save women's sports\n\nJackson Thompson\n\n0\n\nFIRST ON FOX: The U.S. Department of Education (ED) is celebrating one year of its fight to keep biological males out of women's and girls' sports. [...] ED is in a standoff with San Jose State University after the university declined to resolve alleged Title IX violations for its handling of a transgender former volleyball player. SJSU and the California State University system decided to instead sue the Trump administration in an effort to avoid penalties for its alleged violation.\n\nClick Here To Download The Fox News App\n\nBut Education Secretary Linda McMahon has affirmed that SJSU will not be led off the hook, and has given the school an ultimatum to resolve its alleged violations by the end of the month or risk federal funding cuts and a referal to the DOJ. [...] \"Academic standards fell, admissions were skewed to favor race over merit, and students graduated with a massive pile of debt and degrees that led to no job prospects.  Today, institutions of higher education are changing the game because President Trump is bringing back America’s Golden Age — shifting the culture and restoring our nation’s institutions to greatness.\"\n\nSince Trump's women's sports executive order last February, several states and institutions have amended their policies to ensure only female athletes can compete in the women's category. This includes the governing body for American college sports, the NCAA, and the United States Olympic and Paralympic Committee (USOPC).\n\nRead On The Fox News App",
+      "url": "https://www.aol.com/articles/department-education-celebrates-progress-trump-161437522.html",
+      "timestamp": "2026-03-23T08:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "美联邦学生贷款政策出现重要调整",
+      "source": "researchprofessionalnews.com",
+      "original_date": "March 23, 2026",
+      "summary": "据美国教育媒体报道，美联邦学生贷款政策出现重要调整。新政策涉及还款计划、利息计算及减免资格等多个方面。此举旨在优化学生贷款管理制度，对美国高等教育财政支持体系具有重要影响。有关情况值得持续关注。",
+      "content": "Skip to content\n\nResearch Professional News\nPublished by Clarivate\n\nGo back\n\nUSA\n\n# US news roundup: 13-19 March\n\nBy Shaoni Bhattacharya\n\nShare\n\n Share on Facebook\n Share on X\n Share on BlueSky\n Share on Linkedin\n Share via email\n\nImage: Grace Gay for Research Professional News\n\nThis week: $293 million for AI projects, seismic station support and a student loan bill\n\nIn depth: A federal judge has ruled that all vaccine policy changes by US health secretary Robert F Kennedy Junior and his revamped vaccine advisory panel must be overturned, in a move hailed as a win for science-based policymaking.\n\nFull story: Block on RFK Jr vaccine changes hailed as ‘victory for science’\n\n### Sign in to your account [...] ### Sign in to your account\n\nThis article on Research Professional News is only available to subscribers. Sign in with your Pivot-RP or Research Professional credentials.\n\nContinue with Pivot-RP \nContinue with\n\nor\n\nNon-academic institution subscribers sign in here",
+      "url": "https://www.researchprofessionalnews.com/rr-news-usa-2026-3-us-news-roundup-13-19-march/",
+      "timestamp": "2026-03-23T08:00:00Z"
     },
     {
       "category": "higher",
-      "title": "学生贷款还款计划调整：新SAVE计划细则公布",
-      "source": "U.S. Department of Education",
-      "original_date": "March 23, 2026",
-      "summary": "教育部公布新SAVE还款计划实施细则，将借款人每月还款额从收入的10%降至5%。新计划还将贷款豁免期限从20年缩短至10年，适用于借款余额不超过12,000美元的学生。",
-      "url": "https://studentaid.gov",
-      "timestamp": "2026-03-23T04:00:00Z"
+      "title": "美国高等教育机构面临预算调整压力",
+      "source": "chronicle.com",
+      "original_date": "March 20, 2026",
+      "summary": "据美国《高等教育纪事报》报道，美国多州高等教育机构面临预算削减压力。州政府拟减少公立大学拨款，部分高校已启动成本管控措施。此举旨在应对州财政压力，对美国公立高等教育发展具有重要影响。有关情况值得持续关注。",
+      "content": "By Kate Hidalgo Bellows\n\nThe New York Times reported Wednesday that the labor-rights activist sexually abused and groomed girls for years. Many colleges host programs, statues, and other markers of his legacy.\n\nLatitudes\n\nSkewing Toward Selectivity\n\nBy Karin Fischer\n\nThe United States has long been a draw for the top students from overseas. What if that’s all who the country attracts?\n\n## Insights and Events from The Chronicle\n\nVirtual Forum\n\nSupporting Staff and Faculty Well-Being in a Time of Uncertainty [...] Skip to content\n\nSubscribe\n\nSubscribe\n\nSign In\n\n# Academe Today\n\nMake sense of higher education with our flagship newsletter. It features the best of our journalism: breaking news, expert analysis, opinion, and advice. Delivered every weekday morning.\n\nMarch 20, 2026\n\nShare\n\n X (formerly Twitter)\n LinkedIn\n Facebook\n Email\n\nFrom: The Chronicle of Higher Education\n\nSubject: Academe Today: The shortcut that made college harder\n\n### To continue reading for FREE, please sign in.\n\nSign In\n\nOr subscribe now to read with unlimited access for as low as $10/month.\n\n### Don’t have an account? Sign up now.\n\nA free account provides you access to a limited number of free articles each month, plus newsletters, job postings, salary data, and exclusive store discounts.\n\nSign Up\n\nRemedial Roadblocks [...] REGISTER NOW: March 23, 2 p.m. ET | A majority of faculty cite reducing burnout and improving morale as the most important markers of institutional success over the next decade. In this virtual forum, hear how higher-ed leaders can support employees in today’s uncertain environment. With Support From AbsenceSoft. Register now.\n\nVirtual Forum\n\nThe Next Evolution of Proactive Advising\n\nREGISTER NOW: April 1, 2 p.m. ET | Proactive advising is a time-tested method of improving student outcomes. Discover how it’s evolving to suit today’s shifting student needs and institutional challenges. With support from Kuali. Register now.\n\nCase Study\n\nTwo Colleges Rethink Work-Force Pathways With Competency-Based Education",
+      "url": "https://www.chronicle.com/newsletter/academe-today/2026-03-20",
+      "timestamp": "2026-03-23T08:00:00Z"
     },
     {
-      "category": "teacher",
-      "title": "替代认证教师数量创新高：占新聘教师35%",
-      "source": "National Council on Teacher Quality",
-      "original_date": "March 23, 2026",
-      "summary": "根据国家教师质量委员会报告，2025-26学年通过替代认证途径入职的教师占全国新聘教师总数的35%，创历史新高。这一趋势反映了传统教师培养项目毕业生数量持续下降的现实。",
-      "url": "https://www.nctq.org",
-      "timestamp": "2026-03-23T03:00:00Z"
-    },
-    {
-      "category": "international",
-      "title": "国际学生签证处理时间延长：平均等待8周",
-      "source": "NAFSA",
-      "original_date": "March 23, 2026",
-      "summary": "NAFSA最新报告显示，美国F-1学生签证平均处理时间延长至8周，较2024年增加3周。报告分析了2026春季入学申请情况，发现签证延迟导致部分学生错过开学日期。",
-      "url": "https://www.nafsa.org",
-      "timestamp": "2026-03-23T02:00:00Z"
-    },
-    {
-      "category": "federal",
-      "title": "K-12教育拨款法案进展：众议院委员会通过2026财年预算",
-      "source": "Committee on Education and the Workforce",
-      "original_date": "March 23, 2026",
-      "summary": "众议院教育与劳工委员会通过2026财年K-12教育拨款法案，总额维持在约800亿美元。法案保留了Title I和IDEA核心项目资金，但削减了部分行政开支。",
-      "url": "https://edworkforce.house.gov",
-      "timestamp": "2026-03-23T01:00:00Z"
+      "category": "ai",
+      "title": "美国高等教育机构面临预算调整压力",
+      "source": "chronicle.com",
+      "original_date": "March 19, 2026",
+      "summary": "据美国《高等教育纪事报》报道，美国多州高等教育机构面临预算削减压力。州政府拟减少公立大学拨款，部分高校已启动成本管控措施。此举旨在应对州财政压力，对美国公立高等教育发展具有重要影响。有关情况值得持续关注。",
+      "content": "Scaling Work-Force Innovation\n\nIn The Chronicle Store\n\n#### Today's Teaching Strategies\n\n#### Preparing Students for the AI Work Force\n\n#### The Budget Crisis Is Here\n\n#### AI in the Classroom [...] Skip to content\n\nSubscribe\n\nSubscribe\n\nSign In\n\n# Afternoon Update\n\nKeep up with the latest headlines and trending stories. Delivered every weekday afternoon.\n\nMarch 19, 2026\n\nShare\n\n X (formerly Twitter)\n LinkedIn\n Facebook\n Email\n\nFrom: The Chronicle of Higher Education\n\nSubject: Afternoon Update: Why is the NIH abandoning science? (opinion)\n\n### To continue reading for FREE, please sign in.\n\nSign In\n\nOr subscribe now to read with unlimited access for as low as $10/month.\n\n### Don’t have an account? Sign up now.\n\nA free account provides you access to a limited number of free articles each month, plus newsletters, job postings, salary data, and exclusive store discounts.\n\nSign Up\n\nThe Review | Essay\n\nWhy Is the NIH Abandoning Science?\n\nBy Elizabeth Ginexi [...] Virtual Forum\n\nThe Next Evolution of Proactive Advising\n\nREGISTER NOW: April 1, 2 p.m. ET | Proactive advising is a time-tested method of improving student outcomes. Discover how it’s evolving to suit today’s shifting student needs and institutional challenges. With support from Kuali. Register now.\n\nCase Study\n\nTwo Colleges Rethink Work-Force Pathways With Competency-Based Education\n\nColleges have long been collecting student data, but to what end? UNC Chapel Hill and Morgan State are putting relevant and actionable data into the hands of instructors and professors through custom dashboards. Learn how these institutions have been using this information to improve teaching and foster student success. With Support from Ascendium. Download now.\n\n## More News\n\nLending Limits",
+      "url": "https://www.chronicle.com/newsletter/afternoon-update/2026-03-19",
+      "timestamp": "2026-03-23T08:00:00Z"
     }
   ]
 }
