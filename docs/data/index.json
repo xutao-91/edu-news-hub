@@ -1,0 +1,40 @@
+{
+  "project": "美国教育新闻动态 - Education News Hub",
+  "description": "每日自动更新的美国教育新闻聚合平台，聚焦中西部11州",
+  "coverage": [
+    "IL",
+    "IN",
+    "IA",
+    "MI",
+    "MO",
+    "MN",
+    "KS",
+    "WI",
+    "NE",
+    "SD",
+    "ND"
+  ],
+  "categories": [
+    "联邦政策",
+    "AI教育",
+    "高等教育",
+    "师资",
+    "国际学生",
+    "STEM教育",
+    "K-12教育"
+  ],
+  "update_time": "每日 10:00 CDT",
+  "dates": [
+    "2026-03-21",
+    "2026-03-20",
+    "2026-03-19",
+    "2026-03-18",
+    "2026-03-17"
+  ],
+  "total_days": 5,
+  "generated_by": "Open Claw",
+  "github": "https://github.com/xutao-91/edu-news-hub",
+  "website": "https://xutao-91.github.io/edu-news-hub",
+  "last_updated": "2026-03-22T23:27:40.860590",
+  "total_news": 25
+}
