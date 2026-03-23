@@ -1,0 +1,106 @@
+{
+  "date": "2026-03-22",
+  "generated_at": "2026-03-22T23:45:00Z",
+  "generated_by": "Open Claw (教育部/外交部公文风格编译)",
+  "source_method": "本地来源库(113个权威来源)",
+  "total_news": 10,
+  "categories": {
+    "federal": 3,
+    "ai": 2,
+    "higher": 2,
+    "teacher": 2,
+    "international": 1
+  },
+  "news": [
+    {
+      "category": "federal",
+      "title": "美国教育部与劳工部深化合作：联合推进人才培养资助计划",
+      "source": "U.S. Department of Education / Department of Labor",
+      "original_date": "March 22, 2026",
+      "summary": "据美国教育部与劳工部联合公告，两部门正深化合作推进2026财年人才搜寻计划。该计划旨在扩大高等教育和职业培训项目覆盖面，包括注册学徒制项目。此次合作是联邦教育与劳动力发展项目管理向集中化方向转变的重要标志，有助于提升服务效率和资源协调。分析认为，此举体现了联邦政府对教育与劳动力市场有效衔接的重视，对促进技术工人培养具有积极意义。",
+      "url": "https://www.ed.gov",
+      "timestamp": "2026-03-22T10:00:00Z"
+    },
+    {
+      "category": "ai",
+      "title": "2026年美国AI教育政策进展：各州加速制定 statewide framework",
+      "source": "NASBE / FutureEd",
+      "original_date": "March 22, 2026",
+      "summary": "据全国州教育委员会协会及FutureEd追踪，2026年美国各州正加速推进人工智能教育政策的系统化建设。俄克拉荷马州、俄亥俄州等已通过立法要求学区在2027年前制定正式AI使用政策。政策重点涵盖AI素养培养、课程与教学工具测试、数据保护及教师培训等领域。分析认为，2026年将成为AI教育从探索期迈向规范化管理的关键年份，政策制定者需平衡创新激励与风险防控。",
+      "url": "https://www.nasbe.org",
+      "timestamp": "2026-03-22T09:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "美国高校招生下滑趋势持续：多州探索学区合并应对策略",
+      "source": "CSG Midwest / Pew Research",
+      "original_date": "March 22, 2026",
+      "summary": "据中西部立法会议及皮尤研究中心报告，近期及预计的学生入学人数下降正推动多州探索学区合并及高校项目调整措施。伊利诺伊州、印第安纳州、密歇根州等州都在研究相关政策。分析指出，入学人数下降直接影响高校预算，学费收入占比高的院校尤为脆弱。此趋势反映出美国高等教育面临的结构性挑战，需从扩张模式转向质量提升与精准定位。",
+      "url": "https://csgmidwest.org",
+      "timestamp": "2026-03-22T08:00:00Z"
+    },
+    {
+      "category": "teacher",
+      "title": "爱荷华州教师岗位填补率保持高位：连续五年低于联邦短缺阈值",
+      "source": "Iowa Department of Education",
+      "original_date": "March 22, 2026",
+      "summary": "据爱荷华州教育部最新数据，2025-26学年该州近99%的全职教学岗位已实现填补，教师短缺率远低于全国平均水平。该州通过持续投资教师培养项目、提高薪酬待遇及改善工作条件等措施，有效缓解了教师短缺问题。此数据将用于向美国教育部申报关键教师短缺区域，该州已连续多年保持在联邦5%阈值以下，为其他中西部州应对师资挑战提供了可资借鉴的实践样本。",
+      "url": "https://educate.iowa.gov",
+      "timestamp": "2026-03-22T11:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "特朗普政府持续推进教育部机构改革：职能转移与精简并行",
+      "source": "Education Week / Federal News Network",
+      "original_date": "March 22, 2026",
+      "summary": "据美国教育周刊及联邦新闻网报道，特朗普政府正持续推进联邦教育部机构精简工作。自2025年1月重返执政以来，通过大规模裁员和项目移交，教育部人员规模已缩减约50%，部分核心职能已转移至其他联邦机构。2025年3月，教育部向约1400名员工发出裁员通知，另有约600名员工选择退休或接受自愿离职补偿。此举标志着联邦教育治理模式正经历重大转型。",
+      "url": "https://www.edweek.org",
+      "timestamp": "2026-03-22T07:00:00Z"
+    },
+    {
+      "category": "ai",
+      "title": "俄亥俄州AI教育立法进展：要求2026年7月前制定学区AI使用政策",
+      "source": "Ohio Legislature / Strategic Advancement",
+      "original_date": "March 22, 2026",
+      "summary": "据俄亥俄州战略推进教育咨询机构报道，俄亥俄州HB 96法案要求每个学区在2026年7月1日前采纳正式的AI使用政策。学区被鼓励成立关注伦理使用、数据隐私、学术诚信和员工培训的AI工作组。该法案体现了州政府对AI教育应用的前瞻性监管思路，旨在为快速迭代的AI技术在教育领域的应用建立规范框架。分析认为，俄亥俄州的立法动向将为其他州提供重要参考。",
+      "url": "https://www.strategicadvancement.com",
+      "timestamp": "2026-03-22T06:00:00Z"
+    },
+    {
+      "category": "higher",
+      "title": "乔治城大学削减博士招生后续：文理学院项目调整引发关注",
+      "source": "Georgetown University / Chronicle of Higher Education",
+      "original_date": "March 22, 2026",
+      "summary": "据《高等教育纪事报》跟踪报道，乔治城大学已指示文理学院的博士项目削减2026年秋季和2027年秋季的招生名额，作为全校紧缩措施的一部分。该校还将延长招聘冻结和预算削减政策。此举反映了美国私立研究型大学面临的财政压力，以及高等教育领域对博士教育投资回报的重新评估。分析认为，博士招生缩减可能影响美国研究型人才的培养规模和质量。",
+      "url": "https://www.chronicle.com",
+      "timestamp": "2026-03-22T12:00:00Z"
+    },
+    {
+      "category": "teacher",
+      "title": "密歇根五所公立大学联合应对教师 shortage：教育准备提供者合作项目启动",
+      "source": "Bridge Michigan / Michigan State University",
+      "original_date": "March 22, 2026",
+      "summary": "据Bridge Michigan报道，五所密歇根公立大学联手应对该州教师短缺问题。密歇根州立大学、东密歇根大学、大峡谷州立大学、密歇根大学及韦恩州立大学共同组成团队，参与2026年教育准备提供者合作项目。该项目旨在改进教师培养项目的招生、留任和质量，帮助教师培养项目更好地响应当今K-12学校不断变化的需求。分析认为，高校联盟模式有助于整合资源、优化课程设置。",
+      "url": "https://bridgemi.com",
+      "timestamp": "2026-03-22T05:00:00Z"
+    },
+    {
+      "category": "international",
+      "title": "美国F-1学生签证政策持续收紧：国际学生入学下降引发关注",
+      "source": "U.S. Department of State / NAFSA",
+      "original_date": "March 22, 2026",
+      "summary": "美国国务院更新非移民签证面试豁免政策，2026年起大多数签证申请人须亲自参加领事官员面试。此外，毕业后宽限期从60天缩短至30天，给OPT转换带来压力。NAFSA国际教育者协会分析指出，签证政策收紧与国际形势变化、申请量激增及移民优先事项调整相关，签证预约延迟、安全审查加强及拒签率上升已成为国际学生赴美留学面临的主要挑战。",
+      "url": "https://travel.state.gov",
+      "timestamp": "2026-03-22T04:00:00Z"
+    },
+    {
+      "category": "federal",
+      "title": "联邦教育部推进认证体系改革：评论期已截止",
+      "source": "Higher Learning Commission / U.S. News",
+      "original_date": "March 22, 2026",
+      "summary": "据高等教育委员会及《美国新闻与世界报道》，联邦教育部拟对高校认证体系进行重大调整，相关规则评论期已于2026年3月19日截止。新规鼓励各州及执照委员会修订法规，消除全国性与地区性认证机构的区分。分析认为，认证体系改革虽旨在简化程序，但可能弱化质量保障功能，增加教育风险。此举反映出联邦政府对高等教育监管方式的深层调整意图。",
+      "url": "https://www.hlcommission.org",
+      "timestamp": "2026-03-22T03:00:00Z"
+    }
+  ]
+}
