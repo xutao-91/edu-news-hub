@@ -1,36 +1,20 @@
 #!/usr/bin/env python3
-"""
-Update the index.json file with all available dates.
-"""
 import json
-from pathlib import Path
-from datetime import datetime
+import glob
+import os
+import datetime
 
-def main():
-    data_dir = Path('data')
-    
-    # Find all date JSON files
-    date_files = sorted([f.stem for f in data_dir.glob('*.json') if f.stem != 'index'])
-    
-    # Load existing index
-    index_file = data_dir / 'index.json'
-    if index_file.exists():
-        with open(index_file, 'r', encoding='utf-8') as f:
-            index = json.load(f)
-    else:
-        index = {}
-    
-    # Update index
-    index['dates'] = date_files
-    index['total_days'] = len(date_files)
-    index['last_updated'] = datetime.now().isoformat()
-    
-    # Save index
-    with open(index_file, 'w', encoding='utf-8') as f:
-        json.dump(index, f, ensure_ascii=False, indent=2)
-    
-    print(f"✅ Index updated: {len(date_files)} days available")
-    print(f"📅 Latest: {date_files[-1] if date_files else 'None'}")
+data_files = glob.glob('data/2026-*.json')
+dates = sorted([os.path.basename(f).replace('.json', '') for f in data_files], reverse=True)
 
-if __name__ == '__main__':
-    main()
+with open('data/index.json', 'r') as f:
+    idx = json.load(f)
+
+idx['dates'] = dates
+idx['total_days'] = len(dates)
+idx['last_updated'] = datetime.datetime.now().isoformat()
+
+with open('data/index.json', 'w') as f:
+    json.dump(idx, f, indent=2, ensure_ascii=False)
+
+print(f'Updated index: {dates}')

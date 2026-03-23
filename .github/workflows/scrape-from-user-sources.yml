@@ -2,63 +2,35 @@ name: Daily News from User Sources
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # 每天10:00 CDT
+    - cron: '0 15 * * *'
   workflow_dispatch:
 
 jobs:
-  scrape-from-user-sources:
+  scrape:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
     
-    - name: Set up Python
-      uses: actions/setup-python@v5
+    - uses: actions/setup-python@v5
       with:
         python-version: '3.11'
     
     - name: Install dependencies
-      run: |
-        pip install requests beautifulsoup4 lxml feedparser pandas openpyxl
+      run: pip install requests beautifulsoup4 lxml feedparser
     
-    - name: Load user sources and scrape
-      env:
-        PYTHONPATH: ${{ github.workspace }}
+    - name: Scrape from user sources
       run: |
         cd edu-news-hub
         python3 scripts/scrape_user_sources.py
     
-    - name: Update index.json
+    - name: Update index and deploy
       run: |
         cd edu-news-hub
-        python3 << 'PYEOF'
-import json
-import glob
-import os
-import datetime
-
-data_files = glob.glob('data/2026-*.json')
-dates = sorted([os.path.basename(f).replace('.json', '') for f in data_files], reverse=True)
-
-with open('data/index.json', 'r') as f:
-    idx = json.load(f)
-
-idx['dates'] = dates
-idx['total_days'] = len(dates)
-idx['last_updated'] = datetime.datetime.now().isoformat()
-
-with open('data/index.json', 'w') as f:
-    json.dump(idx, f, indent=2, ensure_ascii=False)
-
-print(f'Updated index: {dates}')
-PYEOF
-    
-    - name: Sync to docs and deploy
-      run: |
-        cd edu-news-hub
+        python3 scripts/update_index.py
         cp data/*.json docs/data/
         git config user.email "action@github.com"
         git config user.name "GitHub Action"
         git add docs/
-        git diff --staged --quiet || (git commit -m "📰 Daily news from user sources $(date +%Y-%m-%d)" && git push)
+        git commit -m "Daily news $(date +%Y-%m-%d)" || true
+        git push
