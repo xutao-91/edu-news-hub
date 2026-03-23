@@ -1,0 +1,23 @@
+name: Test Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Create test file
+      run: |
+        echo '{"date":"2026-03-23","test":true}' > test.json
+        cat test.json
+    
+    - name: Commit
+      run: |
+        git config user.email "action@github.com"
+        git config user.name "GitHub Action"
+        git add test.json
+        git commit -m "test" || true
+        git push || true
