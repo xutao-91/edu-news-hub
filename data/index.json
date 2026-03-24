@@ -25,6 +25,7 @@
   ],
   "update_time": "每日 10:00 CDT",
   "dates": [
+    "2026-03-24",
     "2026-03-23",
     "2026-03-22",
     "2026-03-21",
@@ -33,10 +34,10 @@
     "2026-03-18",
     "2026-03-17"
   ],
-  "total_days": 7,
+  "total_days": 8,
   "generated_by": "Open Claw",
   "github": "https://github.com/xutao-91/edu-news-hub",
   "website": "https://xutao-91.github.io/edu-news-hub",
-  "last_updated": "2026-03-23T15:00:13.074313",
+  "last_updated": "2026-03-24T15:00:14.138215",
   "total_news": 25
 }
